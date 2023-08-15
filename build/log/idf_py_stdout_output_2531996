@@ -1,0 +1,153 @@
+e�.R������ ��2&�7CA��.���� ��]R��%��U�	�o�xL&���}A��e1���%=�TJ��˙i�n� �	ZA�ץ�xY��cl�E��:��0��E�v��A�I�d.�����i��_������0�K��.����0,�d.�����C�닕:�R�	���c-"��:�C!�+�:��f���b��n�ڲC!�A���i�2��o[���+�:��0���b╹:LMӒ*�����X��2��o[���+�:��0����b��:�H��a�'��0������k�:&�4Ca���� ��0���5j
+[0;32mI (32) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (114) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6bd54h (441684) map[0m
+[0;32mI (287) esp_image: segment 1: paddr=0007bd7c vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (292) esp_image: segment 2: paddr=0007f4ec vaddr=40080000 size=00b2ch (  2860) load[0m
+[0;32mI (294) esp_image: segment 3: paddr=00080020 vaddr=400d0020 size=8db58h (580440) map[0m
+[0;32mI (510) esp_image: segment 4: paddr=0010db80 vaddr=40080b2c size=14cd4h ( 85204) load[0m
+[0;32mI (557) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (617) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (617) boot: Disabling RNG early entropy source...[0m
+[0;32mI (628) cpu_start: Multicore app[0m
+[0;32mI (628) cpu_start: Pro cpu up.[0m
+[0;32mI (629) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (646) cpu_start: Pro cpu start user code[0m
+[0;32mI (646) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (646) cpu_start: Application information:[0m
+[0;32mI (651) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (657) cpu_start: App version:      1[0m
+[0;32mI (662) cpu_start: Compile time:     Jul 20 2023 23:44:36[0m
+[0;32mI (668) cpu_start: ELF file SHA256:  7029883e9...[0m
+[0;32mI (673) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (680) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (685) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (690) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (695) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (702) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (708) heap_init: At 3FFB7900 len 00028700 (161 KiB): DRAM[0m
+[0;32mI (714) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (720) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (727) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (735) spi_flash: detected chip: generic[0m
+[0;32mI (738) spi_flash: flash io: dio[0m
+[0;33mW (742) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (750) app_start: Starting scheduler on CPU0[0m
+[0;32mI (755) app_start: Starting scheduler on CPU1[0m
+[0;32mI (755) main_task: Started on CPU0[0m
+[0;32mI (765) main_task: Calling app_main()[0m
+[0;32mI (785) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (785) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp 36.7
+[0;32mI (795) wifi_init: rx ba win: 6[0m
+[0;32mI (795) wifi_init: tcpip mbox: 32[0m
+[0;32mI (795) wifi_init: udp mbox: 6[0m
+[0;32mI (805) wifi_init: tcp mbox: 6[0m
+[0;32mI (805) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (815) wifi_init: tcp mss: 1440[0m
+[0;32mI (815) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (825) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1545) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1655) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1655) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1655) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1655) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1665) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1675) http_server: http_server_configure: Registering URI handlers[0m
+=== Reading NTC103 ===
+Temp 36.4
+=== Reading NTC103 ===
+Temp 36.4
+=== Reading NTC103 ===
+Temp 36.4
+=== Reading NTC103 ===
+Temp 36.4
+=== Reading NTC103 ===
+Temp 36.4
+=== Reading NTC103 ===
+Temp 33.6
+[0;32mI (26365) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (26385) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 36.4
+=== Reading NTC103 ===
+Temp 36.3
+=== Reading NTC103 ===
+Temp 36.4
+[0;32mI (37165) http_server: index.html requested[0m
+[0;32mI (37215) http_server: JQuery requested[0m
+[0;32mI (37305) http_server: app.css requested[0m
+[0;32mI (37325) http_server: app.js requested[0m
+[0;32mI (37365) http_server: OTAstatus requested[0m
+=== Reading NTC103 ===
+Temp 36.3
+[0;32mI (42385) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 36.3
+[0;32mI (47395) http_server: /ntcSensor.json requested[0m
+[0;32mI (47665) http_server: /wifiConnect.json requested[0m
+[0;32mI (47665) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (47675) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;31mE (47685) http_server: wifi_config_t is NULL.[0m
+[0;33mW (47685) httpd_uri: httpd_uri: uri handler execution failed[0m
+[0;32mI (47705) http_server: /wifiConnect.json requested[0m
+[0;32mI (47705) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (47705) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;31mE (47715) http_server: wifi_config_t is NULL.[0m
+[0;33mW (47725) httpd_uri: httpd_uri: uri handler execution failed[0m
+[0;32mI (47745) http_server: /wifiConnect.json requested[0m
+[0;32mI (47745) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (47745) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;31mE (47755) http_server: wifi_config_t is NULL.[0m
+[0;33mW (47765) httpd_uri: httpd_uri: uri handler execution failed[0m
+[0;32mI (47785) http_server: /wifiConnect.json requested[0m
+[0;32mI (47785) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (47785) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;31mE (47795) http_server: wifi_config_t is NULL.[0m
+[0;33mW (47805) httpd_uri: httpd_uri: uri handler execution failed[0m
+=== Reading NTC103 ===
+Temp 36.3
+[0;33mW (50475) httpd_uri: httpd_uri: URI '/wifiConnectStatus' not found[0m
+[0;33mW (50475) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;32mI (52395) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 36.3
+[0;33mW (53275) httpd_uri: httpd_uri: URI '/wifiConnectStatus' not found[0m
+[0;33mW (53275) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;33mW (56075) httpd_uri: httpd_uri: URI '/wifiConnectStatus' not found[0m
+[0;33mW (56075) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 36.3
+[0;32mI (57395) http_server: /ntcSensor.json requested[0m
+[0;33mW (58865) httpd_uri: httpd_uri: URI '/wifiConnectStatus' not found[0m
+[0;33mW (58865) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 36.3
+[0;33mW (61675) httpd_uri: httpd_uri: URI '/wifiConnectStatus' not found[0m
+[0;33mW (61675) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;32mI (62395) http_server: /ntcSensor.json requested[0m
+[0;33mW (64475) httpd_uri: httpd_uri: URI '/wifiConnectStatus' not found[0m
+[0;33mW (64475) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 36.3

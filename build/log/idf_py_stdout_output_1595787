@@ -1,0 +1,770 @@
+�w�J����0L��:��ʗ�H�.���L���U������QU�	��W�x1&���}��*�e1�S�%=O���c�����Z��b�*]P'Ս���V�i��0��E�'�A��}�r��������W¸��K}�r������䮗��A�C�닕:T�ʂ��k����2����'�Mf�a�&b�ٺ3�2�!��0���ʒ��ݭ�!�d���0�����Y��5Ӓ�!���������� �!�d���0������Y��!�Ѻ��0������S�e�W�0�0����j�[0;32mI (32) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (114) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6ac94h (437396) map[0m
+[0;32mI (285) esp_image: segment 1: paddr=0007acbc vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (291) esp_image: segment 2: paddr=0007e42c vaddr=40080000 size=01bech (  7148) load[0m
+[0;32mI (294) esp_image: segment 3: paddr=00080020 vaddr=400d0020 size=8d574h (578932) map[0m
+[0;32mI (508) esp_image: segment 4: paddr=0010d59c vaddr=40081bec size=13c14h ( 80916) load[0m
+[0;32mI (553) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (614) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (614) boot: Disabling RNG early entropy source...[0m
+[0;32mI (625) cpu_start: Multicore app[0m
+[0;32mI (625) cpu_start: Pro cpu up.[0m
+[0;32mI (625) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (643) cpu_start: Pro cpu start user code[0m
+[0;32mI (643) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (643) cpu_start: Application information:[0m
+[0;32mI (648) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (654) cpu_start: App version:      1[0m
+[0;32mI (658) cpu_start: Compile time:     Jul 17 2023 17:41:02[0m
+[0;32mI (665) cpu_start: ELF file SHA256:  9278ac39b...[0m
+[0;32mI (670) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (677) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (682) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (686) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (691) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (699) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (704) heap_init: At 3FFB78F0 len 00028710 (161 KiB): DRAM[0m
+[0;32mI (711) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (717) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (723) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (731) spi_flash: detected chip: generic[0m
+[0;32mI (734) spi_flash: flash io: dio[0m
+[0;33mW (739) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (747) app_start: Starting scheduler on CPU0[0m
+[0;32mI (752) app_start: Starting scheduler on CPU1[0m
+[0;32mI (752) main_task: Started on CPU0[0m
+[0;32mI (762) main_task: Calling app_main()[0m
+[0;32mI (782) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (782) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp 32.7
+[0;32mI (792) wifi_init: rx ba win: 6[0m
+[0;32mI (792) wifi_init: tcpip mbox: 32[0m
+[0;32mI (792) wifi_init: udp mbox: 6[0m
+[0;32mI (802) wifi_init: tcp mbox: 6[0m
+[0;32mI (802) wifi_init: tcp tx win: 5744[0m
+[0;32mI (802) wifi_init: tcp rx win: 5744[0m
+[0;32mI (812) wifi_init: tcp mss: 1440[0m
+[0;32mI (812) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (822) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1532) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1652) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1652) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1652) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1652) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1662) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1672) http_server: http_server_configure: Registering URI handlers[0m
+=== Reading NTC103 ===
+Temp 32.4
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (16322) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (16432) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (21272) http_server: index.html requested[0m
+[0;32mI (21332) http_server: JQuery requested[0m
+[0;32mI (21442) http_server: app.js requested[0m
+[0;32mI (21462) http_server: app.css requested[0m
+[0;32mI (21472) http_server: OTAstatus requested[0m
+=== Reading NTC103 ===
+Temp 28.9
+[0;32mI (26532) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (31542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (36532) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (41532) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (46542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (51542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (56542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (61542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (66542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (71542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (76542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (81542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (86542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.3
+[0;32mI (91542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (96542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (101542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (106542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (111642) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (116552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (121542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (126542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (131542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (136552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (141542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (146542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (151542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.0
+[0;32mI (156542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (161542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (166542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (171542) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (176562) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (181552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (186552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (191552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (196552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (201552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (206552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (211552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (216552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 29.3
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (221552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (226552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (231552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.4
+[0;32mI (236552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 27.3
+=== Reading NTC103 ===
+Temp 26.7
+[0;32mI (241552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 27.4
+[0;32mI (246552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 27.9
+[0;32mI (251552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 28.4
+[0;32mI (256552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 28.9
+=== Reading NTC103 ===
+Temp 29.3
+[0;32mI (261552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 29.6
+[0;32mI (266552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 29.9
+[0;32mI (271552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.2
+[0;32mI (276552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.4
+=== Reading NTC103 ===
+Temp 29.4
+[0;32mI (281552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.8
+[0;32mI (286552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.1
+[0;32mI (291552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.2
+[0;32mI (296552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.3
+=== Reading NTC103 ===
+Temp 31.5
+[0;32mI (301552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.6
+[0;32mI (306552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.7
+[0;32mI (311552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.8
+[0;32mI (316552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.8
+=== Reading NTC103 ===
+Temp 31.9
+[0;32mI (321552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.0
+[0;32mI (326552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (331562) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (336552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (341652) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.4
+[0;32mI (346552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (351562) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (356562) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (361562) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (366552) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (371562) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (376562) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (381562) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+e�R���&��'���7�QH��'�� 	u��������ɒ��W��E������*�e��*�%��U�
+��٩���� ���Ս��}��������E����A��}d�¸�����ɶ'��0�����W��A���_V�i�a0�A�K��T�ʂc�k��&k�2��+њ�M���ڐ����3���!�� ����������!���'��0��0���9K��6��H����t�:�Ҁ��ˁ4�!��i�q��������l�i�q������&���K���Q�°Sj
+[0;32mI (31) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6ac94h (437396) map[0m
+[0;32mI (280) esp_image: segment 1: paddr=0007acbc vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (286) esp_image: segment 2: paddr=0007e42c vaddr=40080000 size=01bech (  7148) load[0m
+[0;32mI (289) esp_image: segment 3: paddr=00080020 vaddr=400d0020 size=8d574h (578932) map[0m
+[0;32mI (503) esp_image: segment 4: paddr=0010d59c vaddr=40081bec size=13c14h ( 80916) load[0m
+[0;32mI (548) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (548) boot: Disabling RNG early entropy source...[0m
+[0;32mI (559) cpu_start: Multicore app[0m
+[0;32mI (560) cpu_start: Pro cpu up.[0m
+[0;32mI (560) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (578) cpu_start: Pro cpu start user code[0m
+[0;32mI (578) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (578) cpu_start: Application information:[0m
+[0;32mI (582) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (589) cpu_start: App version:      1[0m
+[0;32mI (593) cpu_start: Compile time:     Jul 17 2023 17:41:02[0m
+[0;32mI (599) cpu_start: ELF file SHA256:  9278ac39b...[0m
+[0;32mI (604) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (611) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (616) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (621) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (626) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (633) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (639) heap_init: At 3FFB78F0 len 00028710 (161 KiB): DRAM[0m
+[0;32mI (645) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (652) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (658) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (666) spi_flash: detected chip: generic[0m
+[0;32mI (669) spi_flash: flash io: dio[0m
+[0;33mW (673) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (682) app_start: Starting scheduler on CPU0[0m
+[0;32mI (686) app_start: Starting scheduler on CPU1[0m
+[0;32mI (686) main_task: Started on CPU0[0m
+[0;32mI (696) main_task: Calling app_main()[0m
+[0;32mI (716) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (716) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp 32.5
+[0;32mI (726) wifi_init: rx ba win: 6[0m
+[0;32mI (726) wifi_init: tcpip mbox: 32[0m
+[0;32mI (726) wifi_init: udp mbox: 6[0m
+[0;32mI (736) wifi_init: tcp mbox: 6[0m
+[0;32mI (736) wifi_init: tcp tx win: 5744[0m
+[0;32mI (736) wifi_init: tcp rx win: 5744[0m
+[0;32mI (746) wifi_init: tcp mss: 1440[0m
+[0;32mI (746) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (756) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1466) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1586) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1586) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1586) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1586) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1596) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1606) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (2226) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (2516) http_server: /ntcSensor.json requested[0m
+[0;32mI (4246) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (6466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (11466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (16466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (21466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 28.7
+[0;32mI (26466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (31466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.5
+[0;32mI (36466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (41466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (46466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (51466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (56466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (61466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (66466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (71466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (76466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (81466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (86466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 29.6
+[0;32mI (91466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (96466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (101466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (106466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (111466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (116466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (121466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (126476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (131466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (136466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (141466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (146476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (151476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 28.7
+[0;32mI (156476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (161476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (166476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (171476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (176476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (181476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (186476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (191476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (196476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (201476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (206476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (211476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (216476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 28.6
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (221476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (226476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (231476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (236476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (241476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (246476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (251476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (256476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (261486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (266476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (271476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (276476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+=== Reading NTC103 ===
+Temp 28.6
+[0;32mI (281476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (286476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (291476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.4
+[0;32mI (296476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (301486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (306476) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (311486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (316486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (321486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (326486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (331486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (336486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (341486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 28.9
+[0;32mI (346486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (351486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (356486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.3
+=== Reading NTC103 ===
+Temp 32.3
+[0;32mI (361486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (366486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (371486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (376486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (381486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.2
+[0;32mI (386496) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (391486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (396486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (401486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (406486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 29.2
+[0;32mI (411486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (416486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+=== Reading NTC103 ===
+Temp 32.0
+[0;32mI (421486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (426486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.0
+[0;32mI (431486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.0
+[0;32mI (436486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (441486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.0
+[0;32mI (446486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (451496) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (456496) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (461496) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (466486) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (471496) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 28.4
+[0;32mI (476496) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (481496) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (486496) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (491496) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 32.1

@@ -1,0 +1,18 @@
+[1/1072] Generating memory.ld linker script...
+[2/1072] Generating project_elf_src_esp32.c
+[3/1072] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesni.c.obj
+[4/1072] Generating ../../ota_data_initial.bin
+[5/1072] Generating ../../partition_table/partition-table.bin
+FAILED: partition_table/partition-table.bin /home/bruno/Documents/esp32-projects/esp32-iot-application/build/partition_table/partition-table.bin 
+cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp-idf/partition_table && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 4MB -- /home/bruno/esp/esp-idf/components/partition_table/partitions_two_ota.csv /home/bruno/Documents/esp32-projects/esp32-iot-application/build/partition_table/partition-table.bin && /usr/bin/cmake -E echo "Partition table binary generated. Contents:" && /usr/bin/cmake -E echo "*******************************************************************************" && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py -q --offset 0x8000 --flash-size 4MB -- /home/bruno/Documents/esp32-projects/esp32-iot-application/build/partition_table/partition-table.bin && /usr/bin/cmake -E echo "*******************************************************************************"
+Partitions tables occupies 4.1MB of flash (4337664 bytes) which does not fit in configured flash size 4MB. Change the flash size in menuconfig under the 'Serial Flasher Config' menu.
+[6/1072] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aesce.c.obj
+[7/1072] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aes.c.obj
+[8/1072] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1parse.c.obj
+[9/1072] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/base64.c.obj
+[10/1072] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/asn1write.c.obj
+[11/1072] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_mod.c.obj
+[12/1072] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/aria.c.obj
+[13/1072] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum_core.c.obj
+[14/1072] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/bignum.c.obj
+ninja: build stopped: subcommand failed.

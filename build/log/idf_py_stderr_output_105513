@@ -1,0 +1,166 @@
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 524, in parse_int
+    return int(v, 0)
+ValueError: invalid literal for int() with base 0: '1.33'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 183, in from_csv
+    res.append(PartitionDefinition.from_csv(line, line_no + 1))
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 370, in from_csv
+    res.size = res.parse_address(fields[4])
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 427, in parse_address
+    return parse_int(strval)
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 523, in parse_int
+    return parse_int(v[:-1], keywords) * multiplier
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 527, in parse_int
+    raise InputError('Invalid field value %s' % v)
+gen_esp32part.InputError: Invalid field value 1.33
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 97, in __init__
+    partition_table = gen.PartitionTable.from_csv(f.read())
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 185, in from_csv
+    raise InputError('Error at line %d: %s\nPlease check extra_partition_subtypes.inc file in build/config directory' % (line_no + 1, err))
+gen_esp32part.InputError: Error at line 6: Invalid field value 1.33
+Please check extra_partition_subtypes.inc file in build/config directory
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 524, in parse_int
+    return int(v, 0)
+ValueError: invalid literal for int() with base 0: '1.33'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 183, in from_csv
+    res.append(PartitionDefinition.from_csv(line, line_no + 1))
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 370, in from_csv
+    res.size = res.parse_address(fields[4])
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 427, in parse_address
+    return parse_int(strval)
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 523, in parse_int
+    return parse_int(v[:-1], keywords) * multiplier
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 527, in parse_int
+    raise InputError('Invalid field value %s' % v)
+gen_esp32part.InputError: Invalid field value 1.33
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 97, in __init__
+    partition_table = gen.PartitionTable.from_csv(f.read())
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 185, in from_csv
+    raise InputError('Error at line %d: %s\nPlease check extra_partition_subtypes.inc file in build/config directory' % (line_no + 1, err))
+gen_esp32part.InputError: Error at line 6: Invalid field value 1.33
+Please check extra_partition_subtypes.inc file in build/config directory
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 524, in parse_int
+    return int(v, 0)
+ValueError: invalid literal for int() with base 0: '1.33'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 183, in from_csv
+    res.append(PartitionDefinition.from_csv(line, line_no + 1))
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 370, in from_csv
+    res.size = res.parse_address(fields[4])
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 427, in parse_address
+    return parse_int(strval)
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 523, in parse_int
+    return parse_int(v[:-1], keywords) * multiplier
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 527, in parse_int
+    raise InputError('Invalid field value %s' % v)
+gen_esp32part.InputError: Invalid field value 1.33
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 97, in __init__
+    partition_table = gen.PartitionTable.from_csv(f.read())
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 185, in from_csv
+    raise InputError('Error at line %d: %s\nPlease check extra_partition_subtypes.inc file in build/config directory' % (line_no + 1, err))
+gen_esp32part.InputError: Error at line 6: Invalid field value 1.33
+Please check extra_partition_subtypes.inc file in build/config directory
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 524, in parse_int
+    return int(v, 0)
+ValueError: invalid literal for int() with base 0: '1.33'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 183, in from_csv
+    res.append(PartitionDefinition.from_csv(line, line_no + 1))
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 370, in from_csv
+    res.size = res.parse_address(fields[4])
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 427, in parse_address
+    return parse_int(strval)
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 523, in parse_int
+    return parse_int(v[:-1], keywords) * multiplier
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 527, in parse_int
+    raise InputError('Invalid field value %s' % v)
+gen_esp32part.InputError: Invalid field value 1.33
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 97, in __init__
+    partition_table = gen.PartitionTable.from_csv(f.read())
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 185, in from_csv
+    raise InputError('Error at line %d: %s\nPlease check extra_partition_subtypes.inc file in build/config directory' % (line_no + 1, err))
+gen_esp32part.InputError: Error at line 6: Invalid field value 1.33
+Please check extra_partition_subtypes.inc file in build/config directory
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 524, in parse_int
+    return int(v, 0)
+ValueError: invalid literal for int() with base 0: '1.33'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 183, in from_csv
+    res.append(PartitionDefinition.from_csv(line, line_no + 1))
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 370, in from_csv
+    res.size = res.parse_address(fields[4])
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 427, in parse_address
+    return parse_int(strval)
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 523, in parse_int
+    return parse_int(v[:-1], keywords) * multiplier
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 527, in parse_int
+    raise InputError('Invalid field value %s' % v)
+gen_esp32part.InputError: Invalid field value 1.33
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 358, in <module>
+    main()
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 327, in main
+    target = ParttoolTarget(**target_args)
+  File "/home/bruno/esp/esp-idf/components/partition_table/parttool.py", line 97, in __init__
+    partition_table = gen.PartitionTable.from_csv(f.read())
+  File "/home/bruno/esp/esp-idf/components/partition_table/gen_esp32part.py", line 185, in from_csv
+    raise InputError('Error at line %d: %s\nPlease check extra_partition_subtypes.inc file in build/config directory' % (line_no + 1, err))
+gen_esp32part.InputError: Error at line 6: Invalid field value 1.33
+Please check extra_partition_subtypes.inc file in build/config directory
+Including esp_timer in color

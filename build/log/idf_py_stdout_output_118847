@@ -1,0 +1,12 @@
+[0/1] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build && /usr/bin/cmake -D "IDF_SIZE_TOOL=/home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp32-iot-application.map -D OUTPUT_JSON= -P /home/bruno/esp/esp-idf/tools/cmake/run_size_tool.cmake
+Total sizes:
+Used static DRAM:   30920 bytes ( 149816 remain, 17.1% used)
+      .data size:   14184 bytes
+      .bss  size:   16736 bytes
+Used static IRAM:   88062 bytes (  43010 remain, 67.2% used)
+      .text size:   87035 bytes
+   .vectors size:    1027 bytes
+Used Flash size :  997089 bytes
+           .text:  559139 bytes
+         .rodata:  437694 bytes
+Total image size: 1099335 bytes (.bin may be padded larger)

@@ -1,0 +1,110 @@
+�ׁJ�� ��6��:�����a�r����E�	u���ʽ���5���ݴ'��3�i���TM��
+��%=����c�٩֥p�¬AI������C��E�����0��E�����0����'�A�i�A�V�i�A0���d���x����������!��'T�ʂ��+͠VKi�!�d'�M���0�blYK���*
+�� �؋A�&���[�*��+њ��0���K�i�M���!�A���Ŭ��������!�Ť�q�°����������0��4���9K�8���e���A�Q�°��j�[0;32mI (32) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 factory          factory app      00 00 00010000 0014c800[0m
+[0;32mI (102) boot:  4 ota_0            OTA app          00 10 00160000 0014c800[0m
+[0;32mI (109) boot:  5 ota_1            OTA app          00 11 002b0000 0014c800[0m
+[0;32mI (117) boot: End of partition table[0m
+[0;32mI (121) boot: Defaulting to factory image[0m
+[0;32mI (126) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=69ca8h (433320) map[0m
+[0;32mI (291) esp_image: segment 1: paddr=00079cd0 vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (297) esp_image: segment 2: paddr=0007d440 vaddr=40080000 size=02bd8h ( 11224) load[0m
+[0;32mI (301) esp_image: segment 3: paddr=00080020 vaddr=400d0020 size=8b510h (570640) map[0m
+[0;32mI (511) esp_image: segment 4: paddr=0010b538 vaddr=40082bd8 size=12c28h ( 76840) load[0m
+[0;32mI (554) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (554) boot: Disabling RNG early entropy source...[0m
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (566) cpu_start: Pro cpu up.[0m
+[0;32mI (566) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (584) cpu_start: Pro cpu start user code[0m
+[0;32mI (584) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (584) cpu_start: Application information:[0m
+[0;32mI (589) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (595) cpu_start: App version:      1[0m
+[0;32mI (599) cpu_start: Compile time:     Jul 17 2023 17:41:02[0m
+[0;32mI (605) cpu_start: ELF file SHA256:  022573960...[0m
+[0;32mI (611) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (618) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (622) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (627) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (632) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (639) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (645) heap_init: At 3FFB78E8 len 00028718 (161 KiB): DRAM[0m
+[0;32mI (651) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (658) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (664) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (672) spi_flash: detected chip: generic[0m
+[0;32mI (675) spi_flash: flash io: dio[0m
+[0;32mI (680) app_start: Starting scheduler on CPU0[0m
+[0;32mI (684) app_start: Starting scheduler on CPU1[0m
+[0;32mI (684) main_task: Started on CPU0[0m
+[0;32mI (694) main_task: Calling app_main()[0m
+[0;32mI (714) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (714) main_task: Returned from app_main()[0m
+[0;32mI (724) wifi_init: rx ba win: 6[0m
+[0;32mI (724) wifi_init: tcpip mbox: 32[0m
+[0;32mI (724) wifi_init: udp mbox: 6[0m
+[0;32mI (724) wifi_init: tcp mbox: 6[0m
+[0;32mI (734) wifi_init: tcp tx win: 5744[0m
+[0;32mI (734) wifi_init: tcp rx win: 5744[0m
+[0;32mI (734) wifi_init: tcp mss: 1440[0m
+[0;32mI (744) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (744) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1464) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1574) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1574) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1574) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1574) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1594) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1604) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (7024) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (7044) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+[0;32mI (13444) http_server: index.html requested[0m
+[0;32mI (13484) http_server: JQuery requested[0m
+[0;32mI (13574) http_server: app.js requested[0m
+[0;32mI (13594) http_server: app.css requested[0m
+[0;32mI (13614) http_server: OTAstatus requested[0m
+[0;32mI (15384) http_server: index.html requested[0m
+[0;32mI (15424) http_server: JQuery requested[0m
+[0;32mI (15504) http_server: app.css requested[0m
+[0;32mI (15524) http_server: app.js requested[0m
+[0;32mI (15594) http_server: OTAstatus requested[0m
+Selected partition:
+  Label: ota_0
+  Offset: 0x160000
+  Size: 1361920 bytes
+http_server_OTA_update_handler: OTA RX: 0 of 1106442http_server_OTA_update_handler: OTA file size: 1106442
+Error code: 260
+http_server_OTA_update_handler: Error with OTA begin, cancelling OTA
+[0;33mW (23124) httpd_uri: httpd_uri: uri handler execution failed[0m
+Selected partition:
+  Label: ota_0
+  Offset: 0x160000
+  Size: 1361920 bytes
+http_server_OTA_update_handler: OTA RX: 0 of 1106442http_server_OTA_update_handler: OTA file size: 1106442
+Error code: 260
+http_server_OTA_update_handler: Error with OTA begin, cancelling OTA
+[0;33mW (23154) httpd_uri: httpd_uri: uri handler execution failed[0m
+[0;32mI (23164) http_server: OTAstatus requested[0m
+Selected partition:
+  Label: ota_0
+  Offset: 0x160000
+  Size: 1361920 bytes
+http_server_OTA_update_handler: OTA RX: 0 of 1106442http_server_OTA_update_handler: OTA file size: 1106442
+Error code: 260
+http_server_OTA_update_handler: Error with OTA begin, cancelling OTA
+[0;33mW (23194) httpd_uri: httpd_uri: uri handler execution failed[0m
+[0;32mI (62964) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m

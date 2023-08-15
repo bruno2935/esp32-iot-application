@@ -1,0 +1,1119 @@
+�ׁJu8��1�0'��MS�����Š	u]E���%�EU�	�o��L&BZA��MQ_�*M!_�ꊕ*��˙��.� �	ZAI��¸�VHh�k���i0��,\E��:�A0	�d.����0,�A_�:�A0��_��:�A0i�_����x�j
+����D��	��c�"��:�C!�+�:��f���0���i7L�j
+h�� �؋1����m�SȬ+�i0�00�0b��:L���!�����������A4C!��d'��00��0b��:�H��a�x�8��4���i3���Y�y�����0�Mj�[0;32mI (32) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (114) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6bc74h (441460) map[0m
+[0;32mI (286) esp_image: segment 1: paddr=0007bc9c vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (292) esp_image: segment 2: paddr=0007f40c vaddr=40080000 size=00c0ch (  3084) load[0m
+[0;32mI (294) esp_image: segment 3: paddr=00080020 vaddr=400d0020 size=8dae8h (580328) map[0m
+[0;32mI (510) esp_image: segment 4: paddr=0010db10 vaddr=40080c0c size=14bf4h ( 84980) load[0m
+[0;32mI (556) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (617) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (617) boot: Disabling RNG early entropy source...[0m
+[0;32mI (628) cpu_start: Multicore app[0m
+[0;32mI (628) cpu_start: Pro cpu up.[0m
+[0;32mI (628) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (646) cpu_start: Pro cpu start user code[0m
+[0;32mI (646) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (646) cpu_start: Application information:[0m
+[0;32mI (651) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (657) cpu_start: App version:      1[0m
+[0;32mI (661) cpu_start: Compile time:     Jul 20 2023 22:24:40[0m
+[0;32mI (667) cpu_start: ELF file SHA256:  dcbc98da6...[0m
+[0;32mI (673) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (680) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (684) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (689) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (694) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (701) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (707) heap_init: At 3FFB7900 len 00028700 (161 KiB): DRAM[0m
+[0;32mI (713) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (720) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (726) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (734) spi_flash: detected chip: generic[0m
+[0;32mI (737) spi_flash: flash io: dio[0m
+[0;33mW (741) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (750) app_start: Starting scheduler on CPU0[0m
+[0;32mI (755) app_start: Starting scheduler on CPU1[0m
+[0;32mI (755) main_task: Started on CPU0[0m
+[0;32mI (765) main_task: Calling app_main()[0m
+[0;32mI (785) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (785) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp 34.9
+[0;32mI (795) wifi_init: rx ba win: 6[0m
+[0;32mI (795) wifi_init: tcpip mbox: 32[0m
+[0;32mI (795) wifi_init: udp mbox: 6[0m
+[0;32mI (805) wifi_init: tcp mbox: 6[0m
+[0;32mI (805) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (815) wifi_init: tcp mss: 1440[0m
+[0;32mI (815) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (825) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1535) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1655) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1655) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1655) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1655) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1665) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1675) http_server: http_server_configure: Registering URI handlers[0m
+=== Reading NTC103 ===
+Temp 34.7
+=== Reading NTC103 ===
+Temp 34.6
+=== Reading NTC103 ===
+Temp 34.6
+=== Reading NTC103 ===
+Temp 34.6
+=== Reading NTC103 ===
+Temp 34.6
+=== Reading NTC103 ===
+Temp 34.6
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (30415) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (30435) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (34375) http_server: index.html requested[0m
+[0;32mI (34425) http_server: JQuery requested[0m
+[0;32mI (34505) http_server: app.css requested[0m
+[0;32mI (34525) http_server: app.js requested[0m
+[0;32mI (34605) http_server: OTAstatus requested[0m
+[0;32mI (36455) http_server: index.html requested[0m
+[0;32mI (36505) http_server: JQuery requested[0m
+[0;32mI (36595) http_server: app.css requested[0m
+[0;32mI (36615) http_server: app.js requested[0m
+[0;32mI (36635) http_server: OTAstatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (41705) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (46705) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (51705) http_server: /ntcSensor.json requested[0m
+[0;32mI (52455) http_server: /wifiConnect.json requested[0m
+[0;32mI (52455) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (52455) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+Guru Meditation Error: Core  0 panic'ed (StoreProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x4000c46c  PS      : 0x00060130  A0      : 0x800d7d21  A1      : 0x3ffcc110  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x000000b4  A5      : 0x00000000  
+A6      : 0x3f405710  A7      : 0x0000000b  A8      : 0x3ffb3ee8  A9      : 0x3ffcc0a0  
+A10     : 0x401502a4  A11     : 0x3f405710  A12     : 0x3f4050a8  A13     : 0x3ffcc100  
+A14     : 0x3ffcc0e0  A15     : 0x0000000c  SAR     : 0x00000004  EXCCAUSE: 0x0000001d  
+EXCVADDR: 0x00000000  LBEG    : 0x4000c46c  LEND    : 0x4000c477  LCOUNT  : 0x0000000a  
+
+
+Backtrace: 0x4000c469:0x3ffcc110 0x400d7d1e:0x3ffcc120 0x400fa01b:0x3ffcc140 0x400f90ad:0x3ffcc180 0x400f9141:0x3ffcc210 0x400f978c:0x3ffcc230 0x400f7fb0:0x3ffcc250 0x4015774f:0x3ffcc270 0x400f8770:0x3ffcc290 0x400f87de:0x3ffcc2e0 0x4008b5dd:0x3ffcc300
+
+
+
+
+ELF file SHA256: dcbc98da6
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15672
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (35) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (43) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (48) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (57) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (66) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (73) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (88) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (103) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6bc74h (441460) map[0m
+[0;32mI (283) esp_image: segment 1: paddr=0007bc9c vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (288) esp_image: segment 2: paddr=0007f40c vaddr=40080000 size=00c0ch (  3084) load[0m
+[0;32mI (290) esp_image: segment 3: paddr=00080020 vaddr=400d0020 size=8dae8h (580328) map[0m
+[0;32mI (506) esp_image: segment 4: paddr=0010db10 vaddr=40080c0c size=14bf4h ( 84980) load[0m
+[0;32mI (553) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (553) boot: Disabling RNG early entropy source...[0m
+[0;32mI (564) cpu_start: Multicore app[0m
+[0;32mI (565) cpu_start: Pro cpu up.[0m
+[0;32mI (565) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (551) cpu_start: App cpu up.[0m
+[0;32mI (583) cpu_start: Pro cpu start user code[0m
+[0;32mI (583) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (583) cpu_start: Application information:[0m
+[0;32mI (588) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (594) cpu_start: App version:      1[0m
+[0;32mI (598) cpu_start: Compile time:     Jul 20 2023 22:24:40[0m
+[0;32mI (604) cpu_start: ELF file SHA256:  dcbc98da6...[0m
+[0;32mI (610) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (617) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (621) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (626) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (631) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (638) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (644) heap_init: At 3FFB7900 len 00028700 (161 KiB): DRAM[0m
+[0;32mI (650) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (657) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (663) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (671) spi_flash: detected chip: generic[0m
+[0;32mI (674) spi_flash: flash io: dio[0m
+[0;33mW (678) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (687) app_start: Starting scheduler on CPU0[0m
+[0;32mI (691) app_start: Starting scheduler on CPU1[0m
+[0;32mI (691) main_task: Started on CPU0[0m
+[0;32mI (701) main_task: Calling app_main()[0m
+[0;32mI (721) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (721) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp 34.8
+[0;32mI (731) wifi_init: rx ba win: 6[0m
+[0;32mI (731) wifi_init: tcpip mbox: 32[0m
+[0;32mI (731) wifi_init: udp mbox: 6[0m
+[0;32mI (741) wifi_init: tcp mbox: 6[0m
+[0;32mI (741) wifi_init: tcp tx win: 5744[0m
+[0;32mI (741) wifi_init: tcp rx win: 5744[0m
+[0;32mI (751) wifi_init: tcp mss: 1440[0m
+[0;32mI (751) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (761) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1471) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1591) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1591) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1591) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1591) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1611) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1621) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (2321) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (2471) http_server: /wifiConnect.json requested[0m
+[0;32mI (2471) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (2481) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+Guru Meditation Error: Core  0 panic'ed (StoreProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x4000c46c  PS      : 0x00060930  A0      : 0x800d7d21  A1      : 0x3ffcc110  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x000000b4  A5      : 0x00000000  
+A6      : 0x3f405710  A7      : 0x0000000b  A8      : 0x8008bcba  A9      : 0x3ffb1b80  
+A10     : 0x00000000  A11     : 0x00000000  A12     : 0x00000050  A13     : 0x3ffcc100  
+A14     : 0x3ffcc0e0  A15     : 0x0000000c  SAR     : 0x00000004  EXCCAUSE: 0x0000001d  
+EXCVADDR: 0x00000000  LBEG    : 0x4000c46c  LEND    : 0x4000c477  LCOUNT  : 0x0000000a  
+
+
+Backtrace: 0x4000c469:0x3ffcc110 0x400d7d1e:0x3ffcc120 0x400fa01b:0x3ffcc140 0x400f90ad:0x3ffcc180 0x400f9141:0x3ffcc210 0x400f978c:0x3ffcc230 0x400f7fb0:0x3ffcc250 0x4015774f:0x3ffcc270 0x400f8770:0x3ffcc290 0x400f87de:0x3ffcc2e0 0x4008b5dd:0x3ffcc300
+
+
+
+
+ELF file SHA256: dcbc98da6
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15672
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (35) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (43) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (48) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (57) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (66) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (73) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (88) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (103) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6bc74h (441460) map[0m
+[0;32mI (283) esp_image: segment 1: paddr=0007bc9c vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (288) esp_image: segment 2: paddr=0007f40c vaddr=40080000 size=00c0ch (  3084) load[0m
+[0;32mI (290) esp_image: segment 3: paddr=00080020 vaddr=400d0020 size=8dae8h (580328) map[0m
+[0;32mI (506) esp_image: segment 4: paddr=0010db10 vaddr=40080c0c size=14bf4h ( 84980) load[0m
+[0;32mI (553) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (553) boot: Disabling RNG early entropy source...[0m
+[0;32mI (564) cpu_start: Multicore app[0m
+[0;32mI (565) cpu_start: Pro cpu up.[0m
+[0;32mI (565) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (551) cpu_start: App cpu up.[0m
+[0;32mI (583) cpu_start: Pro cpu start user code[0m
+[0;32mI (583) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (583) cpu_start: Application information:[0m
+[0;32mI (588) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (594) cpu_start: App version:      1[0m
+[0;32mI (598) cpu_start: Compile time:     Jul 20 2023 22:24:40[0m
+[0;32mI (604) cpu_start: ELF file SHA256:  dcbc98da6...[0m
+[0;32mI (610) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (617) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (621) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (626) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (631) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (638) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (644) heap_init: At 3FFB7900 len 00028700 (161 KiB): DRAM[0m
+[0;32mI (650) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (657) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (663) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (671) spi_flash: detected chip: generic[0m
+[0;32mI (674) spi_flash: flash io: dio[0m
+[0;33mW (678) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (687) app_start: Starting scheduler on CPU0[0m
+[0;32mI (691) app_start: Starting scheduler on CPU1[0m
+[0;32mI (691) main_task: Started on CPU0[0m
+[0;32mI (701) main_task: Calling app_main()[0m
+[0;32mI (721) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (721) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp 34.8
+[0;32mI (731) wifi_init: rx ba win: 6[0m
+[0;32mI (731) wifi_init: tcpip mbox: 32[0m
+[0;32mI (731) wifi_init: udp mbox: 6[0m
+[0;32mI (741) wifi_init: tcp mbox: 6[0m
+[0;32mI (741) wifi_init: tcp tx win: 5744[0m
+[0;32mI (741) wifi_init: tcp rx win: 5744[0m
+[0;32mI (751) wifi_init: tcp mss: 1440[0m
+[0;32mI (751) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (761) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1471) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1591) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1591) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1591) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1591) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1601) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1611) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4671) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (5021) http_server: /wifiConnectStatus requested[0m
+[0;32mI (5051) http_server: /ntcSensor.json requested[0m
+[0;32mI (5061) http_server: /wifiConnectStatus requested[0m
+[0;32mI (6691) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+[0;32mI (7841) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (10041) http_server: /ntcSensor.json requested[0m
+[0;32mI (10641) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (13451) http_server: /wifiConnectStatus requested[0m
+[0;32mI (15051) http_server: /ntcSensor.json requested[0m
+[0;32mI (16241) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (19051) http_server: /wifiConnectStatus requested[0m
+[0;32mI (20041) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (21851) http_server: /wifiConnectStatus requested[0m
+[0;32mI (24651) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 30.8
+[0;32mI (25041) http_server: /ntcSensor.json requested[0m
+[0;32mI (27451) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (30051) http_server: /ntcSensor.json requested[0m
+[0;32mI (30251) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (33051) http_server: /wifiConnectStatus requested[0m
+[0;32mI (35051) http_server: /ntcSensor.json requested[0m
+[0;32mI (35851) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (38651) http_server: /wifiConnectStatus requested[0m
+[0;32mI (40051) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (41451) http_server: /wifiConnectStatus requested[0m
+[0;32mI (44251) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (45051) http_server: /ntcSensor.json requested[0m
+[0;32mI (47051) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (49851) http_server: /wifiConnectStatus requested[0m
+[0;32mI (50051) http_server: /ntcSensor.json requested[0m
+[0;32mI (52651) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (55051) http_server: /ntcSensor.json requested[0m
+[0;32mI (55451) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (58251) http_server: /wifiConnectStatus requested[0m
+[0;32mI (60051) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (61051) http_server: /wifiConnectStatus requested[0m
+[0;32mI (63851) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (65051) http_server: /ntcSensor.json requested[0m
+[0;32mI (66651) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (69451) http_server: /wifiConnectStatus requested[0m
+[0;32mI (70051) http_server: /ntcSensor.json requested[0m
+[0;32mI (72261) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (75051) http_server: /ntcSensor.json requested[0m
+[0;32mI (75061) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (77851) http_server: /wifiConnectStatus requested[0m
+[0;32mI (80051) http_server: /ntcSensor.json requested[0m
+[0;32mI (80651) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (83451) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (85051) http_server: /ntcSensor.json requested[0m
+[0;32mI (86261) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 30.3
+[0;32mI (89051) http_server: /wifiConnectStatus requested[0m
+[0;32mI (90051) http_server: /ntcSensor.json requested[0m
+[0;32mI (91851) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (94661) http_server: /wifiConnectStatus requested[0m
+[0;32mI (95051) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (97461) http_server: /wifiConnectStatus requested[0m
+[0;32mI (100051) http_server: /ntcSensor.json requested[0m
+[0;32mI (100261) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (103061) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (105051) http_server: /ntcSensor.json requested[0m
+[0;32mI (105861) http_server: /wifiConnectStatus requested[0m
+[0;32mI (108661) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (110051) http_server: /ntcSensor.json requested[0m
+[0;32mI (111461) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (114261) http_server: /wifiConnectStatus requested[0m
+[0;32mI (115061) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (117061) http_server: /wifiConnectStatus requested[0m
+[0;32mI (119861) http_server: /wifiConnectStatus requested[0m
+[0;32mI (120051) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (122661) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (125051) http_server: /ntcSensor.json requested[0m
+[0;32mI (125461) http_server: /wifiConnectStatus requested[0m
+[0;32mI (128261) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (130051) http_server: /ntcSensor.json requested[0m
+[0;32mI (131061) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (133861) http_server: /wifiConnectStatus requested[0m
+[0;32mI (135051) http_server: /ntcSensor.json requested[0m
+[0;32mI (136661) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (139461) http_server: /wifiConnectStatus requested[0m
+[0;32mI (140051) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (142261) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (145061) http_server: /ntcSensor.json requested[0m
+[0;32mI (145071) http_server: /wifiConnectStatus requested[0m
+[0;32mI (147861) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (150051) http_server: /ntcSensor.json requested[0m
+[0;32mI (150661) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 29.0
+[0;32mI (153461) http_server: /wifiConnectStatus requested[0m
+[0;32mI (155051) http_server: /ntcSensor.json requested[0m
+[0;32mI (156261) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (159071) http_server: /wifiConnectStatus requested[0m
+[0;32mI (160051) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (161861) http_server: /wifiConnectStatus requested[0m
+[0;32mI (164661) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (165061) http_server: /ntcSensor.json requested[0m
+[0;32mI (167461) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (170061) http_server: /ntcSensor.json requested[0m
+[0;32mI (170271) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (173071) http_server: /wifiConnectStatus requested[0m
+[0;32mI (175061) http_server: /ntcSensor.json requested[0m
+[0;32mI (175861) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (178671) http_server: /wifiConnectStatus requested[0m
+[0;32mI (180061) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (181471) http_server: /wifiConnectStatus requested[0m
+[0;32mI (184271) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (185061) http_server: /ntcSensor.json requested[0m
+[0;32mI (187071) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (189871) http_server: /wifiConnectStatus requested[0m
+[0;32mI (190061) http_server: /ntcSensor.json requested[0m
+[0;32mI (192671) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (195061) http_server: /ntcSensor.json requested[0m
+[0;32mI (195471) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (198271) http_server: /wifiConnectStatus requested[0m
+[0;32mI (200061) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (201071) http_server: /wifiConnectStatus requested[0m
+[0;32mI (203871) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (205061) http_server: /ntcSensor.json requested[0m
+[0;32mI (206671) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (209471) http_server: /wifiConnectStatus requested[0m
+[0;32mI (210061) http_server: /ntcSensor.json requested[0m
+[0;32mI (212271) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (215061) http_server: /ntcSensor.json requested[0m
+[0;32mI (215081) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 29.5
+[0;32mI (217871) http_server: /wifiConnectStatus requested[0m
+[0;32mI (220061) http_server: /ntcSensor.json requested[0m
+[0;32mI (220671) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (223471) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (225061) http_server: /ntcSensor.json requested[0m
+[0;32mI (226271) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (229071) http_server: /wifiConnectStatus requested[0m
+[0;32mI (230061) http_server: /ntcSensor.json requested[0m
+[0;32mI (231871) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (234671) http_server: /wifiConnectStatus requested[0m
+[0;32mI (235061) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (237471) http_server: /wifiConnectStatus requested[0m
+[0;32mI (240061) http_server: /ntcSensor.json requested[0m
+[0;32mI (240271) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (243081) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (245061) http_server: /ntcSensor.json requested[0m
+[0;32mI (245881) http_server: /wifiConnectStatus requested[0m
+[0;32mI (248671) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (250061) http_server: /ntcSensor.json requested[0m
+[0;32mI (251471) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (254281) http_server: /wifiConnectStatus requested[0m
+[0;32mI (255061) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (257081) http_server: /wifiConnectStatus requested[0m
+[0;32mI (259881) http_server: /wifiConnectStatus requested[0m
+[0;32mI (260061) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (262681) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (265061) http_server: /ntcSensor.json requested[0m
+[0;32mI (265481) http_server: /wifiConnectStatus requested[0m
+[0;32mI (268281) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (270061) http_server: /ntcSensor.json requested[0m
+[0;32mI (271081) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (273881) http_server: /wifiConnectStatus requested[0m
+[0;32mI (275061) http_server: /ntcSensor.json requested[0m
+[0;32mI (276681) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (279481) http_server: /wifiConnectStatus requested[0m
+[0;32mI (280061) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.3
+[0;32mI (282281) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (285061) http_server: /ntcSensor.json requested[0m
+[0;32mI (285081) http_server: /wifiConnectStatus requested[0m
+[0;32mI (287881) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (290061) http_server: /ntcSensor.json requested[0m
+[0;32mI (290681) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (293481) http_server: /wifiConnectStatus requested[0m
+[0;32mI (295061) http_server: /ntcSensor.json requested[0m
+[0;32mI (296281) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (299081) http_server: /wifiConnectStatus requested[0m
+[0;32mI (300071) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (301881) http_server: /wifiConnectStatus requested[0m
+[0;32mI (304681) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (305061) http_server: /ntcSensor.json requested[0m
+[0;32mI (307481) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (310061) http_server: /ntcSensor.json requested[0m
+[0;32mI (310281) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (313081) http_server: /wifiConnectStatus requested[0m
+[0;32mI (315071) http_server: /ntcSensor.json requested[0m
+[0;32mI (315881) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (318681) http_server: /wifiConnectStatus requested[0m
+[0;32mI (320071) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (321481) http_server: /wifiConnectStatus requested[0m
+[0;32mI (324281) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (325071) http_server: /ntcSensor.json requested[0m
+[0;32mI (327081) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (329891) http_server: /wifiConnectStatus requested[0m
+[0;32mI (330071) http_server: /ntcSensor.json requested[0m
+[0;32mI (332681) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (335071) http_server: /ntcSensor.json requested[0m
+[0;32mI (335491) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (338291) http_server: /wifiConnectStatus requested[0m
+[0;32mI (340071) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (341091) http_server: /wifiConnectStatus requested[0m
+[0;32mI (343891) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 32.1
+[0;32mI (345071) http_server: /ntcSensor.json requested[0m
+[0;32mI (346691) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (349491) http_server: /wifiConnectStatus requested[0m
+[0;32mI (350071) http_server: /ntcSensor.json requested[0m
+[0;32mI (352291) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (355071) http_server: /ntcSensor.json requested[0m
+[0;32mI (355091) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (357891) http_server: /wifiConnectStatus requested[0m
+[0;32mI (360071) http_server: /ntcSensor.json requested[0m
+[0;32mI (360691) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (363491) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (365071) http_server: /ntcSensor.json requested[0m
+[0;32mI (366291) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (369091) http_server: /wifiConnectStatus requested[0m
+[0;32mI (370071) http_server: /ntcSensor.json requested[0m
+[0;32mI (371891) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (374691) http_server: /wifiConnectStatus requested[0m
+[0;32mI (375071) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (377491) http_server: /wifiConnectStatus requested[0m
+[0;32mI (380071) http_server: /ntcSensor.json requested[0m
+[0;32mI (380291) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (383091) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (385071) http_server: /ntcSensor.json requested[0m
+[0;32mI (385901) http_server: /wifiConnectStatus requested[0m
+[0;32mI (388691) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (390071) http_server: /ntcSensor.json requested[0m
+[0;32mI (391491) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (394291) http_server: /wifiConnectStatus requested[0m
+[0;32mI (395071) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (397091) http_server: /wifiConnectStatus requested[0m
+[0;32mI (399891) http_server: /wifiConnectStatus requested[0m
+[0;32mI (400071) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (402701) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (405071) http_server: /ntcSensor.json requested[0m
+[0;32mI (405491) http_server: /wifiConnectStatus requested[0m
+[0;32mI (408291) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 31.3
+[0;32mI (410071) http_server: /ntcSensor.json requested[0m
+[0;32mI (411091) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (413901) http_server: /wifiConnectStatus requested[0m
+[0;32mI (415071) http_server: /ntcSensor.json requested[0m
+[0;32mI (416701) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (419501) http_server: /wifiConnectStatus requested[0m
+[0;32mI (420071) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (422291) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (425081) http_server: /ntcSensor.json requested[0m
+[0;32mI (425101) http_server: /wifiConnectStatus requested[0m
+[0;32mI (427901) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (430081) http_server: /ntcSensor.json requested[0m
+[0;32mI (430701) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (433501) http_server: /wifiConnectStatus requested[0m
+[0;32mI (435071) http_server: /ntcSensor.json requested[0m
+[0;32mI (436301) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (439101) http_server: /wifiConnectStatus requested[0m
+[0;32mI (440071) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (441901) http_server: /wifiConnectStatus requested[0m
+[0;32mI (444701) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (445081) http_server: /ntcSensor.json requested[0m
+[0;32mI (447501) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (450081) http_server: /ntcSensor.json requested[0m
+[0;32mI (450301) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (453101) http_server: /wifiConnectStatus requested[0m
+[0;32mI (455081) http_server: /ntcSensor.json requested[0m
+[0;32mI (455901) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (458701) http_server: /wifiConnectStatus requested[0m
+[0;32mI (460081) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (461501) http_server: /wifiConnectStatus requested[0m
+[0;32mI (464301) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (465081) http_server: /ntcSensor.json requested[0m
+[0;32mI (467101) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (469901) http_server: /wifiConnectStatus requested[0m
+[0;32mI (470081) http_server: /ntcSensor.json requested[0m
+[0;32mI (472701) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 33.9
+[0;32mI (475081) http_server: /ntcSensor.json requested[0m
+[0;32mI (475501) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (478301) http_server: /wifiConnectStatus requested[0m
+[0;32mI (480081) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (481101) http_server: /wifiConnectStatus requested[0m
+[0;32mI (483901) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (485081) http_server: /ntcSensor.json requested[0m
+[0;32mI (486711) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (489511) http_server: /wifiConnectStatus requested[0m
+[0;32mI (490081) http_server: /ntcSensor.json requested[0m
+[0;32mI (492311) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (495081) http_server: /ntcSensor.json requested[0m
+[0;32mI (495101) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (497911) http_server: /wifiConnectStatus requested[0m
+[0;32mI (500081) http_server: /ntcSensor.json requested[0m
+[0;32mI (500711) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (503511) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (505081) http_server: /ntcSensor.json requested[0m
+[0;32mI (506311) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (509111) http_server: /wifiConnectStatus requested[0m
+[0;32mI (510081) http_server: /ntcSensor.json requested[0m
+[0;32mI (511911) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (514711) http_server: /wifiConnectStatus requested[0m
+[0;32mI (515081) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (517511) http_server: /wifiConnectStatus requested[0m
+[0;32mI (520081) http_server: /ntcSensor.json requested[0m
+[0;32mI (520311) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (523111) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (525081) http_server: /ntcSensor.json requested[0m
+[0;32mI (525911) http_server: /wifiConnectStatus requested[0m
+[0;32mI (528711) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (530081) http_server: /ntcSensor.json requested[0m
+[0;32mI (531511) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (534311) http_server: /wifiConnectStatus requested[0m
+[0;32mI (535081) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.6
+[0;32mI (537111) http_server: /wifiConnectStatus requested[0m
+[0;32mI (539911) http_server: /wifiConnectStatus requested[0m
+[0;32mI (540081) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (542711) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (545081) http_server: /ntcSensor.json requested[0m
+[0;32mI (545511) http_server: /wifiConnectStatus requested[0m
+[0;32mI (548311) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (550081) http_server: /ntcSensor.json requested[0m
+[0;32mI (551111) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (553911) http_server: /wifiConnectStatus requested[0m
+[0;32mI (555081) http_server: /ntcSensor.json requested[0m
+[0;32mI (556711) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (559521) http_server: /wifiConnectStatus requested[0m
+[0;32mI (560091) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (562321) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (565081) http_server: /ntcSensor.json requested[0m
+[0;32mI (565111) http_server: /wifiConnectStatus requested[0m
+[0;32mI (567911) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (570081) http_server: /ntcSensor.json requested[0m
+[0;32mI (570721) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (573521) http_server: /wifiConnectStatus requested[0m
+[0;32mI (575091) http_server: /ntcSensor.json requested[0m
+[0;32mI (576321) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (579121) http_server: /wifiConnectStatus requested[0m
+[0;32mI (580081) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (581921) http_server: /wifiConnectStatus requested[0m
+[0;32mI (584721) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (585081) http_server: /ntcSensor.json requested[0m
+[0;32mI (587521) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (590091) http_server: /ntcSensor.json requested[0m
+[0;32mI (590321) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (593121) http_server: /wifiConnectStatus requested[0m
+[0;32mI (595081) http_server: /ntcSensor.json requested[0m
+[0;32mI (595921) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (598721) http_server: /wifiConnectStatus requested[0m
+[0;32mI (600091) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 28.7
+[0;32mI (601521) http_server: /wifiConnectStatus requested[0m
+[0;32mI (604321) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (605091) http_server: /ntcSensor.json requested[0m
+[0;32mI (607121) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (609921) http_server: /wifiConnectStatus requested[0m
+[0;32mI (610091) http_server: /ntcSensor.json requested[0m
+[0;32mI (612721) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (615091) http_server: /ntcSensor.json requested[0m
+[0;32mI (615521) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (618321) http_server: /wifiConnectStatus requested[0m
+[0;32mI (620091) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (621121) http_server: /wifiConnectStatus requested[0m
+[0;32mI (623921) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (625091) http_server: /ntcSensor.json requested[0m
+[0;32mI (626721) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (629521) http_server: /wifiConnectStatus requested[0m
+[0;32mI (630091) http_server: /ntcSensor.json requested[0m
+[0;32mI (632321) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (635091) http_server: /ntcSensor.json requested[0m
+[0;32mI (635121) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (637921) http_server: /wifiConnectStatus requested[0m
+[0;32mI (640091) http_server: /ntcSensor.json requested[0m
+[0;32mI (640731) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.2
+[0;32mI (643521) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (645091) http_server: /ntcSensor.json requested[0m
+[0;32mI (646331) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (649131) http_server: /wifiConnectStatus requested[0m
+[0;32mI (650091) http_server: /ntcSensor.json requested[0m
+[0;32mI (651931) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (654731) http_server: /wifiConnectStatus requested[0m
+[0;32mI (655091) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (657531) http_server: /wifiConnectStatus requested[0m
+[0;32mI (660091) http_server: /ntcSensor.json requested[0m
+[0;32mI (660331) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (663131) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (665091) http_server: /ntcSensor.json requested[0m
+[0;32mI (665931) http_server: /wifiConnectStatus requested[0m
+[0;32mI (668731) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (670091) http_server: /ntcSensor.json requested[0m
+[0;32mI (671531) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (674331) http_server: /wifiConnectStatus requested[0m
+[0;32mI (675091) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (677131) http_server: /wifiConnectStatus requested[0m
+[0;32mI (679931) http_server: /wifiConnectStatus requested[0m
+[0;32mI (680091) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (682731) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (685091) http_server: /ntcSensor.json requested[0m
+[0;32mI (685531) http_server: /wifiConnectStatus requested[0m
+[0;32mI (688331) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (690091) http_server: /ntcSensor.json requested[0m
+[0;32mI (691131) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (693931) http_server: /wifiConnectStatus requested[0m
+[0;32mI (695091) http_server: /ntcSensor.json requested[0m
+[0;32mI (696731) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;32mI (699531) http_server: /wifiConnectStatus requested[0m
+[0;32mI (700091) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (702331) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (705101) http_server: /ntcSensor.json requested[0m
+[0;32mI (705131) http_server: /wifiConnectStatus requested[0m
+[0;32mI (707931) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (710091) http_server: /ntcSensor.json requested[0m
+[0;32mI (710731) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (713531) http_server: /wifiConnectStatus requested[0m
+[0;32mI (715091) http_server: /ntcSensor.json requested[0m
+[0;32mI (716341) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.6
+[0;32mI (719141) http_server: /wifiConnectStatus requested[0m
+[0;32mI (720101) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (721941) http_server: /wifiConnectStatus requested[0m
+[0;32mI (724731) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;32mI (725101) http_server: /ntcSensor.json requested[0m
+[0;32mI (727541) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (730101) http_server: /ntcSensor.json requested[0m
+[0;32mI (730341) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+[0;32mI (733141) http_server: /wifiConnectStatus requested[0m
+[0;32mI (735101) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.7
+=== Reading NTC103 ===
+Temp 34.7
+=== Reading NTC103 ===
+Temp 34.6

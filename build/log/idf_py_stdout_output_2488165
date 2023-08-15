@@ -1,0 +1,413 @@
+�ׁ������°�Қ�SH�
+r.���� ������}R�j�b���'��3�i�%_��*�%�A��%�OU��c�k��.� �	Z�I���Ս���E��:��0���v'��0��E������i�A_ٺ�A�	�}d�����0,�䮗���0�a�e'T�q�,�+͠6K�2�!��d'��f�³b��n�S��!�� W���Ҡ��� �C!�+�:�Q��°���Yˊʖ�j
+h�����Ҡ��� �C!�+�:�Q��´���Yˢ*��+�:�Q�������Y˚�S�en��Q��¶M*�[0;32mI (32) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (114) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6bd04h (441604) map[0m
+[0;32mI (286) esp_image: segment 1: paddr=0007bd2c vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (292) esp_image: segment 2: paddr=0007f49c vaddr=40080000 size=00b7ch (  2940) load[0m
+[0;32mI (294) esp_image: segment 3: paddr=00080020 vaddr=400d0020 size=8dae8h (580328) map[0m
+[0;32mI (510) esp_image: segment 4: paddr=0010db10 vaddr=40080b7c size=14c84h ( 85124) load[0m
+[0;32mI (557) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (617) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (617) boot: Disabling RNG early entropy source...[0m
+[0;32mI (628) cpu_start: Multicore app[0m
+[0;32mI (629) cpu_start: Pro cpu up.[0m
+[0;32mI (629) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (646) cpu_start: Pro cpu start user code[0m
+[0;32mI (646) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (646) cpu_start: Application information:[0m
+[0;32mI (651) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (657) cpu_start: App version:      1[0m
+[0;32mI (662) cpu_start: Compile time:     Jul 20 2023 22:16:45[0m
+[0;32mI (668) cpu_start: ELF file SHA256:  63ebde01e...[0m
+[0;32mI (673) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (680) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (685) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (690) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (695) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (702) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (708) heap_init: At 3FFB7900 len 00028700 (161 KiB): DRAM[0m
+[0;32mI (714) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (720) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (727) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (735) spi_flash: detected chip: generic[0m
+[0;32mI (738) spi_flash: flash io: dio[0m
+[0;33mW (742) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (751) app_start: Starting scheduler on CPU0[0m
+[0;32mI (755) app_start: Starting scheduler on CPU1[0m
+[0;32mI (755) main_task: Started on CPU0[0m
+[0;32mI (765) main_task: Calling app_main()[0m
+[0;32mI (785) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (785) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp 34.8
+[0;32mI (795) wifi_init: rx ba win: 6[0m
+[0;32mI (795) wifi_init: tcpip mbox: 32[0m
+[0;32mI (795) wifi_init: udp mbox: 6[0m
+[0;32mI (805) wifi_init: tcp mbox: 6[0m
+[0;32mI (805) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (815) wifi_init: tcp mss: 1440[0m
+[0;32mI (815) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (825) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1535) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1655) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1655) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1665) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1665) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1675) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1685) http_server: http_server_configure: Registering URI handlers[0m
+=== Reading NTC103 ===
+Temp 34.6
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (11515) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (11535) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 34.5
+=== Reading NTC103 ===
+Temp 34.5
+=== Reading NTC103 ===
+Temp 34.5
+[0;32mI (22925) http_server: index.html requested[0m
+[0;32mI (22965) http_server: JQuery requested[0m
+[0;32mI (23045) http_server: app.js requested[0m
+[0;32mI (23065) http_server: app.css requested[0m
+[0;32mI (23085) http_server: OTAstatus requested[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;33mW (28145) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (28145) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 30.0
+=== Reading NTC103 ===
+Temp 34.5
+[0;33mW (33145) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (33145) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (38145) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (38145) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;33mW (43145) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (43145) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (48145) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (48155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.5
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (53145) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (53145) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;33mW (58145) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (58145) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (63145) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (63145) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (68145) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (68145) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (73155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (73155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (78155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (78155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (83155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (83155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (88155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (88155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 28.9
+[0;33mW (93155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (93155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (98155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (98155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (103155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (103155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (108155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (108155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (113155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (113155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (118155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (118155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (123155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (123155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (128155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (128155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (133155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (133155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (138155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (138155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (143155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (143155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (148155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (148155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (153155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (153155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 30.8
+[0;33mW (158155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (158155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (163155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (163155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (168155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (168155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (173155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (173155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (178155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (178155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (183155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (183155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (188155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (188155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (193155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (193155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (198155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (198165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (203155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (203165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (208155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (208155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (213155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (213165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (218155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (218165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 32.5
+[0;33mW (223165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (223165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (228165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (228165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (233155) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (233155) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (238165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (238165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (243165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (243165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (248165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (248165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (253165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (253165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (258165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (258165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (263165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (263165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (268165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (268165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (273165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (273165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (278165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (278165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.3
+[0;33mW (283165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (283165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 32.9
+[0;33mW (288165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (288165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (293165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (293165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (298165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (298165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (303165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (303165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (308165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (308165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (313165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (313165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (318175) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (318175) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (323165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (323165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (328165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (328165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.5
+[0;33mW (333165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (333165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (338165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (338165) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (343165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (343175) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.5
+[0;33mW (348175) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (348175) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 31.8
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (353165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (353175) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (358165) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (358175) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (363175) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (363175) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (368175) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (368175) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4
+=== Reading NTC103 ===
+Temp 34.4
+[0;33mW (373175) httpd_uri: httpd_uri: URI '/dhtSensor.json' not found[0m
+[0;33mW (373175) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+=== Reading NTC103 ===
+Temp 34.4

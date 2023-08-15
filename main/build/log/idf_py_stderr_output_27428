@@ -1,0 +1,13 @@
+CMake Warning (dev) at CMakeLists.txt:3:
+  Syntax Warning in cmake code at column 96
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at CMakeLists.txt:4:
+  Parse error.  Function missing ending ")".  Instead found unterminated
+  string with text ")
+
+  ".
+
+

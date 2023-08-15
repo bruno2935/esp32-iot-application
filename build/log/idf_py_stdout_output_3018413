@@ -1,0 +1,80 @@
+[1/5] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp-idf/esptool_py && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/bruno/Documents/esp32-projects/esp32-iot-application/build/partition_table/partition-table.bin /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp32-iot-application.bin
+esp32-iot-application.bin binary size 0x114bb0 bytes. Smallest app partition is 0x1f0000 bytes. 0xdb450 bytes (44%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader/esp-idf/esptool_py && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader/bootloader.bin
+Bootloader binary size 0x68a0 bytes. 0x760 bytes (7%) free.
+[2/3] cd /home/bruno/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/bruno/esp/esp-idf -D "SERIAL_TOOL=/home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/home/bruno/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/bruno/Documents/esp32-projects/esp32-iot-application/build -P /home/bruno/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 esp32-iot-application.bin 0x8000 partition_table/partition-table.bin 0xd000 ota_data_initial.bin
+esptool.py v4.6.2
+Serial port /dev/ttyACM0
+Connecting......
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 24:0a:c4:8b:6c:04
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00124fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000d000 to 0x0000efff...
+Compressed 26784 bytes to 16825...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007679... (100 %)
+Wrote 26784 bytes (16825 compressed) at 0x00001000 in 0.9 seconds (effective 248.9 kbit/s)...
+Hash of data verified.
+Compressed 1133488 bytes to 603162...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001985a... (5 %)
+Writing at 0x0003203c... (8 %)
+Writing at 0x00048c07... (10 %)
+Writing at 0x00056364... (13 %)
+Writing at 0x0006303e... (16 %)
+Writing at 0x0006deb6... (18 %)
+Writing at 0x00074601... (21 %)
+Writing at 0x0007b4ea... (24 %)
+Writing at 0x00083bd8... (27 %)
+Writing at 0x0008949c... (29 %)
+Writing at 0x0008f2f7... (32 %)
+Writing at 0x00094ab9... (35 %)
+Writing at 0x00099eb6... (37 %)
+Writing at 0x0009f6b2... (40 %)
+Writing at 0x000a4feb... (43 %)
+Writing at 0x000aaca0... (45 %)
+Writing at 0x000b0b4c... (48 %)
+Writing at 0x000b6230... (51 %)
+Writing at 0x000bb4a8... (54 %)
+Writing at 0x000c0aed... (56 %)
+Writing at 0x000c5c7f... (59 %)
+Writing at 0x000cb3a1... (62 %)
+Writing at 0x000d0a48... (64 %)
+Writing at 0x000d62f4... (67 %)
+Writing at 0x000dbd32... (70 %)
+Writing at 0x000e13de... (72 %)
+Writing at 0x000e6f90... (75 %)
+Writing at 0x000ed1a0... (78 %)
+Writing at 0x000f2d0d... (81 %)
+Writing at 0x000f861e... (83 %)
+Writing at 0x00100f88... (86 %)
+Writing at 0x001092b1... (89 %)
+Writing at 0x0010f66b... (91 %)
+Writing at 0x001151d1... (94 %)
+Writing at 0x0011acbc... (97 %)
+Writing at 0x001203c3... (100 %)
+Wrote 1133488 bytes (603162 compressed) at 0x00010000 in 15.1 seconds (effective 600.4 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 128...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (128 compressed) at 0x00008000 in 0.1 seconds (effective 334.4 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000d000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000d000 in 0.1 seconds (effective 457.9 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

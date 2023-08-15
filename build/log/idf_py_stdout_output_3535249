@@ -1,0 +1,25 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader/esp-idf/esptool_py && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader/bootloader.bin
+Bootloader binary size 0x68a0 bytes. 0x760 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/sntp_time_sync.c.obj
+/home/bruno/Documents/esp32-projects/esp32-iot-application/main/sntp_time_sync.c: In function 'sntp_time_sync':
+/home/bruno/Documents/esp32-projects/esp32-iot-application/main/sntp_time_sync.c:76:20: warning: passing argument 1 of 'vTaskDelay' makes integer from pointer without a cast [-Wint-conversion]
+   76 |         vTaskDelay(NULL);
+      |                    ^~~~
+      |                    |
+      |                    void *
+In file included from /home/bruno/Documents/esp32-projects/esp32-iot-application/main/sntp_time_sync.c:4:
+/home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:1058:35: note: expected 'TickType_t' {aka 'const long unsigned int'} but argument is of type 'void *'
+ 1058 | void vTaskDelay( const TickType_t xTicksToDelay ) PRIVILEGED_FUNCTION;
+      |                  ~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable esp32-iot-application.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp32-iot-application.bin
+[7/7] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp-idf/esptool_py && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/bruno/Documents/esp32-projects/esp32-iot-application/build/partition_table/partition-table.bin /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp32-iot-application.bin
+esp32-iot-application.bin binary size 0x1150d0 bytes. Smallest app partition is 0x1f0000 bytes. 0xdaf30 bytes (44%) free.

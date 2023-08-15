@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/bruno/Documents/esp32-projects/esp32-iot-application/build/CMakeFiles/bootloader
+/home/bruno/Documents/esp32-projects/esp32-iot-application/build/CMakeFiles/bootloader.rule
+/home/bruno/Documents/esp32-projects/esp32-iot-application/build/CMakeFiles/bootloader-complete.rule
+/home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

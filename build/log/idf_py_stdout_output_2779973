@@ -1,0 +1,3459 @@
+et.Rչ �2�� ��2&g�j
+����:�� ��]R��S������E�BA�_T�T%�A*�%=O��H����g�Zi�b�ӕ��'Ս��kE�v'��0,\E��:�A0���v����i��_������0�K��.����0,�d�����*�[��iDR�	��c�"��:�C!�+�i��ff�3bb��:��&fH� �슒����A4C!�d'�Ѱ�°���YK��6j
+�0�W�� �&ҽo��*��+�:��0����b��:�H��a��x���⬫��3��j�Y��� �Q06�j
+[0;32mI (32) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (114) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6c3b4h (443316) map[0m
+[0;32mI (287) esp_image: segment 1: paddr=0007c3dc vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (293) esp_image: segment 2: paddr=0007fb4c vaddr=40080000 size=004cch (  1228) load[0m
+[0;32mI (294) esp_image: segment 3: paddr=00080020 vaddr=400d0020 size=8de68h (581224) map[0m
+[0;32mI (511) esp_image: segment 4: paddr=0010de90 vaddr=400804cc size=15334h ( 86836) load[0m
+[0;32mI (558) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (619) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (619) boot: Disabling RNG early entropy source...[0m
+[0;32mI (629) cpu_start: Multicore app[0m
+[0;32mI (630) cpu_start: Pro cpu up.[0m
+[0;32mI (630) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (648) cpu_start: Pro cpu start user code[0m
+[0;32mI (648) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (648) cpu_start: Application information:[0m
+[0;32mI (653) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (659) cpu_start: App version:      1[0m
+[0;32mI (663) cpu_start: Compile time:     Jul 21 2023 13:03:19[0m
+[0;32mI (669) cpu_start: ELF file SHA256:  10f087ccb...[0m
+[0;32mI (675) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (682) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (686) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (691) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (696) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (703) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (709) heap_init: At 3FFB7900 len 00028700 (161 KiB): DRAM[0m
+[0;32mI (715) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (722) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (728) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (736) spi_flash: detected chip: generic[0m
+[0;32mI (739) spi_flash: flash io: dio[0m
+[0;33mW (743) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (752) app_start: Starting scheduler on CPU0[0m
+[0;32mI (756) app_start: Starting scheduler on CPU1[0m
+[0;32mI (756) main_task: Started on CPU0[0m
+[0;32mI (766) main_task: Calling app_main()[0m
+[0;32mI (786) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (786) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp 35.9
+[0;32mI (796) wifi_init: rx ba win: 6[0m
+[0;32mI (796) wifi_init: tcpip mbox: 32[0m
+[0;32mI (796) wifi_init: udp mbox: 6[0m
+[0;32mI (806) wifi_init: tcp mbox: 6[0m
+[0;32mI (806) wifi_init: tcp tx win: 5744[0m
+[0;32mI (806) wifi_init: tcp rx win: 5744[0m
+[0;32mI (816) wifi_init: tcp mss: 1440[0m
+[0;32mI (816) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (826) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1736) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1846) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1846) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1846) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1846) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1866) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1876) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (3046) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (3126) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (10606) http_server: /ntcSensor.json requested[0m
+[0;32mI (10626) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (15226) http_server: index.html requested[0m
+[0;32mI (15266) http_server: JQuery requested[0m
+[0;32mI (15356) http_server: app.css requested[0m
+[0;32mI (15376) http_server: app.js requested[0m
+[0;32mI (15396) http_server: OTAstatus requested[0m
+[0;32mI (15456) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (19446) http_server: /wifiConnect.json requested[0m
+[0;32mI (19446) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (19456) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;32mI (19466) wifi_app: WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER[0m
+[0;32mI (19476) http_server: HTTP_MSG_WIFI_CONNECT_INIT[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (21136) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+[0;32mI (21556) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+[0;32mI (22136) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (22136) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (22136) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (22136) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (22726) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+[0;32mI (23146) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (23546) http_server: /ntcSensor.json requested[0m
+[0;32mI (23566) http_server: /wifiConnectStatus requested[0m
+[0;32mI (23586) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (25166) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+[0;32mI (25456) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (30466) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (35456) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (38416) http_server: index.html requested[0m
+[0;32mI (38446) http_server: app.css requested[0m
+[0;32mI (38466) http_server: JQuery requested[0m
+[0;32mI (38576) http_server: app.js requested[0m
+[0;32mI (38626) http_server: OTAstatus requested[0m
+[0;32mI (38646) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (43646) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (48656) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (53656) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (58646) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (63646) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (68646) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (73646) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (78656) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (83646) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (88656) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+http_server_OTA_update_handler: OTA RX: 0 of 1127145http_server_OTA_update_handler: OTA file size: 1127145
+=== Reading NTC103 ===
+Temp 30.0
+=== Reading NTC103 ===
+Temp 35.4
+http_server_OTA_update_handler: Writing to partition subtype 17 at offset 0x200000
+http_server_OTA_update_handler: OTA RX: 839 of 1127145http_server_OTA_update_handler: OTA RX: 1863 of 1127145http_server_OTA_update_handler: OTA RX: 2887 of 1127145http_server_OTA_update_handler: OTA RX: 3911 of 1127145http_server_OTA_update_handler: OTA RX: 4935 of 1127145http_server_OTA_update_handler: OTA RX: 5959 of 1127145http_server_OTA_update_handler: OTA RX: 6983 of 1127145http_server_OTA_update_handler: OTA RX: 8007 of 1127145http_server_OTA_update_handler: OTA RX: 9031 of 1127145http_server_OTA_update_handler: OTA RX: 10055 of 1127145http_server_OTA_update_handler: OTA RX: 11079 of 1127145http_server_OTA_update_handler: OTA RX: 12103 of 1127145http_server_OTA_update_handler: OTA RX: 13127 of 1127145http_server_OTA_update_handler: OTA RX: 14151 of 1127145http_server_OTA_update_handler: OTA RX: 15175 of 1127145http_server_OTA_update_handler: OTA RX: 16199 of 1127145http_server_OTA_update_handler: OTA RX: 17223 of 1127145http_server_OTA_update_handler: OTA RX: 18247 of 1127145http_server_OTA_update_handler: OTA RX: 19271 of 1127145http_server_OTA_update_handler: OTA RX: 20295 of 1127145http_server_OTA_update_handler: OTA RX: 21319 of 1127145http_server_OTA_update_handler: OTA RX: 22343 of 1127145http_server_OTA_update_handler: OTA RX: 23367 of 1127145http_server_OTA_update_handler: OTA RX: 24391 of 1127145http_server_OTA_update_handler: OTA RX: 25415 of 1127145http_server_OTA_update_handler: OTA RX: 26439 of 1127145http_server_OTA_update_handler: OTA RX: 27463 of 1127145http_server_OTA_update_handler: OTA RX: 28487 of 1127145http_server_OTA_update_handler: OTA RX: 29511 of 1127145http_server_OTA_update_handler: OTA RX: 30535 of 1127145http_server_OTA_update_handler: OTA RX: 31559 of 1127145http_server_OTA_update_handler: OTA RX: 32583 of 1127145http_server_OTA_update_handler: OTA RX: 33607 of 1127145http_server_OTA_update_handler: OTA RX: 34631 of 1127145http_server_OTA_update_handler: OTA RX: 35655 of 1127145http_server_OTA_update_handler: OTA RX: 36679 of 1127145http_server_OTA_update_handler: OTA RX: 37703 of 1127145http_server_OTA_update_handler: OTA RX: 38727 of 1127145http_server_OTA_update_handler: OTA RX: 39751 of 1127145http_server_OTA_update_handler: OTA RX: 40775 of 1127145http_server_OTA_update_handler: OTA RX: 41799 of 1127145http_server_OTA_update_handler: OTA RX: 42823 of 1127145http_server_OTA_update_handler: OTA RX: 43847 of 1127145http_server_OTA_update_handler: OTA RX: 44871 of 1127145http_server_OTA_update_handler: OTA RX: 45895 of 1127145http_server_OTA_update_handler: OTA RX: 46919 of 1127145http_server_OTA_update_handler: OTA RX: 47943 of 1127145http_server_OTA_update_handler: OTA RX: 48967 of 1127145http_server_OTA_update_handler: OTA RX: 49991 of 1127145http_server_OTA_update_handler: OTA RX: 51015 of 1127145http_server_OTA_update_handler: OTA RX: 52039 of 1127145http_server_OTA_update_handler: OTA RX: 53063 of 1127145http_server_OTA_update_handler: OTA RX: 54087 of 1127145http_server_OTA_update_handler: OTA RX: 55111 of 1127145http_server_OTA_update_handler: OTA RX: 56135 of 1127145http_server_OTA_update_handler: OTA RX: 57159 of 1127145http_server_OTA_update_handler: OTA RX: 58183 of 1127145http_server_OTA_update_handler: OTA RX: 59207 of 1127145http_server_OTA_update_handler: OTA RX: 60231 of 1127145http_server_OTA_update_handler: OTA RX: 61255 of 1127145http_server_OTA_update_handler: OTA RX: 62279 of 1127145http_server_OTA_update_handler: OTA RX: 63303 of 1127145http_server_OTA_update_handler: OTA RX: 64327 of 1127145http_server_OTA_update_handler: OTA RX: 65351 of 1127145http_server_OTA_update_handler: OTA RX: 66375 of 1127145http_server_OTA_update_handler: OTA RX: 67399 of 1127145http_server_OTA_update_handler: OTA RX: 68423 of 1127145http_server_OTA_update_handler: OTA RX: 69447 of 1127145http_server_OTA_update_handler: OTA RX: 70471 of 1127145http_server_OTA_update_handler: OTA RX: 71495 of 1127145http_server_OTA_update_handler: OTA RX: 72519 of 1127145http_server_OTA_update_handler: OTA RX: 73543 of 1127145http_server_OTA_update_handler: OTA RX: 74567 of 1127145http_server_OTA_update_handler: OTA RX: 75591 of 1127145http_server_OTA_update_handler: OTA RX: 76615 of 1127145http_server_OTA_update_handler: OTA RX: 77639 of 1127145http_server_OTA_update_handler: OTA RX: 78663 of 1127145http_server_OTA_update_handler: OTA RX: 79687 of 1127145http_server_OTA_update_handler: OTA RX: 80711 of 1127145http_server_OTA_update_handler: OTA RX: 81735 of 1127145http_server_OTA_update_handler: OTA RX: 82759 of 1127145http_server_OTA_update_handler: OTA RX: 83783 of 1127145http_server_OTA_update_handler: OTA RX: 84807 of 1127145http_server_OTA_update_handler: OTA RX: 85831 of 1127145http_server_OTA_update_handler: OTA RX: 86855 of 1127145http_server_OTA_update_handler: OTA RX: 87879 of 1127145http_server_OTA_update_handler: OTA RX: 88903 of 1127145http_server_OTA_update_handler: OTA RX: 89927 of 1127145http_server_OTA_update_handler: OTA RX: 90951 of 1127145http_server_OTA_update_handler: OTA RX: 91975 of 1127145http_server_OTA_update_handler: OTA RX: 92999 of 1127145http_server_OTA_update_handler: OTA RX: 94023 of 1127145http_server_OTA_update_handler: OTA RX: 95047 of 1127145http_server_OTA_update_handler: OTA RX: 96071 of 1127145http_server_OTA_update_handler: OTA RX: 97095 of 1127145http_server_OTA_update_handler: OTA RX: 98119 of 1127145http_server_OTA_update_handler: OTA RX: 99143 of 1127145http_server_OTA_update_handler: OTA RX: 100167 of 1127145http_server_OTA_update_handler: OTA RX: 101191 of 1127145http_server_OTA_update_handler: OTA RX: 102215 of 1127145http_server_OTA_update_handler: OTA RX: 103239 of 1127145http_server_OTA_update_handler: OTA RX: 104263 of 1127145http_server_OTA_update_handler: OTA RX: 105287 of 1127145http_server_OTA_update_handler: OTA RX: 106311 of 1127145http_server_OTA_update_handler: OTA RX: 107335 of 1127145http_server_OTA_update_handler: OTA RX: 108359 of 1127145http_server_OTA_update_handler: OTA RX: 109383 of 1127145http_server_OTA_update_handler: OTA RX: 110407 of 1127145http_server_OTA_update_handler: OTA RX: 111431 of 1127145http_server_OTA_update_handler: OTA RX: 112455 of 1127145http_server_OTA_update_handler: OTA RX: 113479 of 1127145http_server_OTA_update_handler: OTA RX: 114503 of 1127145http_server_OTA_update_handler: OTA RX: 115527 of 1127145http_server_OTA_update_handler: OTA RX: 116551 of 1127145http_server_OTA_update_handler: OTA RX: 117575 of 1127145http_server_OTA_update_handler: OTA RX: 118599 of 1127145http_server_OTA_update_handler: OTA RX: 119623 of 1127145http_server_OTA_update_handler: OTA RX: 120647 of 1127145http_server_OTA_update_handler: OTA RX: 121671 of 1127145http_server_OTA_update_handler: OTA RX: 122695 of 1127145http_server_OTA_update_handler: OTA RX: 123719 of 1127145http_server_OTA_update_handler: OTA RX: 124743 of 1127145http_server_OTA_update_handler: OTA RX: 125767 of 1127145http_server_OTA_update_handler: OTA RX: 126791 of 1127145http_server_OTA_update_handler: OTA RX: 127815 of 1127145http_server_OTA_update_handler: OTA RX: 128839 of 1127145http_server_OTA_update_handler: OTA RX: 129863 of 1127145http_server_OTA_update_handler: OTA RX: 130887 of 1127145http_server_OTA_update_handler: OTA RX: 131911 of 1127145http_server_OTA_update_handler: OTA RX: 132935 of 1127145http_server_OTA_update_handler: OTA RX: 133959 of 1127145http_server_OTA_update_handler: OTA RX: 134983 of 1127145http_server_OTA_update_handler: OTA RX: 136007 of 1127145http_server_OTA_update_handler: OTA RX: 137031 of 1127145http_server_OTA_update_handler: OTA RX: 138055 of 1127145http_server_OTA_update_handler: OTA RX: 139079 of 1127145http_server_OTA_update_handler: OTA RX: 140103 of 1127145http_server_OTA_update_handler: OTA RX: 141127 of 1127145http_server_OTA_update_handler: OTA RX: 142151 of 1127145http_server_OTA_update_handler: OTA RX: 143175 of 1127145http_server_OTA_update_handler: OTA RX: 144199 of 1127145http_server_OTA_update_handler: OTA RX: 145223 of 1127145http_server_OTA_update_handler: OTA RX: 146247 of 1127145http_server_OTA_update_handler: OTA RX: 147271 of 1127145http_server_OTA_update_handler: OTA RX: 148295 of 1127145http_server_OTA_update_handler: OTA RX: 149319 of 1127145http_server_OTA_update_handler: OTA RX: 150343 of 1127145http_server_OTA_update_handler: OTA RX: 151367 of 1127145http_server_OTA_update_handler: OTA RX: 152391 of 1127145http_server_OTA_update_handler: OTA RX: 153415 of 1127145http_server_OTA_update_handler: OTA RX: 154439 of 1127145http_server_OTA_update_handler: OTA RX: 155463 of 1127145http_server_OTA_update_handler: OTA RX: 156487 of 1127145http_server_OTA_update_handler: OTA RX: 157511 of 1127145http_server_OTA_update_handler: OTA RX: 158535 of 1127145http_server_OTA_update_handler: OTA RX: 159559 of 1127145http_server_OTA_update_handler: OTA RX: 160583 of 1127145http_server_OTA_update_handler: OTA RX: 161607 of 1127145http_server_OTA_update_handler: OTA RX: 162631 of 1127145http_server_OTA_update_handler: OTA RX: 163655 of 1127145http_server_OTA_update_handler: OTA RX: 164679 of 1127145http_server_OTA_update_handler: OTA RX: 165703 of 1127145http_server_OTA_update_handler: OTA RX: 166727 of 1127145http_server_OTA_update_handler: OTA RX: 167751 of 1127145http_server_OTA_update_handler: OTA RX: 168775 of 1127145http_server_OTA_update_handler: OTA RX: 169799 of 1127145http_server_OTA_update_handler: OTA RX: 170823 of 1127145http_server_OTA_update_handler: OTA RX: 171847 of 1127145http_server_OTA_update_handler: OTA RX: 172871 of 1127145http_server_OTA_update_handler: OTA RX: 173895 of 1127145http_server_OTA_update_handler: OTA RX: 174919 of 1127145http_server_OTA_update_handler: OTA RX: 175943 of 1127145http_server_OTA_update_handler: OTA RX: 176967 of 1127145http_server_OTA_update_handler: OTA RX: 177991 of 1127145http_server_OTA_update_handler: OTA RX: 179015 of 1127145http_server_OTA_update_handler: OTA RX: 180039 of 1127145http_server_OTA_update_handler: OTA RX: 181063 of 1127145http_server_OTA_update_handler: OTA RX: 182087 of 1127145http_server_OTA_update_handler: OTA RX: 183111 of 1127145http_server_OTA_update_handler: OTA RX: 184135 of 1127145http_server_OTA_update_handler: OTA RX: 185159 of 1127145http_server_OTA_update_handler: OTA RX: 186183 of 1127145http_server_OTA_update_handler: OTA RX: 187207 of 1127145http_server_OTA_update_handler: OTA RX: 188231 of 1127145http_server_OTA_update_handler: OTA RX: 189255 of 1127145http_server_OTA_update_handler: OTA RX: 190279 of 1127145http_server_OTA_update_handler: OTA RX: 191303 of 1127145http_server_OTA_update_handler: OTA RX: 192327 of 1127145http_server_OTA_update_handler: OTA RX: 193351 of 1127145http_server_OTA_update_handler: OTA RX: 194375 of 1127145http_server_OTA_update_handler: OTA RX: 195399 of 1127145http_server_OTA_update_handler: OTA RX: 196423 of 1127145http_server_OTA_update_handler: OTA RX: 197447 of 1127145http_server_OTA_update_handler: OTA RX: 198471 of 1127145http_server_OTA_update_handler: OTA RX: 199495 of 1127145http_server_OTA_update_handler: OTA RX: 200519 of 1127145http_server_OTA_update_handler: OTA RX: 201543 of 1127145http_server_OTA_update_handler: OTA RX: 202567 of 1127145http_server_OTA_update_handler: OTA RX: 203591 of 1127145http_server_OTA_update_handler: OTA RX: 204615 of 1127145http_server_OTA_update_handler: OTA RX: 205639 of 1127145http_server_OTA_update_handler: OTA RX: 206663 of 1127145http_server_OTA_update_handler: OTA RX: 207687 of 1127145http_server_OTA_update_handler: OTA RX: 208711 of 1127145http_server_OTA_update_handler: OTA RX: 209735 of 1127145http_server_OTA_update_handler: OTA RX: 210759 of 1127145http_server_OTA_update_handler: OTA RX: 211783 of 1127145http_server_OTA_update_handler: OTA RX: 212807 of 1127145http_server_OTA_update_handler: OTA RX: 213831 of 1127145http_server_OTA_update_handler: OTA RX: 214855 of 1127145http_server_OTA_update_handler: OTA RX: 215879 of 1127145http_server_OTA_update_handler: OTA RX: 216903 of 1127145http_server_OTA_update_handler: OTA RX: 217927 of 1127145http_server_OTA_update_handler: OTA RX: 218951 of 1127145http_server_OTA_update_handler: OTA RX: 219975 of 1127145http_server_OTA_update_handler: OTA RX: 220999 of 1127145http_server_OTA_update_handler: OTA RX: 222023 of 1127145http_server_OTA_update_handler: OTA RX: 223047 of 1127145http_server_OTA_update_handler: OTA RX: 224071 of 1127145http_server_OTA_update_handler: OTA RX: 225095 of 1127145http_server_OTA_update_handler: OTA RX: 226119 of 1127145http_server_OTA_update_handler: OTA RX: 227143 of 1127145http_server_OTA_update_handler: OTA RX: 228167 of 1127145http_server_OTA_update_handler: OTA RX: 229191 of 1127145http_server_OTA_update_handler: OTA RX: 230215 of 1127145http_server_OTA_update_handler: OTA RX: 231239 of 1127145http_server_OTA_update_handler: OTA RX: 232263 of 1127145http_server_OTA_update_handler: OTA RX: 233287 of 1127145http_server_OTA_update_handler: OTA RX: 234311 of 1127145http_server_OTA_update_handler: OTA RX: 235335 of 1127145http_server_OTA_update_handler: OTA RX: 236359 of 1127145http_server_OTA_update_handler: OTA RX: 237383 of 1127145http_server_OTA_update_handler: OTA RX: 238407 of 1127145http_server_OTA_update_handler: OTA RX: 239431 of 1127145http_server_OTA_update_handler: OTA RX: 240455 of 1127145http_server_OTA_update_handler: OTA RX: 241479 of 1127145http_server_OTA_update_handler: OTA RX: 242503 of 1127145http_server_OTA_update_handler: OTA RX: 243527 of 1127145http_server_OTA_update_handler: OTA RX: 244551 of 1127145http_server_OTA_update_handler: OTA RX: 245575 of 1127145http_server_OTA_update_handler: OTA RX: 246599 of 1127145http_server_OTA_update_handler: OTA RX: 247623 of 1127145http_server_OTA_update_handler: OTA RX: 248647 of 1127145http_server_OTA_update_handler: OTA RX: 249671 of 1127145http_server_OTA_update_handler: OTA RX: 250695 of 1127145http_server_OTA_update_handler: OTA RX: 251719 of 1127145http_server_OTA_update_handler: OTA RX: 252743 of 1127145http_server_OTA_update_handler: OTA RX: 253767 of 1127145http_server_OTA_update_handler: OTA RX: 254791 of 1127145http_server_OTA_update_handler: OTA RX: 255815 of 1127145http_server_OTA_update_handler: OTA RX: 256839 of 1127145http_server_OTA_update_handler: OTA RX: 257863 of 1127145http_server_OTA_update_handler: OTA RX: 258887 of 1127145http_server_OTA_update_handler: OTA RX: 259911 of 1127145http_server_OTA_update_handler: OTA RX: 260935 of 1127145http_server_OTA_update_handler: OTA RX: 261959 of 1127145http_server_OTA_update_handler: OTA RX: 262983 of 1127145http_server_OTA_update_handler: OTA RX: 264007 of 1127145http_server_OTA_update_handler: OTA RX: 265031 of 1127145http_server_OTA_update_handler: OTA RX: 266055 of 1127145http_server_OTA_update_handler: OTA RX: 267079 of 1127145http_server_OTA_update_handler: OTA RX: 268103 of 1127145http_server_OTA_update_handler: OTA RX: 269127 of 1127145http_server_OTA_update_handler: OTA RX: 270151 of 1127145http_server_OTA_update_handler: OTA RX: 271175 of 1127145http_server_OTA_update_handler: OTA RX: 272199 of 1127145http_server_OTA_update_handler: OTA RX: 273223 of 1127145http_server_OTA_update_handler: OTA RX: 274247 of 1127145http_server_OTA_update_handler: OTA RX: 275271 of 1127145http_server_OTA_update_handler: OTA RX: 276295 of 1127145http_server_OTA_update_handler: OTA RX: 277319 of 1127145http_server_OTA_update_handler: OTA RX: 278343 of 1127145http_server_OTA_update_handler: OTA RX: 279367 of 1127145http_server_OTA_update_handler: OTA RX: 280391 of 1127145http_server_OTA_update_handler: OTA RX: 281415 of 1127145http_server_OTA_update_handler: OTA RX: 282439 of 1127145http_server_OTA_update_handler: OTA RX: 283463 of 1127145http_server_OTA_update_handler: OTA RX: 284487 of 1127145http_server_OTA_update_handler: OTA RX: 285511 of 1127145http_server_OTA_update_handler: OTA RX: 286535 of 1127145http_server_OTA_update_handler: OTA RX: 287559 of 1127145http_server_OTA_update_handler: OTA RX: 288583 of 1127145http_server_OTA_update_handler: OTA RX: 289607 of 1127145http_server_OTA_update_handler: OTA RX: 290631 of 1127145http_server_OTA_update_handler: OTA RX: 291655 of 1127145http_server_OTA_update_handler: OTA RX: 292679 of 1127145http_server_OTA_update_handler: OTA RX: 293703 of 1127145http_server_OTA_update_handler: OTA RX: 294727 of 1127145http_server_OTA_update_handler: OTA RX: 295751 of 1127145http_server_OTA_update_handler: OTA RX: 296775 of 1127145http_server_OTA_update_handler: OTA RX: 297799 of 1127145http_server_OTA_update_handler: OTA RX: 298823 of 1127145http_server_OTA_update_handler: OTA RX: 299847 of 1127145http_server_OTA_update_handler: OTA RX: 300871 of 1127145http_server_OTA_update_handler: OTA RX: 301895 of 1127145http_server_OTA_update_handler: OTA RX: 302919 of 1127145http_server_OTA_update_handler: OTA RX: 303943 of 1127145http_server_OTA_update_handler: OTA RX: 304967 of 1127145http_server_OTA_update_handler: OTA RX: 305991 of 1127145http_server_OTA_update_handler: OTA RX: 307015 of 1127145http_server_OTA_update_handler: OTA RX: 308039 of 1127145http_server_OTA_update_handler: OTA RX: 309063 of 1127145http_server_OTA_update_handler: OTA RX: 310087 of 1127145http_server_OTA_update_handler: OTA RX: 311111 of 1127145http_server_OTA_update_handler: OTA RX: 312135 of 1127145http_server_OTA_update_handler: OTA RX: 313159 of 1127145http_server_OTA_update_handler: OTA RX: 314183 of 1127145http_server_OTA_update_handler: OTA RX: 315207 of 1127145http_server_OTA_update_handler: OTA RX: 316231 of 1127145http_server_OTA_update_handler: OTA RX: 317255 of 1127145http_server_OTA_update_handler: OTA RX: 318279 of 1127145http_server_OTA_update_handler: OTA RX: 319303 of 1127145http_server_OTA_update_handler: OTA RX: 320327 of 1127145http_server_OTA_update_handler: OTA RX: 321351 of 1127145http_server_OTA_update_handler: OTA RX: 322375 of 1127145http_server_OTA_update_handler: OTA RX: 323399 of 1127145http_server_OTA_update_handler: OTA RX: 324423 of 1127145http_server_OTA_update_handler: OTA RX: 325447 of 1127145http_server_OTA_update_handler: OTA RX: 326471 of 1127145http_server_OTA_update_handler: OTA RX: 327495 of 1127145http_server_OTA_update_handler: OTA RX: 328519 of 1127145http_server_OTA_update_handler: OTA RX: 329543 of 1127145http_server_OTA_update_handler: OTA RX: 330567 of 1127145http_server_OTA_update_handler: OTA RX: 331591 of 1127145http_server_OTA_update_handler: OTA RX: 332615 of 1127145http_server_OTA_update_handler: OTA RX: 333639 of 1127145http_server_OTA_update_handler: OTA RX: 334663 of 1127145http_server_OTA_update_handler: OTA RX: 335687 of 1127145http_server_OTA_update_handler: OTA RX: 336711 of 1127145http_server_OTA_update_handler: OTA RX: 337735 of 1127145http_server_OTA_update_handler: OTA RX: 338759 of 1127145http_server_OTA_update_handler: OTA RX: 339783 of 1127145http_server_OTA_update_handler: OTA RX: 340807 of 1127145http_server_OTA_update_handler: OTA RX: 341831 of 1127145http_server_OTA_update_handler: OTA RX: 342855 of 1127145http_server_OTA_update_handler: OTA RX: 343879 of 1127145http_server_OTA_update_handler: OTA RX: 344903 of 1127145http_server_OTA_update_handler: OTA RX: 345927 of 1127145http_server_OTA_update_handler: OTA RX: 346951 of 1127145http_server_OTA_update_handler: OTA RX: 347975 of 1127145http_server_OTA_update_handler: OTA RX: 348999 of 1127145http_server_OTA_update_handler: OTA RX: 350023 of 1127145http_server_OTA_update_handler: OTA RX: 351047 of 1127145http_server_OTA_update_handler: OTA RX: 352071 of 1127145http_server_OTA_update_handler: OTA RX: 353095 of 1127145http_server_OTA_update_handler: OTA RX: 354119 of 1127145=== Reading NTC103 ===
+http_server_OTA_update_handler: OTA RX: 355143 of 1127145Temp 29.6
+http_server_OTA_update_handler: OTA RX: 356167 of 1127145http_server_OTA_update_handler: OTA RX: 357191 of 1127145http_server_OTA_update_handler: OTA RX: 358215 of 1127145http_server_OTA_update_handler: OTA RX: 359239 of 1127145http_server_OTA_update_handler: OTA RX: 360263 of 1127145http_server_OTA_update_handler: OTA RX: 361287 of 1127145http_server_OTA_update_handler: OTA RX: 362311 of 1127145http_server_OTA_update_handler: OTA RX: 363335 of 1127145http_server_OTA_update_handler: OTA RX: 364359 of 1127145http_server_OTA_update_handler: OTA RX: 365383 of 1127145http_server_OTA_update_handler: OTA RX: 366407 of 1127145http_server_OTA_update_handler: OTA RX: 367431 of 1127145http_server_OTA_update_handler: OTA RX: 368455 of 1127145http_server_OTA_update_handler: OTA RX: 369479 of 1127145http_server_OTA_update_handler: OTA RX: 370503 of 1127145http_server_OTA_update_handler: OTA RX: 371527 of 1127145http_server_OTA_update_handler: OTA RX: 372551 of 1127145http_server_OTA_update_handler: OTA RX: 373575 of 1127145http_server_OTA_update_handler: OTA RX: 374599 of 1127145http_server_OTA_update_handler: OTA RX: 375623 of 1127145http_server_OTA_update_handler: OTA RX: 376647 of 1127145http_server_OTA_update_handler: OTA RX: 377671 of 1127145http_server_OTA_update_handler: OTA RX: 378695 of 1127145http_server_OTA_update_handler: OTA RX: 379719 of 1127145http_server_OTA_update_handler: OTA RX: 380743 of 1127145http_server_OTA_update_handler: OTA RX: 381767 of 1127145http_server_OTA_update_handler: OTA RX: 382791 of 1127145http_server_OTA_update_handler: OTA RX: 383815 of 1127145http_server_OTA_update_handler: OTA RX: 384839 of 1127145http_server_OTA_update_handler: OTA RX: 385863 of 1127145http_server_OTA_update_handler: OTA RX: 386887 of 1127145http_server_OTA_update_handler: OTA RX: 387911 of 1127145http_server_OTA_update_handler: OTA RX: 388935 of 1127145http_server_OTA_update_handler: OTA RX: 389959 of 1127145http_server_OTA_update_handler: OTA RX: 390983 of 1127145http_server_OTA_update_handler: OTA RX: 392007 of 1127145http_server_OTA_update_handler: OTA RX: 393031 of 1127145http_server_OTA_update_handler: OTA RX: 394055 of 1127145http_server_OTA_update_handler: OTA RX: 395079 of 1127145http_server_OTA_update_handler: OTA RX: 396103 of 1127145http_server_OTA_update_handler: OTA RX: 397127 of 1127145http_server_OTA_update_handler: OTA RX: 398151 of 1127145http_server_OTA_update_handler: OTA RX: 399175 of 1127145http_server_OTA_update_handler: OTA RX: 400199 of 1127145http_server_OTA_update_handler: OTA RX: 401223 of 1127145http_server_OTA_update_handler: OTA RX: 402247 of 1127145http_server_OTA_update_handler: OTA RX: 403271 of 1127145http_server_OTA_update_handler: OTA RX: 404295 of 1127145http_server_OTA_update_handler: OTA RX: 405319 of 1127145http_server_OTA_update_handler: OTA RX: 406343 of 1127145http_server_OTA_update_handler: OTA RX: 407367 of 1127145http_server_OTA_update_handler: OTA RX: 408391 of 1127145http_server_OTA_update_handler: OTA RX: 409415 of 1127145http_server_OTA_update_handler: OTA RX: 410439 of 1127145http_server_OTA_update_handler: OTA RX: 411463 of 1127145http_server_OTA_update_handler: OTA RX: 412487 of 1127145http_server_OTA_update_handler: OTA RX: 413511 of 1127145http_server_OTA_update_handler: OTA RX: 414535 of 1127145http_server_OTA_update_handler: OTA RX: 415559 of 1127145http_server_OTA_update_handler: OTA RX: 416583 of 1127145http_server_OTA_update_handler: OTA RX: 417607 of 1127145http_server_OTA_update_handler: OTA RX: 418631 of 1127145http_server_OTA_update_handler: OTA RX: 419655 of 1127145http_server_OTA_update_handler: OTA RX: 420679 of 1127145http_server_OTA_update_handler: OTA RX: 421703 of 1127145http_server_OTA_update_handler: OTA RX: 422727 of 1127145http_server_OTA_update_handler: OTA RX: 423751 of 1127145http_server_OTA_update_handler: OTA RX: 424775 of 1127145http_server_OTA_update_handler: OTA RX: 425799 of 1127145http_server_OTA_update_handler: OTA RX: 426823 of 1127145http_server_OTA_update_handler: OTA RX: 427847 of 1127145http_server_OTA_update_handler: OTA RX: 428871 of 1127145http_server_OTA_update_handler: OTA RX: 429895 of 1127145http_server_OTA_update_handler: OTA RX: 430919 of 1127145http_server_OTA_update_handler: OTA RX: 431943 of 1127145http_server_OTA_update_handler: OTA RX: 432967 of 1127145http_server_OTA_update_handler: OTA RX: 433991 of 1127145http_server_OTA_update_handler: OTA RX: 435015 of 1127145http_server_OTA_update_handler: OTA RX: 436039 of 1127145http_server_OTA_update_handler: OTA RX: 437063 of 1127145http_server_OTA_update_handler: OTA RX: 438087 of 1127145http_server_OTA_update_handler: OTA RX: 439111 of 1127145http_server_OTA_update_handler: OTA RX: 440135 of 1127145http_server_OTA_update_handler: OTA RX: 441159 of 1127145http_server_OTA_update_handler: OTA RX: 442183 of 1127145http_server_OTA_update_handler: OTA RX: 443207 of 1127145http_server_OTA_update_handler: OTA RX: 444231 of 1127145http_server_OTA_update_handler: OTA RX: 445255 of 1127145http_server_OTA_update_handler: OTA RX: 446279 of 1127145http_server_OTA_update_handler: OTA RX: 447303 of 1127145http_server_OTA_update_handler: OTA RX: 448327 of 1127145http_server_OTA_update_handler: OTA RX: 449351 of 1127145http_server_OTA_update_handler: OTA RX: 450375 of 1127145http_server_OTA_update_handler: OTA RX: 451399 of 1127145http_server_OTA_update_handler: OTA RX: 452423 of 1127145http_server_OTA_update_handler: OTA RX: 453447 of 1127145http_server_OTA_update_handler: OTA RX: 454471 of 1127145http_server_OTA_update_handler: OTA RX: 455495 of 1127145http_server_OTA_update_handler: OTA RX: 456519 of 1127145http_server_OTA_update_handler: OTA RX: 457543 of 1127145http_server_OTA_update_handler: OTA RX: 458567 of 1127145http_server_OTA_update_handler: OTA RX: 459591 of 1127145http_server_OTA_update_handler: OTA RX: 460615 of 1127145http_server_OTA_update_handler: OTA RX: 461639 of 1127145http_server_OTA_update_handler: OTA RX: 462663 of 1127145http_server_OTA_update_handler: OTA RX: 463687 of 1127145http_server_OTA_update_handler: OTA RX: 464711 of 1127145http_server_OTA_update_handler: OTA RX: 465735 of 1127145http_server_OTA_update_handler: OTA RX: 466759 of 1127145http_server_OTA_update_handler: OTA RX: 467783 of 1127145http_server_OTA_update_handler: OTA RX: 468807 of 1127145http_server_OTA_update_handler: OTA RX: 469831 of 1127145http_server_OTA_update_handler: OTA RX: 470855 of 1127145http_server_OTA_update_handler: OTA RX: 471879 of 1127145http_server_OTA_update_handler: OTA RX: 472903 of 1127145http_server_OTA_update_handler: OTA RX: 473927 of 1127145http_server_OTA_update_handler: OTA RX: 474951 of 1127145http_server_OTA_update_handler: OTA RX: 475975 of 1127145http_server_OTA_update_handler: OTA RX: 476999 of 1127145http_server_OTA_update_handler: OTA RX: 478023 of 1127145http_server_OTA_update_handler: OTA RX: 479047 of 1127145http_server_OTA_update_handler: OTA RX: 480071 of 1127145http_server_OTA_update_handler: OTA RX: 481095 of 1127145http_server_OTA_update_handler: OTA RX: 482119 of 1127145http_server_OTA_update_handler: OTA RX: 483143 of 1127145http_server_OTA_update_handler: OTA RX: 484167 of 1127145http_server_OTA_update_handler: OTA RX: 485191 of 1127145http_server_OTA_update_handler: OTA RX: 486215 of 1127145http_server_OTA_update_handler: OTA RX: 487239 of 1127145http_server_OTA_update_handler: OTA RX: 488263 of 1127145http_server_OTA_update_handler: OTA RX: 489287 of 1127145http_server_OTA_update_handler: OTA RX: 490311 of 1127145http_server_OTA_update_handler: OTA RX: 491335 of 1127145http_server_OTA_update_handler: OTA RX: 492359 of 1127145http_server_OTA_update_handler: OTA RX: 493383 of 1127145http_server_OTA_update_handler: OTA RX: 494407 of 1127145http_server_OTA_update_handler: OTA RX: 495431 of 1127145http_server_OTA_update_handler: OTA RX: 496455 of 1127145http_server_OTA_update_handler: OTA RX: 497479 of 1127145http_server_OTA_update_handler: OTA RX: 498503 of 1127145http_server_OTA_update_handler: OTA RX: 499527 of 1127145http_server_OTA_update_handler: OTA RX: 500551 of 1127145http_server_OTA_update_handler: OTA RX: 501575 of 1127145http_server_OTA_update_handler: OTA RX: 502599 of 1127145http_server_OTA_update_handler: OTA RX: 503623 of 1127145http_server_OTA_update_handler: OTA RX: 504647 of 1127145http_server_OTA_update_handler: OTA RX: 505671 of 1127145http_server_OTA_update_handler: OTA RX: 506695 of 1127145http_server_OTA_update_handler: OTA RX: 507719 of 1127145http_server_OTA_update_handler: OTA RX: 508743 of 1127145http_server_OTA_update_handler: OTA RX: 509767 of 1127145http_server_OTA_update_handler: OTA RX: 510791 of 1127145http_server_OTA_update_handler: OTA RX: 511815 of 1127145http_server_OTA_update_handler: OTA RX: 512839 of 1127145http_server_OTA_update_handler: OTA RX: 513863 of 1127145http_server_OTA_update_handler: OTA RX: 514887 of 1127145http_server_OTA_update_handler: OTA RX: 515911 of 1127145http_server_OTA_update_handler: OTA RX: 516935 of 1127145http_server_OTA_update_handler: OTA RX: 517959 of 1127145http_server_OTA_update_handler: OTA RX: 518983 of 1127145http_server_OTA_update_handler: OTA RX: 520007 of 1127145http_server_OTA_update_handler: OTA RX: 521031 of 1127145http_server_OTA_update_handler: OTA RX: 522055 of 1127145http_server_OTA_update_handler: OTA RX: 523079 of 1127145http_server_OTA_update_handler: OTA RX: 524103 of 1127145http_server_OTA_update_handler: OTA RX: 525127 of 1127145http_server_OTA_update_handler: OTA RX: 526151 of 1127145http_server_OTA_update_handler: OTA RX: 527175 of 1127145http_server_OTA_update_handler: OTA RX: 528199 of 1127145http_server_OTA_update_handler: OTA RX: 529223 of 1127145http_server_OTA_update_handler: OTA RX: 530247 of 1127145http_server_OTA_update_handler: OTA RX: 531271 of 1127145http_server_OTA_update_handler: OTA RX: 532295 of 1127145http_server_OTA_update_handler: OTA RX: 533319 of 1127145http_server_OTA_update_handler: OTA RX: 534343 of 1127145http_server_OTA_update_handler: OTA RX: 535367 of 1127145http_server_OTA_update_handler: OTA RX: 536391 of 1127145http_server_OTA_update_handler: OTA RX: 537415 of 1127145http_server_OTA_update_handler: OTA RX: 538439 of 1127145http_server_OTA_update_handler: OTA RX: 539463 of 1127145http_server_OTA_update_handler: OTA RX: 540487 of 1127145http_server_OTA_update_handler: OTA RX: 541511 of 1127145http_server_OTA_update_handler: OTA RX: 542535 of 1127145http_server_OTA_update_handler: OTA RX: 543559 of 1127145http_server_OTA_update_handler: OTA RX: 544583 of 1127145http_server_OTA_update_handler: OTA RX: 545607 of 1127145http_server_OTA_update_handler: OTA RX: 546631 of 1127145http_server_OTA_update_handler: OTA RX: 547655 of 1127145http_server_OTA_update_handler: OTA RX: 548679 of 1127145http_server_OTA_update_handler: OTA RX: 549703 of 1127145http_server_OTA_update_handler: OTA RX: 550727 of 1127145http_server_OTA_update_handler: OTA RX: 551751 of 1127145http_server_OTA_update_handler: OTA RX: 552775 of 1127145http_server_OTA_update_handler: OTA RX: 553799 of 1127145http_server_OTA_update_handler: OTA RX: 554823 of 1127145http_server_OTA_update_handler: OTA RX: 555847 of 1127145http_server_OTA_update_handler: OTA RX: 556871 of 1127145http_server_OTA_update_handler: OTA RX: 557895 of 1127145http_server_OTA_update_handler: OTA RX: 558919 of 1127145http_server_OTA_update_handler: OTA RX: 559943 of 1127145http_server_OTA_update_handler: OTA RX: 560967 of 1127145http_server_OTA_update_handler: OTA RX: 561991 of 1127145http_server_OTA_update_handler: OTA RX: 563015 of 1127145http_server_OTA_update_handler: OTA RX: 564039 of 1127145http_server_OTA_update_handler: OTA RX: 565063 of 1127145http_server_OTA_update_handler: OTA RX: 566087 of 1127145http_server_OTA_update_handler: OTA RX: 567111 of 1127145http_server_OTA_update_handler: OTA RX: 568135 of 1127145http_server_OTA_update_handler: OTA RX: 569159 of 1127145http_server_OTA_update_handler: OTA RX: 570183 of 1127145http_server_OTA_update_handler: OTA RX: 571207 of 1127145http_server_OTA_update_handler: OTA RX: 572231 of 1127145http_server_OTA_update_handler: OTA RX: 573255 of 1127145http_server_OTA_update_handler: OTA RX: 574279 of 1127145http_server_OTA_update_handler: OTA RX: 575303 of 1127145http_server_OTA_update_handler: OTA RX: 576327 of 1127145http_server_OTA_update_handler: OTA RX: 577351 of 1127145http_server_OTA_update_handler: OTA RX: 578375 of 1127145http_server_OTA_update_handler: OTA RX: 579399 of 1127145http_server_OTA_update_handler: OTA RX: 580423 of 1127145http_server_OTA_update_handler: OTA RX: 581447 of 1127145http_server_OTA_update_handler: OTA RX: 582471 of 1127145http_server_OTA_update_handler: OTA RX: 583495 of 1127145http_server_OTA_update_handler: OTA RX: 584519 of 1127145http_server_OTA_update_handler: OTA RX: 585543 of 1127145http_server_OTA_update_handler: OTA RX: 586567 of 1127145http_server_OTA_update_handler: OTA RX: 587591 of 1127145http_server_OTA_update_handler: OTA RX: 588615 of 1127145http_server_OTA_update_handler: OTA RX: 589639 of 1127145http_server_OTA_update_handler: OTA RX: 590663 of 1127145http_server_OTA_update_handler: OTA RX: 591687 of 1127145http_server_OTA_update_handler: OTA RX: 592711 of 1127145http_server_OTA_update_handler: OTA RX: 593735 of 1127145http_server_OTA_update_handler: OTA RX: 594759 of 1127145http_server_OTA_update_handler: OTA RX: 595783 of 1127145http_server_OTA_update_handler: OTA RX: 596807 of 1127145http_server_OTA_update_handler: OTA RX: 597831 of 1127145http_server_OTA_update_handler: OTA RX: 598855 of 1127145http_server_OTA_update_handler: OTA RX: 599879 of 1127145http_server_OTA_update_handler: OTA RX: 600903 of 1127145http_server_OTA_update_handler: OTA RX: 601927 of 1127145http_server_OTA_update_handler: OTA RX: 602951 of 1127145http_server_OTA_update_handler: OTA RX: 603975 of 1127145http_server_OTA_update_handler: OTA RX: 604999 of 1127145http_server_OTA_update_handler: OTA RX: 606023 of 1127145http_server_OTA_update_handler: OTA RX: 607047 of 1127145http_server_OTA_update_handler: OTA RX: 608071 of 1127145http_server_OTA_update_handler: OTA RX: 609095 of 1127145http_server_OTA_update_handler: OTA RX: 610119 of 1127145http_server_OTA_update_handler: OTA RX: 611143 of 1127145http_server_OTA_update_handler: OTA RX: 612167 of 1127145http_server_OTA_update_handler: OTA RX: 613191 of 1127145http_server_OTA_update_handler: OTA RX: 614215 of 1127145http_server_OTA_update_handler: OTA RX: 615239 of 1127145http_server_OTA_update_handler: OTA RX: 616263 of 1127145http_server_OTA_update_handler: OTA RX: 617287 of 1127145http_server_OTA_update_handler: OTA RX: 618311 of 1127145http_server_OTA_update_handler: OTA RX: 619335 of 1127145http_server_OTA_update_handler: OTA RX: 620359 of 1127145http_server_OTA_update_handler: OTA RX: 621383 of 1127145http_server_OTA_update_handler: OTA RX: 622407 of 1127145http_server_OTA_update_handler: OTA RX: 623431 of 1127145http_server_OTA_update_handler: OTA RX: 624455 of 1127145http_server_OTA_update_handler: OTA RX: 625479 of 1127145http_server_OTA_update_handler: OTA RX: 626503 of 1127145http_server_OTA_update_handler: OTA RX: 627527 of 1127145http_server_OTA_update_handler: OTA RX: 628551 of 1127145http_server_OTA_update_handler: OTA RX: 629575 of 1127145http_server_OTA_update_handler: OTA RX: 630599 of 1127145http_server_OTA_update_handler: OTA RX: 631623 of 1127145http_server_OTA_update_handler: OTA RX: 632647 of 1127145http_server_OTA_update_handler: OTA RX: 633671 of 1127145http_server_OTA_update_handler: OTA RX: 634695 of 1127145http_server_OTA_update_handler: OTA RX: 635719 of 1127145http_server_OTA_update_handler: OTA RX: 636743 of 1127145http_server_OTA_update_handler: OTA RX: 637767 of 1127145http_server_OTA_update_handler: OTA RX: 638791 of 1127145http_server_OTA_update_handler: OTA RX: 639815 of 1127145http_server_OTA_update_handler: OTA RX: 640839 of 1127145http_server_OTA_update_handler: OTA RX: 641863 of 1127145http_server_OTA_update_handler: OTA RX: 642887 of 1127145http_server_OTA_update_handler: OTA RX: 643911 of 1127145http_server_OTA_update_handler: OTA RX: 644935 of 1127145http_server_OTA_update_handler: OTA RX: 645959 of 1127145http_server_OTA_update_handler: OTA RX: 646983 of 1127145http_server_OTA_update_handler: OTA RX: 648007 of 1127145http_server_OTA_update_handler: OTA RX: 649031 of 1127145http_server_OTA_update_handler: OTA RX: 650055 of 1127145http_server_OTA_update_handler: OTA RX: 651079 of 1127145http_server_OTA_update_handler: OTA RX: 652103 of 1127145http_server_OTA_update_handler: OTA RX: 653127 of 1127145http_server_OTA_update_handler: OTA RX: 654151 of 1127145http_server_OTA_update_handler: OTA RX: 655175 of 1127145http_server_OTA_update_handler: OTA RX: 656199 of 1127145http_server_OTA_update_handler: OTA RX: 657223 of 1127145http_server_OTA_update_handler: OTA RX: 658247 of 1127145http_server_OTA_update_handler: OTA RX: 659271 of 1127145http_server_OTA_update_handler: OTA RX: 660295 of 1127145http_server_OTA_update_handler: OTA RX: 661319 of 1127145http_server_OTA_update_handler: OTA RX: 662343 of 1127145http_server_OTA_update_handler: OTA RX: 663367 of 1127145http_server_OTA_update_handler: OTA RX: 664391 of 1127145http_server_OTA_update_handler: OTA RX: 665415 of 1127145http_server_OTA_update_handler: OTA RX: 666439 of 1127145http_server_OTA_update_handler: OTA RX: 667463 of 1127145http_server_OTA_update_handler: OTA RX: 668487 of 1127145http_server_OTA_update_handler: OTA RX: 669511 of 1127145http_server_OTA_update_handler: OTA RX: 670535 of 1127145http_server_OTA_update_handler: OTA RX: 671559 of 1127145http_server_OTA_update_handler: OTA RX: 672583 of 1127145http_server_OTA_update_handler: OTA RX: 673607 of 1127145http_server_OTA_update_handler: OTA RX: 674631 of 1127145http_server_OTA_update_handler: OTA RX: 675655 of 1127145http_server_OTA_update_handler: OTA RX: 676679 of 1127145http_server_OTA_update_handler: OTA RX: 677703 of 1127145http_server_OTA_update_handler: OTA RX: 678727 of 1127145http_server_OTA_update_handler: OTA RX: 679751 of 1127145http_server_OTA_update_handler: OTA RX: 680775 of 1127145http_server_OTA_update_handler: OTA RX: 681799 of 1127145http_server_OTA_update_handler: OTA RX: 682823 of 1127145http_server_OTA_update_handler: OTA RX: 683847 of 1127145http_server_OTA_update_handler: OTA RX: 684871 of 1127145http_server_OTA_update_handler: OTA RX: 685895 of 1127145http_server_OTA_update_handler: OTA RX: 686919 of 1127145http_server_OTA_update_handler: OTA RX: 687943 of 1127145http_server_OTA_update_handler: OTA RX: 688967 of 1127145http_server_OTA_update_handler: OTA RX: 689991 of 1127145http_server_OTA_update_handler: OTA RX: 691015 of 1127145http_server_OTA_update_handler: OTA RX: 692039 of 1127145http_server_OTA_update_handler: OTA RX: 693063 of 1127145http_server_OTA_update_handler: OTA RX: 694087 of 1127145http_server_OTA_update_handler: OTA RX: 695111 of 1127145http_server_OTA_update_handler: OTA RX: 696135 of 1127145http_server_OTA_update_handler: OTA RX: 697159 of 1127145http_server_OTA_update_handler: OTA RX: 698183 of 1127145http_server_OTA_update_handler: OTA RX: 699207 of 1127145http_server_OTA_update_handler: OTA RX: 700231 of 1127145http_server_OTA_update_handler: OTA RX: 701255 of 1127145http_server_OTA_update_handler: OTA RX: 702279 of 1127145http_server_OTA_update_handler: OTA RX: 703303 of 1127145http_server_OTA_update_handler: OTA RX: 704327 of 1127145http_server_OTA_update_handler: OTA RX: 705351 of 1127145http_server_OTA_update_handler: OTA RX: 706375 of 1127145http_server_OTA_update_handler: OTA RX: 707399 of 1127145http_server_OTA_update_handler: OTA RX: 708423 of 1127145http_server_OTA_update_handler: OTA RX: 709447 of 1127145http_server_OTA_update_handler: OTA RX: 710471 of 1127145http_server_OTA_update_handler: OTA RX: 711495 of 1127145http_server_OTA_update_handler: OTA RX: 712519 of 1127145http_server_OTA_update_handler: OTA RX: 713543 of 1127145http_server_OTA_update_handler: OTA RX: 714567 of 1127145http_server_OTA_update_handler: OTA RX: 715591 of 1127145http_server_OTA_update_handler: OTA RX: 716615 of 1127145http_server_OTA_update_handler: OTA RX: 717639 of 1127145http_server_OTA_update_handler: OTA RX: 718663 of 1127145http_server_OTA_update_handler: OTA RX: 719687 of 1127145http_server_OTA_update_handler: OTA RX: 720711 of 1127145http_server_OTA_update_handler: OTA RX: 721735 of 1127145http_server_OTA_update_handler: OTA RX: 722759 of 1127145http_server_OTA_update_handler: OTA RX: 723783 of 1127145http_server_OTA_update_handler: OTA RX: 724807 of 1127145http_server_OTA_update_handler: OTA RX: 725831 of 1127145http_server_OTA_update_handler: OTA RX: 726855 of 1127145http_server_OTA_update_handler: OTA RX: 727879 of 1127145http_server_OTA_update_handler: OTA RX: 728903 of 1127145http_server_OTA_update_handler: OTA RX: 729927 of 1127145http_server_OTA_update_handler: OTA RX: 730951 of 1127145http_server_OTA_update_handler: OTA RX: 731975 of 1127145http_server_OTA_update_handler: OTA RX: 732999 of 1127145http_server_OTA_update_handler: OTA RX: 734023 of 1127145http_server_OTA_update_handler: OTA RX: 735047 of 1127145http_server_OTA_update_handler: OTA RX: 736071 of 1127145http_server_OTA_update_handler: OTA RX: 737095 of 1127145http_server_OTA_update_handler: OTA RX: 738119 of 1127145http_server_OTA_update_handler: OTA RX: 739143 of 1127145http_server_OTA_update_handler: OTA RX: 740167 of 1127145http_server_OTA_update_handler: OTA RX: 741191 of 1127145http_server_OTA_update_handler: OTA RX: 742215 of 1127145http_server_OTA_update_handler: OTA RX: 743239 of 1127145http_server_OTA_update_handler: OTA RX: 744263 of 1127145http_server_OTA_update_handler: OTA RX: 745287 of 1127145http_server_OTA_update_handler: OTA RX: 746311 of 1127145http_server_OTA_update_handler: OTA RX: 747335 of 1127145http_server_OTA_update_handler: OTA RX: 748359 of 1127145http_server_OTA_update_handler: OTA RX: 749383 of 1127145http_server_OTA_update_handler: OTA RX: 750407 of 1127145http_server_OTA_update_handler: OTA RX: 751431 of 1127145http_server_OTA_update_handler: OTA RX: 752455 of 1127145http_server_OTA_update_handler: OTA RX: 753479 of 1127145http_server_OTA_update_handler: OTA RX: 754503 of 1127145http_server_OTA_update_handler: OTA RX: 755527 of 1127145http_server_OTA_update_handler: OTA RX: 756551 of 1127145http_server_OTA_update_handler: OTA RX: 757575 of 1127145http_server_OTA_update_handler: OTA RX: 758599 of 1127145http_server_OTA_update_handler: OTA RX: 759623 of 1127145http_server_OTA_update_handler: OTA RX: 760647 of 1127145http_server_OTA_update_handler: OTA RX: 761671 of 1127145http_server_OTA_update_handler: OTA RX: 762695 of 1127145http_server_OTA_update_handler: OTA RX: 763719 of 1127145http_server_OTA_update_handler: OTA RX: 764743 of 1127145http_server_OTA_update_handler: OTA RX: 765767 of 1127145http_server_OTA_update_handler: OTA RX: 766791 of 1127145http_server_OTA_update_handler: OTA RX: 767815 of 1127145http_server_OTA_update_handler: OTA RX: 768839 of 1127145http_server_OTA_update_handler: OTA RX: 769863 of 1127145http_server_OTA_update_handler: OTA RX: 770887 of 1127145http_server_OTA_update_handler: OTA RX: 771911 of 1127145http_server_OTA_update_handler: OTA RX: 772935 of 1127145http_server_OTA_update_handler: OTA RX: 773959 of 1127145http_server_OTA_update_handler: OTA RX: 774983 of 1127145http_server_OTA_update_handler: OTA RX: 776007 of 1127145http_server_OTA_update_handler: OTA RX: 777031 of 1127145http_server_OTA_update_handler: OTA RX: 778055 of 1127145http_server_OTA_update_handler: OTA RX: 779079 of 1127145http_server_OTA_update_handler: OTA RX: 780103 of 1127145http_server_OTA_update_handler: OTA RX: 781127 of 1127145http_server_OTA_update_handler: OTA RX: 782151 of 1127145http_server_OTA_update_handler: OTA RX: 783175 of 1127145http_server_OTA_update_handler: OTA RX: 784199 of 1127145http_server_OTA_update_handler: OTA RX: 785223 of 1127145http_server_OTA_update_handler: OTA RX: 786247 of 1127145http_server_OTA_update_handler: OTA RX: 787271 of 1127145http_server_OTA_update_handler: OTA RX: 788295 of 1127145http_server_OTA_update_handler: OTA RX: 789319 of 1127145http_server_OTA_update_handler: OTA RX: 790343 of 1127145http_server_OTA_update_handler: OTA RX: 791367 of 1127145http_server_OTA_update_handler: OTA RX: 792391 of 1127145http_server_OTA_update_handler: OTA RX: 793415 of 1127145http_server_OTA_update_handler: OTA RX: 794439 of 1127145http_server_OTA_update_handler: OTA RX: 795463 of 1127145http_server_OTA_update_handler: OTA RX: 796487 of 1127145http_server_OTA_update_handler: OTA RX: 797511 of 1127145http_server_OTA_update_handler: OTA RX: 798535 of 1127145http_server_OTA_update_handler: OTA RX: 799559 of 1127145http_server_OTA_update_handler: OTA RX: 800583 of 1127145http_server_OTA_update_handler: OTA RX: 801607 of 1127145http_server_OTA_update_handler: OTA RX: 802631 of 1127145http_server_OTA_update_handler: OTA RX: 803655 of 1127145http_server_OTA_update_handler: OTA RX: 804679 of 1127145http_server_OTA_update_handler: OTA RX: 805703 of 1127145http_server_OTA_update_handler: OTA RX: 806727 of 1127145http_server_OTA_update_handler: OTA RX: 807751 of 1127145http_server_OTA_update_handler: OTA RX: 808775 of 1127145http_server_OTA_update_handler: OTA RX: 809799 of 1127145http_server_OTA_update_handler: OTA RX: 810823 of 1127145http_server_OTA_update_handler: OTA RX: 811847 of 1127145http_server_OTA_update_handler: OTA RX: 812871 of 1127145http_server_OTA_update_handler: OTA RX: 813895 of 1127145http_server_OTA_update_handler: OTA RX: 814919 of 1127145http_server_OTA_update_handler: OTA RX: 815943 of 1127145http_server_OTA_update_handler: OTA RX: 816967 of 1127145http_server_OTA_update_handler: OTA RX: 817991 of 1127145http_server_OTA_update_handler: OTA RX: 819015 of 1127145http_server_OTA_update_handler: OTA RX: 820039 of 1127145http_server_OTA_update_handler: OTA RX: 821063 of 1127145http_server_OTA_update_handler: OTA RX: 822087 of 1127145http_server_OTA_update_handler: OTA RX: 823111 of 1127145http_server_OTA_update_handler: OTA RX: 824135 of 1127145http_server_OTA_update_handler: OTA RX: 825159 of 1127145http_server_OTA_update_handler: OTA RX: 826183 of 1127145http_server_OTA_update_handler: OTA RX: 827207 of 1127145http_server_OTA_update_handler: OTA RX: 828231 of 1127145http_server_OTA_update_handler: OTA RX: 829255 of 1127145http_server_OTA_update_handler: OTA RX: 830279 of 1127145http_server_OTA_update_handler: OTA RX: 831303 of 1127145http_server_OTA_update_handler: OTA RX: 832327 of 1127145http_server_OTA_update_handler: OTA RX: 833351 of 1127145http_server_OTA_update_handler: OTA RX: 834375 of 1127145http_server_OTA_update_handler: OTA RX: 835399 of 1127145http_server_OTA_update_handler: OTA RX: 836423 of 1127145http_server_OTA_update_handler: OTA RX: 837447 of 1127145http_server_OTA_update_handler: OTA RX: 838471 of 1127145http_server_OTA_update_handler: OTA RX: 839495 of 1127145http_server_OTA_update_handler: OTA RX: 840519 of 1127145http_server_OTA_update_handler: OTA RX: 841543 of 1127145http_server_OTA_update_handler: OTA RX: 842567 of 1127145http_server_OTA_update_handler: OTA RX: 843591 of 1127145http_server_OTA_update_handler: OTA RX: 844615 of 1127145http_server_OTA_update_handler: OTA RX: 845639 of 1127145http_server_OTA_update_handler: OTA RX: 846663 of 1127145http_server_OTA_update_handler: OTA RX: 847687 of 1127145http_server_OTA_update_handler: OTA RX: 848711 of 1127145http_server_OTA_update_handler: OTA RX: 849735 of 1127145http_server_OTA_update_handler: OTA RX: 850759 of 1127145http_server_OTA_update_handler: OTA RX: 851783 of 1127145http_server_OTA_update_handler: OTA RX: 852807 of 1127145http_server_OTA_update_handler: OTA RX: 853831 of 1127145http_server_OTA_update_handler: OTA RX: 854855 of 1127145http_server_OTA_update_handler: OTA RX: 855879 of 1127145http_server_OTA_update_handler: OTA RX: 856903 of 1127145http_server_OTA_update_handler: OTA RX: 857927 of 1127145http_server_OTA_update_handler: OTA RX: 858951 of 1127145http_server_OTA_update_handler: OTA RX: 859975 of 1127145http_server_OTA_update_handler: OTA RX: 860999 of 1127145http_server_OTA_update_handler: OTA RX: 862023 of 1127145http_server_OTA_update_handler: OTA RX: 863047 of 1127145http_server_OTA_update_handler: OTA RX: 864071 of 1127145http_server_OTA_update_handler: OTA RX: 865095 of 1127145http_server_OTA_update_handler: OTA RX: 866119 of 1127145http_server_OTA_update_handler: OTA RX: 867143 of 1127145http_server_OTA_update_handler: OTA RX: 868167 of 1127145http_server_OTA_update_handler: OTA RX: 869191 of 1127145http_server_OTA_update_handler: OTA RX: 870215 of 1127145http_server_OTA_update_handler: OTA RX: 871239 of 1127145http_server_OTA_update_handler: OTA RX: 872263 of 1127145http_server_OTA_update_handler: OTA RX: 873287 of 1127145http_server_OTA_update_handler: OTA RX: 874311 of 1127145http_server_OTA_update_handler: OTA RX: 875335 of 1127145http_server_OTA_update_handler: OTA RX: 876359 of 1127145http_server_OTA_update_handler: OTA RX: 877383 of 1127145http_server_OTA_update_handler: OTA RX: 878407 of 1127145http_server_OTA_update_handler: OTA RX: 879431 of 1127145http_server_OTA_update_handler: OTA RX: 880455 of 1127145http_server_OTA_update_handler: OTA RX: 881479 of 1127145http_server_OTA_update_handler: OTA RX: 882503 of 1127145http_server_OTA_update_handler: OTA RX: 883527 of 1127145http_server_OTA_update_handler: OTA RX: 884551 of 1127145http_server_OTA_update_handler: OTA RX: 885575 of 1127145http_server_OTA_update_handler: OTA RX: 886599 of 1127145http_server_OTA_update_handler: OTA RX: 887623 of 1127145http_server_OTA_update_handler: OTA RX: 888647 of 1127145http_server_OTA_update_handler: OTA RX: 889671 of 1127145http_server_OTA_update_handler: OTA RX: 890695 of 1127145http_server_OTA_update_handler: OTA RX: 891719 of 1127145http_server_OTA_update_handler: OTA RX: 892743 of 1127145http_server_OTA_update_handler: OTA RX: 893767 of 1127145http_server_OTA_update_handler: OTA RX: 894791 of 1127145http_server_OTA_update_handler: OTA RX: 895815 of 1127145http_server_OTA_update_handler: OTA RX: 896839 of 1127145http_server_OTA_update_handler: OTA RX: 897863 of 1127145http_server_OTA_update_handler: OTA RX: 898887 of 1127145http_server_OTA_update_handler: OTA RX: 899911 of 1127145http_server_OTA_update_handler: OTA RX: 900935 of 1127145http_server_OTA_update_handler: OTA RX: 901959 of 1127145http_server_OTA_update_handler: OTA RX: 902983 of 1127145http_server_OTA_update_handler: OTA RX: 904007 of 1127145http_server_OTA_update_handler: OTA RX: 905031 of 1127145http_server_OTA_update_handler: OTA RX: 906055 of 1127145http_server_OTA_update_handler: OTA RX: 907079 of 1127145http_server_OTA_update_handler: OTA RX: 908103 of 1127145http_server_OTA_update_handler: OTA RX: 909127 of 1127145http_server_OTA_update_handler: OTA RX: 910151 of 1127145http_server_OTA_update_handler: OTA RX: 911175 of 1127145http_server_OTA_update_handler: OTA RX: 912199 of 1127145http_server_OTA_update_handler: OTA RX: 913223 of 1127145http_server_OTA_update_handler: OTA RX: 914247 of 1127145http_server_OTA_update_handler: OTA RX: 915271 of 1127145http_server_OTA_update_handler: OTA RX: 916295 of 1127145http_server_OTA_update_handler: OTA RX: 917319 of 1127145http_server_OTA_update_handler: OTA RX: 918343 of 1127145http_server_OTA_update_handler: OTA RX: 919367 of 1127145http_server_OTA_update_handler: OTA RX: 920391 of 1127145http_server_OTA_update_handler: OTA RX: 921415 of 1127145http_server_OTA_update_handler: OTA RX: 922439 of 1127145http_server_OTA_update_handler: OTA RX: 923463 of 1127145http_server_OTA_update_handler: OTA RX: 924487 of 1127145http_server_OTA_update_handler: OTA RX: 925511 of 1127145http_server_OTA_update_handler: OTA RX: 926535 of 1127145http_server_OTA_update_handler: OTA RX: 927559 of 1127145http_server_OTA_update_handler: OTA RX: 928583 of 1127145http_server_OTA_update_handler: OTA RX: 929607 of 1127145http_server_OTA_update_handler: OTA RX: 930631 of 1127145http_server_OTA_update_handler: OTA RX: 931655 of 1127145http_server_OTA_update_handler: OTA RX: 932679 of 1127145http_server_OTA_update_handler: OTA RX: 933703 of 1127145http_server_OTA_update_handler: OTA RX: 934727 of 1127145http_server_OTA_update_handler: OTA RX: 935751 of 1127145http_server_OTA_update_handler: OTA RX: 936775 of 1127145http_server_OTA_update_handler: OTA RX: 937799 of 1127145http_server_OTA_update_handler: OTA RX: 938823 of 1127145http_server_OTA_update_handler: OTA RX: 939847 of 1127145http_server_OTA_update_handler: OTA RX: 940871 of 1127145http_server_OTA_update_handler: OTA RX: 941895 of 1127145http_server_OTA_update_handler: OTA RX: 942919 of 1127145http_server_OTA_update_handler: OTA RX: 943943 of 1127145http_server_OTA_update_handler: OTA RX: 944967 of 1127145http_server_OTA_update_handler: OTA RX: 945991 of 1127145http_server_OTA_update_handler: OTA RX: 947015 of 1127145http_server_OTA_update_handler: OTA RX: 948039 of 1127145http_server_OTA_update_handler: OTA RX: 949063 of 1127145http_server_OTA_update_handler: OTA RX: 950087 of 1127145http_server_OTA_update_handler: OTA RX: 951111 of 1127145http_server_OTA_update_handler: OTA RX: 952135 of 1127145http_server_OTA_update_handler: OTA RX: 953159 of 1127145http_server_OTA_update_handler: OTA RX: 954183 of 1127145http_server_OTA_update_handler: OTA RX: 955207 of 1127145http_server_OTA_update_handler: OTA RX: 956231 of 1127145http_server_OTA_update_handler: OTA RX: 957255 of 1127145http_server_OTA_update_handler: OTA RX: 958279 of 1127145http_server_OTA_update_handler: OTA RX: 959303 of 1127145http_server_OTA_update_handler: OTA RX: 960327 of 1127145http_server_OTA_update_handler: OTA RX: 961351 of 1127145http_server_OTA_update_handler: OTA RX: 962375 of 1127145http_server_OTA_update_handler: OTA RX: 963399 of 1127145http_server_OTA_update_handler: OTA RX: 964423 of 1127145http_server_OTA_update_handler: OTA RX: 965447 of 1127145http_server_OTA_update_handler: OTA RX: 966471 of 1127145http_server_OTA_update_handler: OTA RX: 967495 of 1127145http_server_OTA_update_handler: OTA RX: 968519 of 1127145http_server_OTA_update_handler: OTA RX: 969543 of 1127145http_server_OTA_update_handler: OTA RX: 970567 of 1127145http_server_OTA_update_handler: OTA RX: 971591 of 1127145http_server_OTA_update_handler: OTA RX: 972615 of 1127145http_server_OTA_update_handler: OTA RX: 973639 of 1127145http_server_OTA_update_handler: OTA RX: 974663 of 1127145http_server_OTA_update_handler: OTA RX: 975687 of 1127145=== Reading NTC103 ===
+http_server_OTA_update_handler: OTA RX: 976711 of 1127145Temp 35.3
+http_server_OTA_update_handler: OTA RX: 977735 of 1127145http_server_OTA_update_handler: OTA RX: 978759 of 1127145http_server_OTA_update_handler: OTA RX: 979783 of 1127145http_server_OTA_update_handler: OTA RX: 980807 of 1127145http_server_OTA_update_handler: OTA RX: 981831 of 1127145http_server_OTA_update_handler: OTA RX: 982855 of 1127145http_server_OTA_update_handler: OTA RX: 983879 of 1127145http_server_OTA_update_handler: OTA RX: 984903 of 1127145http_server_OTA_update_handler: OTA RX: 985927 of 1127145http_server_OTA_update_handler: OTA RX: 986951 of 1127145http_server_OTA_update_handler: OTA RX: 987975 of 1127145http_server_OTA_update_handler: OTA RX: 988999 of 1127145http_server_OTA_update_handler: OTA RX: 990023 of 1127145http_server_OTA_update_handler: OTA RX: 991047 of 1127145http_server_OTA_update_handler: OTA RX: 992071 of 1127145http_server_OTA_update_handler: OTA RX: 993095 of 1127145http_server_OTA_update_handler: OTA RX: 994119 of 1127145http_server_OTA_update_handler: OTA RX: 995143 of 1127145http_server_OTA_update_handler: OTA RX: 996167 of 1127145http_server_OTA_update_handler: OTA RX: 997191 of 1127145http_server_OTA_update_handler: OTA RX: 998215 of 1127145http_server_OTA_update_handler: OTA RX: 999239 of 1127145http_server_OTA_update_handler: OTA RX: 1000263 of 1127145http_server_OTA_update_handler: OTA RX: 1001287 of 1127145http_server_OTA_update_handler: OTA RX: 1002311 of 1127145http_server_OTA_update_handler: OTA RX: 1003335 of 1127145http_server_OTA_update_handler: OTA RX: 1004359 of 1127145http_server_OTA_update_handler: OTA RX: 1005383 of 1127145http_server_OTA_update_handler: OTA RX: 1006407 of 1127145http_server_OTA_update_handler: OTA RX: 1007431 of 1127145http_server_OTA_update_handler: OTA RX: 1008455 of 1127145http_server_OTA_update_handler: OTA RX: 1009479 of 1127145http_server_OTA_update_handler: OTA RX: 1010503 of 1127145http_server_OTA_update_handler: OTA RX: 1011527 of 1127145http_server_OTA_update_handler: OTA RX: 1012551 of 1127145http_server_OTA_update_handler: OTA RX: 1013575 of 1127145http_server_OTA_update_handler: OTA RX: 1014599 of 1127145http_server_OTA_update_handler: OTA RX: 1015623 of 1127145http_server_OTA_update_handler: OTA RX: 1016647 of 1127145http_server_OTA_update_handler: OTA RX: 1017671 of 1127145http_server_OTA_update_handler: OTA RX: 1018695 of 1127145http_server_OTA_update_handler: OTA RX: 1019719 of 1127145http_server_OTA_update_handler: OTA RX: 1020743 of 1127145http_server_OTA_update_handler: OTA RX: 1021767 of 1127145http_server_OTA_update_handler: OTA RX: 1022791 of 1127145http_server_OTA_update_handler: OTA RX: 1023815 of 1127145http_server_OTA_update_handler: OTA RX: 1024839 of 1127145http_server_OTA_update_handler: OTA RX: 1025863 of 1127145http_server_OTA_update_handler: OTA RX: 1026887 of 1127145http_server_OTA_update_handler: OTA RX: 1027911 of 1127145http_server_OTA_update_handler: OTA RX: 1028935 of 1127145http_server_OTA_update_handler: OTA RX: 1029959 of 1127145http_server_OTA_update_handler: OTA RX: 1030983 of 1127145http_server_OTA_update_handler: OTA RX: 1032007 of 1127145http_server_OTA_update_handler: OTA RX: 1033031 of 1127145http_server_OTA_update_handler: OTA RX: 1034055 of 1127145http_server_OTA_update_handler: OTA RX: 1035079 of 1127145http_server_OTA_update_handler: OTA RX: 1036103 of 1127145http_server_OTA_update_handler: OTA RX: 1037127 of 1127145http_server_OTA_update_handler: OTA RX: 1038151 of 1127145http_server_OTA_update_handler: OTA RX: 1039175 of 1127145http_server_OTA_update_handler: OTA RX: 1040199 of 1127145http_server_OTA_update_handler: OTA RX: 1041223 of 1127145http_server_OTA_update_handler: OTA RX: 1042247 of 1127145http_server_OTA_update_handler: OTA RX: 1043271 of 1127145http_server_OTA_update_handler: OTA RX: 1044295 of 1127145http_server_OTA_update_handler: OTA RX: 1045319 of 1127145http_server_OTA_update_handler: OTA RX: 1046343 of 1127145http_server_OTA_update_handler: OTA RX: 1047367 of 1127145http_server_OTA_update_handler: OTA RX: 1048391 of 1127145http_server_OTA_update_handler: OTA RX: 1049415 of 1127145http_server_OTA_update_handler: OTA RX: 1050439 of 1127145http_server_OTA_update_handler: OTA RX: 1051463 of 1127145http_server_OTA_update_handler: OTA RX: 1052487 of 1127145http_server_OTA_update_handler: OTA RX: 1053511 of 1127145http_server_OTA_update_handler: OTA RX: 1054535 of 1127145http_server_OTA_update_handler: OTA RX: 1055559 of 1127145http_server_OTA_update_handler: OTA RX: 1056583 of 1127145http_server_OTA_update_handler: OTA RX: 1057607 of 1127145http_server_OTA_update_handler: OTA RX: 1058631 of 1127145http_server_OTA_update_handler: OTA RX: 1059655 of 1127145http_server_OTA_update_handler: OTA RX: 1060679 of 1127145http_server_OTA_update_handler: OTA RX: 1061703 of 1127145http_server_OTA_update_handler: OTA RX: 1062727 of 1127145http_server_OTA_update_handler: OTA RX: 1063751 of 1127145http_server_OTA_update_handler: OTA RX: 1064775 of 1127145http_server_OTA_update_handler: OTA RX: 1065799 of 1127145http_server_OTA_update_handler: OTA RX: 1066823 of 1127145http_server_OTA_update_handler: OTA RX: 1067847 of 1127145http_server_OTA_update_handler: OTA RX: 1068871 of 1127145http_server_OTA_update_handler: OTA RX: 1069895 of 1127145http_server_OTA_update_handler: OTA RX: 1070919 of 1127145http_server_OTA_update_handler: OTA RX: 1071943 of 1127145http_server_OTA_update_handler: OTA RX: 1072967 of 1127145http_server_OTA_update_handler: OTA RX: 1073991 of 1127145http_server_OTA_update_handler: OTA RX: 1075015 of 1127145http_server_OTA_update_handler: OTA RX: 1076039 of 1127145http_server_OTA_update_handler: OTA RX: 1077063 of 1127145http_server_OTA_update_handler: OTA RX: 1078087 of 1127145http_server_OTA_update_handler: OTA RX: 1079111 of 1127145http_server_OTA_update_handler: OTA RX: 1080135 of 1127145http_server_OTA_update_handler: OTA RX: 1081159 of 1127145http_server_OTA_update_handler: OTA RX: 1082183 of 1127145http_server_OTA_update_handler: OTA RX: 1083207 of 1127145http_server_OTA_update_handler: OTA RX: 1084231 of 1127145http_server_OTA_update_handler: OTA RX: 1085255 of 1127145http_server_OTA_update_handler: OTA RX: 1086279 of 1127145http_server_OTA_update_handler: OTA RX: 1087303 of 1127145http_server_OTA_update_handler: OTA RX: 1088327 of 1127145http_server_OTA_update_handler: OTA RX: 1089351 of 1127145http_server_OTA_update_handler: OTA RX: 1090375 of 1127145http_server_OTA_update_handler: OTA RX: 1091399 of 1127145http_server_OTA_update_handler: OTA RX: 1092423 of 1127145http_server_OTA_update_handler: OTA RX: 1093447 of 1127145http_server_OTA_update_handler: OTA RX: 1094471 of 1127145http_server_OTA_update_handler: OTA RX: 1095495 of 1127145http_server_OTA_update_handler: OTA RX: 1096519 of 1127145http_server_OTA_update_handler: OTA RX: 1097543 of 1127145http_server_OTA_update_handler: OTA RX: 1098567 of 1127145http_server_OTA_update_handler: OTA RX: 1099591 of 1127145http_server_OTA_update_handler: OTA RX: 1100615 of 1127145http_server_OTA_update_handler: OTA RX: 1101639 of 1127145http_server_OTA_update_handler: OTA RX: 1102663 of 1127145http_server_OTA_update_handler: OTA RX: 1103687 of 1127145http_server_OTA_update_handler: OTA RX: 1104711 of 1127145http_server_OTA_update_handler: OTA RX: 1105735 of 1127145http_server_OTA_update_handler: OTA RX: 1106759 of 1127145http_server_OTA_update_handler: OTA RX: 1107783 of 1127145http_server_OTA_update_handler: OTA RX: 1108807 of 1127145http_server_OTA_update_handler: OTA RX: 1109831 of 1127145http_server_OTA_update_handler: OTA RX: 1110855 of 1127145http_server_OTA_update_handler: OTA RX: 1111879 of 1127145http_server_OTA_update_handler: OTA RX: 1112903 of 1127145http_server_OTA_update_handler: OTA RX: 1113927 of 1127145http_server_OTA_update_handler: OTA RX: 1114951 of 1127145http_server_OTA_update_handler: OTA RX: 1115975 of 1127145http_server_OTA_update_handler: OTA RX: 1116999 of 1127145http_server_OTA_update_handler: OTA RX: 1118023 of 1127145http_server_OTA_update_handler: OTA RX: 1119047 of 1127145http_server_OTA_update_handler: OTA RX: 1120071 of 1127145http_server_OTA_update_handler: OTA RX: 1121095 of 1127145http_server_OTA_update_handler: OTA RX: 1122119 of 1127145http_server_OTA_update_handler: OTA RX: 1123143 of 1127145http_server_OTA_update_handler: OTA RX: 1124167 of 1127145http_server_OTA_update_handler: OTA RX: 1125191 of 1127145http_server_OTA_update_handler: OTA RX: 1126215 of 1127145http_server_OTA_update_handler: OTA RX: 1126960 of 1127145[0;32mI (106046) esp_image: segment 0: paddr=00200020 vaddr=3f400020 size=6c3b4h (443316) map[0m
+[0;32mI (106266) esp_image: segment 1: paddr=0026c3dc vaddr=3ffb0000 size=03768h ( 14184) [0m
+[0;32mI (106276) esp_image: segment 2: paddr=0026fb4c vaddr=40080000 size=004cch (  1228) [0m
+[0;32mI (106286) esp_image: segment 3: paddr=00270020 vaddr=400d0020 size=8de68h (581224) map[0m
+[0;32mI (106576) esp_image: segment 4: paddr=002fde90 vaddr=400804cc size=15334h ( 86836) [0m
+[0;32mI (106626) esp_image: segment 0: paddr=00200020 vaddr=3f400020 size=6c3b4h (443316) map[0m
+[0;32mI (106846) esp_image: segment 1: paddr=0026c3dc vaddr=3ffb0000 size=03768h ( 14184) [0m
+[0;32mI (106856) esp_image: segment 2: paddr=0026fb4c vaddr=40080000 size=004cch (  1228) [0m
+[0;32mI (106856) esp_image: segment 3: paddr=00270020 vaddr=400d0020 size=8de68h (581224) map[0m
+[0;32mI (107146) esp_image: segment 4: paddr=002fde90 vaddr=400804cc size=15334h ( 86836) [0m
+[0;32mI (107276) http_server: http_server_OTA_update_handler: Next boot partition subtype 17 at offset 0x200000[0m
+[0;32mI (107276) http_server: OTAstatus requested[0m
+[0;32mI (107286) http_server: HTTP_MSG_OTA_UPDATE_SUCCESS[0m
+[0;32mI (107286) http_server: http_server_fw_update_reset_timer: FW update successful starting FW update reset timer[0m
+[0;32mI (107296) http_server: OTAstatus requested[0m
+[0;32mI (107316) http_server: OTAstatus requested[0m
+[0;32mI (107326) http_server: OTAstatus requested[0m
+[0;32mI (107336) http_server: OTAstatus requested[0m
+[0;32mI (107346) http_server: OTAstatus requested[0m
+[0;32mI (107356) http_server: OTAstatus requested[0m
+[0;32mI (107366) http_server: OTAstatus requested[0m
+[0;32mI (107376) http_server: OTAstatus requested[0m
+[0;32mI (107386) http_server: OTAstatus requested[0m
+[0;32mI (107396) http_server: OTAstatus requested[0m
+[0;32mI (107406) http_server: OTAstatus requested[0m
+[0;32mI (107416) http_server: OTAstatus requested[0m
+[0;32mI (107436) http_server: OTAstatus requested[0m
+[0;32mI (107436) http_server: OTAstatus requested[0m
+[0;32mI (107456) http_server: OTAstatus requested[0m
+[0;32mI (107466) http_server: OTAstatus requested[0m
+[0;32mI (107476) http_server: OTAstatus requested[0m
+[0;32mI (107486) http_server: OTAstatus requested[0m
+[0;32mI (107496) http_server: OTAstatus requested[0m
+[0;32mI (107516) http_server: OTAstatus requested[0m
+[0;32mI (107536) http_server: OTAstatus requested[0m
+[0;32mI (107546) http_server: OTAstatus requested[0m
+[0;32mI (107556) http_server: OTAstatus requested[0m
+[0;32mI (107566) http_server: OTAstatus requested[0m
+[0;32mI (107576) http_server: OTAstatus requested[0m
+[0;32mI (107586) http_server: OTAstatus requested[0m
+[0;32mI (107596) http_server: OTAstatus requested[0m
+[0;32mI (107616) http_server: OTAstatus requested[0m
+[0;32mI (107626) http_server: OTAstatus requested[0m
+[0;32mI (107636) http_server: OTAstatus requested[0m
+[0;32mI (107646) http_server: OTAstatus requested[0m
+[0;32mI (107656) http_server: OTAstatus requested[0m
+[0;32mI (107676) http_server: OTAstatus requested[0m
+[0;32mI (107686) http_server: OTAstatus requested[0m
+[0;32mI (107696) http_server: OTAstatus requested[0m
+[0;32mI (107706) http_server: OTAstatus requested[0m
+[0;32mI (107716) http_server: OTAstatus requested[0m
+[0;32mI (107726) http_server: OTAstatus requested[0m
+[0;32mI (107746) http_server: OTAstatus requested[0m
+[0;32mI (107756) http_server: OTAstatus requested[0m
+[0;32mI (107766) http_server: OTAstatus requested[0m
+[0;32mI (107776) http_server: OTAstatus requested[0m
+[0;32mI (107786) http_server: OTAstatus requested[0m
+[0;32mI (107796) http_server: OTAstatus requested[0m
+[0;32mI (107816) http_server: OTAstatus requested[0m
+[0;32mI (107826) http_server: OTAstatus requested[0m
+[0;32mI (107836) http_server: OTAstatus requested[0m
+[0;32mI (107846) http_server: OTAstatus requested[0m
+[0;32mI (107856) http_server: OTAstatus requested[0m
+[0;32mI (107866) http_server: OTAstatus requested[0m
+[0;32mI (107876) http_server: OTAstatus requested[0m
+[0;32mI (107896) http_server: OTAstatus requested[0m
+[0;32mI (107906) http_server: OTAstatus requested[0m
+[0;32mI (107916) http_server: OTAstatus requested[0m
+[0;32mI (107926) http_server: OTAstatus requested[0m
+[0;32mI (107946) http_server: OTAstatus requested[0m
+[0;32mI (107956) http_server: OTAstatus requested[0m
+[0;32mI (107966) http_server: OTAstatus requested[0m
+[0;32mI (107976) http_server: OTAstatus requested[0m
+[0;32mI (107986) http_server: OTAstatus requested[0m
+[0;32mI (107996) http_server: OTAstatus requested[0m
+[0;32mI (108016) http_server: OTAstatus requested[0m
+[0;32mI (108026) http_server: OTAstatus requested[0m
+[0;32mI (108046) http_server: OTAstatus requested[0m
+[0;32mI (108056) http_server: OTAstatus requested[0m
+[0;32mI (108056) http_server: OTAstatus requested[0m
+[0;32mI (108076) http_server: OTAstatus requested[0m
+[0;32mI (108136) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (109146) http_server: index.html requested[0m
+[0;32mI (109186) http_server: JQuery requested[0m
+[0;32mI (109306) http_server: app.css requested[0m
+[0;32mI (109326) http_server: app.js requested[0m
+[0;32mI (109366) http_server: OTAstatus requested[0m
+[0;32mI (109386) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (114386) http_server: /ntcSensor.json requested[0m
+[0;32mI (115356) http_server: http_server_fw_update_reset_callback: Timer timed-out, restarting the device[0m
+[0;32mI (115366) wifi_app: WIFI_EVENT_STA_DISCONNECTED[0m
+WIFI_EVENT_STA_DISCONNECTED, reason code 8
+[0;32mI (115366) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+[0;32mI (115376) wifi_app: WIFI_EVENT_AP_STOP[0m
+[0;33mW (115376) httpd_txrx: httpd_sock_err: error in recv : 113[0m
+[0;33mW (115386) httpd_txrx: httpd_sock_err: error in recv : 113[0m
+[0;33mW (115386) httpd_txrx: httpd_sock_err: error in recv : 113[0m
+[0;33mW (115396) httpd_txrx: httpd_sock_err: error in recv : 113[0m
+[0;33mW (115396) httpd_txrx: httpd_sock_err: error in recv : 113[0m
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15672
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (35) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (43) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (48) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (57) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (66) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (73) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (88) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (103) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (115) esp_image: segment 0: paddr=00200020 vaddr=3f400020 size=6c3b4h (443316) map[0m
+[0;32mI (283) esp_image: segment 1: paddr=0026c3dc vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (289) esp_image: segment 2: paddr=0026fb4c vaddr=40080000 size=004cch (  1228) load[0m
+[0;32mI (290) esp_image: segment 3: paddr=00270020 vaddr=400d0020 size=8de68h (581224) map[0m
+[0;32mI (507) esp_image: segment 4: paddr=002fde90 vaddr=400804cc size=15334h ( 86836) load[0m
+[0;32mI (554) boot: Loaded app from partition at offset 0x200000[0m
+[0;32mI (555) boot: Disabling RNG early entropy source...[0m
+[0;32mI (566) cpu_start: Multicore app[0m
+[0;32mI (567) cpu_start: Pro cpu up.[0m
+[0;32mI (567) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (553) cpu_start: App cpu up.[0m
+[0;32mI (585) cpu_start: Pro cpu start user code[0m
+[0;32mI (585) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (585) cpu_start: Application information:[0m
+[0;32mI (589) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (596) cpu_start: App version:      1[0m
+[0;32mI (600) cpu_start: Compile time:     Jul 21 2023 13:03:19[0m
+[0;32mI (606) cpu_start: ELF file SHA256:  10f087ccb...[0m
+[0;32mI (611) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (618) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (623) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (628) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (633) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (640) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (646) heap_init: At 3FFB7900 len 00028700 (161 KiB): DRAM[0m
+[0;32mI (652) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (659) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (665) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (673) spi_flash: detected chip: generic[0m
+[0;32mI (676) spi_flash: flash io: dio[0m
+[0;33mW (680) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (689) app_start: Starting scheduler on CPU0[0m
+[0;32mI (693) app_start: Starting scheduler on CPU1[0m
+[0;32mI (693) main_task: Started on CPU0[0m
+[0;32mI (703) main_task: Calling app_main()[0m
+[0;32mI (723) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (723) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp 35.7
+[0;32mI (733) wifi_init: rx ba win: 6[0m
+[0;32mI (733) wifi_init: tcpip mbox: 32[0m
+[0;32mI (733) wifi_init: udp mbox: 6[0m
+[0;32mI (743) wifi_init: tcp mbox: 6[0m
+[0;32mI (743) wifi_init: tcp tx win: 5744[0m
+[0;32mI (743) wifi_init: tcp rx win: 5744[0m
+[0;32mI (753) wifi_init: tcp mss: 1440[0m
+[0;32mI (753) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (763) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1673) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1783) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1783) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1783) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1783) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1803) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1813) http_server: http_server_configure: Registering URI handlers[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (10173) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (11003) http_server: /ntcSensor.json requested[0m
+[0;32mI (11013) http_server: index.html requested[0m
+[0;32mI (11023) http_server: /ntcSensor.json requested[0m
+[0;33mW (11053) httpd_txrx: httpd_sock_err: error in recv : 104[0m
+[0;32mI (11073) http_server: JQuery requested[0m
+[0;32mI (11183) http_server: app.css requested[0m
+[0;32mI (11213) http_server: app.js requested[0m
+[0;32mI (11253) http_server: OTAstatus requested[0m
+[0;32mI (11283) http_server: /wifiConnectInfo.json requested[0m
+[0;32mI (12203) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (16273) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (21283) http_server: /ntcSensor.json requested[0m
+[0;32mI (22523) http_server: /wifiConnect.json requested[0m
+[0;32mI (22523) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (22533) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;32mI (22543) wifi_app: WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER[0m
+[0;32mI (22553) http_server: HTTP_MSG_WIFI_CONNECT_INIT[0m
+[0;32mI (24203) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+[0;32mI (24563) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (25203) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (25203) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (25203) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (25213) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (25733) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+[0;32mI (26153) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (26363) http_server: /wifiConnectStatus requested[0m
+[0;32mI (26393) http_server: /wifiConnectInfo.json requested[0m
+[0;32mI (26403) http_server: /ntcSensor.json requested[0m
+[0;32mI (28193) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (31393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (36393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (41393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (46393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (51393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (56393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (61393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (66403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (71393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (76393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (81393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (86393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (91403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (96393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (101403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (106393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (111393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (116393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (121403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (126403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (131403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (136403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (141403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (146403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (151403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (156403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (161403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (166403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (171403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (176403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (181403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (186403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (191403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (196413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (201403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (206403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (211403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (216403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (221403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (226403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (231403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (236403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (241403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (246403) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (251413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (256413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (261413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (266413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (271413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (276413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (281413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (286413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (291413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (296413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (301413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (306413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (311413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (316413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (321413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (326413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (331413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (336413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (341413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (346413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (351413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (356413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (361413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (366413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (371413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (376413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (381423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (386423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (391423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (396413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (401423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (406413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (411413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (416413) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (421423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (426423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (431423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (436423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (441423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (446423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (451423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (456423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (461423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (466423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (471423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (476423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (481423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (486423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (491423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (496423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (501423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (506423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (511433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (516433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (521423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (526423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (531423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (536423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (541423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (546423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (551423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.9
+[0;32mI (556433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (561423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (566433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (571423) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (576433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (581433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (586433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (591433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (596433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (601433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (606433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (611433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (616433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (621433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (626433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (631433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (636433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (641443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (646433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (651433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (656443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (661433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (666433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (671433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (676433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (681433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (686443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (691433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (696433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (701433) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (706443) http_server: /ntcSensor.json requested[0m
+[0;32mI (708253) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (708563) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.3[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (708953) http_server: index.html requested[0m
+[0;32mI (711443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (714703) http_server: index.html requested[0m
+[0;32mI (714913) http_server: JQuery requested[0m
+[0;32mI (715163) http_server: app.css requested[0m
+[0;32mI (715183) http_server: app.js requested[0m
+[0;32mI (715563) http_server: OTAstatus requested[0m
+[0;32mI (715593) http_server: /wifiConnectInfo.json requested[0m
+[0;33mW (715603) httpd_uri: httpd_uri: URI '/favicon.ico' not found[0m
+[0;33mW (715603) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;32mI (716443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (718073) http_server: index.html requested[0m
+[0;32mI (718123) http_server: JQuery requested[0m
+[0;32mI (718293) http_server: app.css requested[0m
+[0;32mI (718343) http_server: app.js requested[0m
+[0;32mI (718453) http_server: OTAstatus requested[0m
+[0;32mI (718523) http_server: /wifiConnectInfo.json requested[0m
+[0;32mI (720683) http_server: index.html requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (720753) http_server: JQuery requested[0m
+[0;32mI (720863) http_server: app.css requested[0m
+[0;32mI (720893) http_server: app.js requested[0m
+[0;32mI (720953) http_server: OTAstatus requested[0m
+[0;32mI (721063) http_server: /wifiConnectInfo.json requested[0m
+[0;32mI (721433) http_server: /ntcSensor.json requested[0m
+[0;32mI (724143) http_server: index.html requested[0m
+[0;32mI (724213) http_server: app.css requested[0m
+[0;32mI (724223) http_server: JQuery requested[0m
+[0;32mI (724473) http_server: app.js requested[0m
+[0;32mI (724533) http_server: OTAstatus requested[0m
+[0;32mI (724593) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (726443) http_server: /ntcSensor.json requested[0m
+[0;32mI (727023) http_server: index.html requested[0m
+[0;32mI (727063) http_server: JQuery requested[0m
+[0;32mI (727223) http_server: app.css requested[0m
+[0;32mI (727243) http_server: app.js requested[0m
+[0;32mI (727323) http_server: OTAstatus requested[0m
+[0;32mI (727373) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (731443) http_server: /ntcSensor.json requested[0m
+[0;32mI (731983) http_server: index.html requested[0m
+[0;32mI (732013) http_server: JQuery requested[0m
+[0;32mI (732123) http_server: app.css requested[0m
+[0;32mI (732183) http_server: app.js requested[0m
+[0;32mI (732273) http_server: OTAstatus requested[0m
+[0;32mI (732373) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (736443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (737383) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.8
+[0;32mI (741443) http_server: /ntcSensor.json requested[0m
+[0;32mI (742373) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (746443) http_server: /ntcSensor.json requested[0m
+[0;32mI (747473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (751443) http_server: /ntcSensor.json requested[0m
+[0;32mI (752393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (756443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (757393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (761443) http_server: /ntcSensor.json requested[0m
+[0;32mI (762393) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (766443) http_server: /ntcSensor.json requested[0m
+[0;32mI (767373) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (771443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (772993) http_server: /ntcSensor.json requested[0m
+[0;32mI (776453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (778023) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (781443) http_server: /ntcSensor.json requested[0m
+[0;32mI (783053) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (786443) http_server: /ntcSensor.json requested[0m
+[0;32mI (788013) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (791443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (796443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (801443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (806443) http_server: /ntcSensor.json requested[0m
+[0;32mI (808333) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (811443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (816443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (821443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (826443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (831443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (836453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (841443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (846443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (851443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (854713) http_server: /ntcSensor.json requested[0m
+[0;32mI (856453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (861443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (866443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (871443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (873873) http_server: /ntcSensor.json requested[0m
+[0;32mI (876443) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (878863) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (881453) http_server: /ntcSensor.json requested[0m
+[0;32mI (883153) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (886453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (891453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (896453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (901453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (906453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (911453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (916453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.2
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (921453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (926453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (931453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (936453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (941453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (946453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (951453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (956453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (961453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (966463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (971453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (976453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 34.9
+[0;32mI (981453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (986453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (991453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (996453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1001453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1006453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1011463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1016453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1021453) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1026463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1031463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1036463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1041463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 34.9
+[0;32mI (1046463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1051463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1056463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1061463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1066463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1071463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1076463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1081463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1086463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1091463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1096473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1101473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1106463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1111463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1116463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1121463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1126463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1131463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1136463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1141463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1146463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1151463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1156473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1161483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1166463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1171463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1176463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1181473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1186463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1191463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1196463) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1201473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1206473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1211473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1216473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1221473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1226473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1231473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1236473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1241473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1246473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1251473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1256473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1261473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1266473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1271473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1276473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1281473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1286483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1291473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1296473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1301473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1306473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1311473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1316473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1321473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1326473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1331473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1336483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1341473) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1346483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1351483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1356483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1361483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1366483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1371483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1376483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1381483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1386483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1391483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1396483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1401483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1406483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1411483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1416483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1421483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1426483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1431483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1436483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1441483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1446483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1451483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1456493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1461483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1466483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1471483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1476493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1481493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1486493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1491483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1496483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1501493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1506493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1511493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1516493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1521493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1526493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1531493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1536493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1541493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1546493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1551493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1556493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1561493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1566493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1571493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1576493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1581493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1586493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1591493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1596493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1601493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1606503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1611493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1616493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1621493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1626493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1631493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1636503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1641493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1646493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1651493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1656493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1661503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1666503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1671503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1676503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1681503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1686503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1691503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1696503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1701503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1706503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1711503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1716503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1721503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1726503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1731503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1736503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1741503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1746503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1751503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1756503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1761503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1766503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1771503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (1776503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1781503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1786503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1791513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1796513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1801503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1806503) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1811513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 31.3
+[0;32mI (1816513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1821513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1826513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1831513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1836513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1841513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1846513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1851513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1856513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1861513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1866513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1871513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1876513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1881513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1886513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1891513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1896513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1901513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1906513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1911513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1916513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1921513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1926513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1931513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1936513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1941513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1946513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1951513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1956513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1961523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1966513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (1971513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1976513) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1981523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1986523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1991523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (1996523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2001523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2006523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2011523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2016523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2021523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2026523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2031523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2036523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2041523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2046523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2051523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2056523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2061523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2066523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2071523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2076523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2081523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2086523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2091523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2096523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2101523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2106523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2111523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2116533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2121523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2126523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2131523) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2136533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2141533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2146533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2151533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2156533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2161533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2166533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2171533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2176533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2181533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2186533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2191533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2196533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2201533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2206533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2211533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2216533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2221533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2226533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2231533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2236533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.6
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (2241533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2246533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2251533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2256533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2261533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (2266543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2271533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (2276533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2281533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2286543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2291533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2296533) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2301543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2306543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2311543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2316543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2321543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2326543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2331543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2336543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2341543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (2346543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2351543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2356543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2361543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2366543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2371543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2376543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (2381543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2386543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (2391543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2396543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (2401543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.5
+[0;32mI (2406543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (2411543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2416543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2421543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2426543) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2429773) http_server: /wifiConnect.json requested[0m
+[0;32mI (2429773) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (2429783) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;32mI (2429793) wifi_app: WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER[0m
+[0;32mI (2429803) http_server: HTTP_MSG_WIFI_CONNECT_INIT[0m
+[0;32mI (2432213) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2433273) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+[0;32mI (2433803) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (2434733) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2434773) http_server: /ntcSensor.json requested[0m
+[0;32mI (2435373) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2435843) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+[0;32mI (2436553) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2438173) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2440973) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2441543) http_server: /ntcSensor.json requested[0m
+[0;32mI (2443773) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2446543) http_server: /ntcSensor.json requested[0m
+[0;32mI (2446573) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2449373) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2451553) http_server: /ntcSensor.json requested[0m
+[0;32mI (2452173) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (2453093) http_server: /wifiConnect.json requested[0m
+[0;32mI (2453093) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (2453103) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;32mI (2453113) wifi_app: WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER[0m
+[0;32mI (2453123) http_server: HTTP_MSG_WIFI_CONNECT_INIT[0m
+[0;32mI (2455163) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2455933) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2456553) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2457783) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2458693) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2460573) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (2461493) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2461553) http_server: /ntcSensor.json requested[0m
+[0;32mI (2463383) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2464293) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (2466183) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2466553) http_server: /ntcSensor.json requested[0m
+[0;32mI (2467093) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (2468983) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2469893) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2471553) http_server: /ntcSensor.json requested[0m
+[0;32mI (2471783) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2472693) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 34.9
+[0;32mI (2473193) http_server: index.html requested[0m
+[0;32mI (2473253) http_server: JQuery requested[0m
+[0;32mI (2473373) http_server: app.css requested[0m
+[0;32mI (2473403) http_server: app.js requested[0m
+[0;32mI (2473453) http_server: OTAstatus requested[0m
+[0;32mI (2473493) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (2478483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2481683) http_server: /wifiConnect.json requested[0m
+[0;32mI (2481683) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (2481683) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;32mI (2481693) wifi_app: WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER[0m
+[0;32mI (2481713) http_server: HTTP_MSG_WIFI_CONNECT_INIT[0m
+[0;32mI (2483743) http_server: /ntcSensor.json requested[0m
+[0;32mI (2484523) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2487283) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2488483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2490083) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2492883) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2493493) http_server: /ntcSensor.json requested[0m
+[0;32mI (2495683) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (2498483) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2498493) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2501283) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2503483) http_server: /ntcSensor.json requested[0m
+[0;32mI (2504083) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2506883) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2508483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2509683) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2512483) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2513483) http_server: /ntcSensor.json requested[0m
+[0;32mI (2515283) http_server: /wifiConnectStatus requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (2518123) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2518483) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (2520883) http_server: /wifiConnectStatus requested[0m
+[0;32mI (2523483) http_server: /ntcSensor.json requested[0m
+[0;32mI (2523683) http_server: /wifiConnectStatus requested[0m
+ew�J]���0������5�#A��.�x���jUI����U�)���'��3Bӕ}��*�e1�*�%��U��c�ŷ�i��
+�]���ե#��kE����A�)���W��A����W�x��c�z���a��џ�ٺ�A����V�:��0C�����Q�,�;�Ad�����њ�M����0����S����A����� ����S��+�:��0�����)K��6��H��A��ũ������*
+�+Ѻ�Q�°�������l�i��0����,�9K��8�#A���x��5�#�[0;32mI (31) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) esp_image: segment 0: paddr=00200020 vaddr=3f400020 size=6c3b4h (443316) map[0m
+[0;32mI (282) esp_image: segment 1: paddr=0026c3dc vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (288) esp_image: segment 2: paddr=0026fb4c vaddr=40080000 size=004cch (  1228) load[0m
+[0;32mI (289) esp_image: segment 3: paddr=00270020 vaddr=400d0020 size=8de68h (581224) map[0m
+[0;32mI (506) esp_image: segment 4: paddr=002fde90 vaddr=400804cc size=15334h ( 86836) load[0m
+[0;32mI (553) boot: Loaded app from partition at offset 0x200000[0m
+[0;32mI (553) boot: Disabling RNG early entropy source...[0m
+[0;32mI (565) cpu_start: Multicore app[0m
+[0;32mI (565) cpu_start: Pro cpu up.[0m
+[0;32mI (565) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (583) cpu_start: Pro cpu start user code[0m
+[0;32mI (583) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (583) cpu_start: Application information:[0m
+[0;32mI (588) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (594) cpu_start: App version:      1[0m
+[0;32mI (598) cpu_start: Compile time:     Jul 21 2023 13:03:19[0m
+[0;32mI (605) cpu_start: ELF file SHA256:  10f087ccb...[0m
+[0;32mI (610) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (617) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (622) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (626) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (631) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (639) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (644) heap_init: At 3FFB7900 len 00028700 (161 KiB): DRAM[0m
+[0;32mI (651) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (657) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (664) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (671) spi_flash: detected chip: generic[0m
+[0;32mI (674) spi_flash: flash io: dio[0m
+[0;33mW (679) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (687) app_start: Starting scheduler on CPU0[0m
+[0;32mI (692) app_start: Starting scheduler on CPU1[0m
+[0;32mI (692) main_task: Started on CPU0[0m
+[0;32mI (702) main_task: Calling app_main()[0m
+[0;32mI (722) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (722) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp 35.6
+[0;32mI (732) wifi_init: rx ba win: 6[0m
+[0;32mI (732) wifi_init: tcpip mbox: 32[0m
+[0;32mI (732) wifi_init: udp mbox: 6[0m
+[0;32mI (742) wifi_init: tcp mbox: 6[0m
+[0;32mI (742) wifi_init: tcp tx win: 5744[0m
+[0;32mI (742) wifi_init: tcp rx win: 5744[0m
+[0;32mI (752) wifi_init: tcp mss: 1440[0m
+[0;32mI (752) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (762) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1672) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1782) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1782) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1782) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1782) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1802) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1812) http_server: http_server_configure: Registering URI handlers[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (5972) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (6662) http_server: /wifiConnectStatus requested[0m
+[0;32mI (6682) http_server: /ntcSensor.json requested[0m
+[0;32mI (6702) http_server: /wifiConnectStatus requested[0m
+[0;32mI (8012) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (8752) http_server: /wifiConnect.json requested[0m
+[0;32mI (8752) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (8752) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;32mI (8762) wifi_app: WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER[0m
+[0;32mI (8782) http_server: HTTP_MSG_WIFI_CONNECT_INIT[0m
+[0;32mI (10422) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+[0;32mI (10872) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+[0;32mI (11422) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (11422) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (11422) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (11432) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (11932) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+[0;32mI (12472) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (12852) http_server: /wifiConnectStatus requested[0m
+[0;32mI (12882) http_server: /wifiConnectInfo.json requested[0m
+[0;32mI (12892) http_server: /ntcSensor.json requested[0m
+[0;32mI (14512) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (17882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 29.6
+[0;32mI (22902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (27872) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (32872) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (37872) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (42982) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (47872) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (52872) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (57882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (62882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (67882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (72872) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (77882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (82872) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.3
+[0;32mI (87882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (92882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (97882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (102882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (107882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (112882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (117882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (122882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (127882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (132882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (137892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (142882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (147882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (152882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (157882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (162882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (167912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (172882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (177882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (182882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (187882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (192882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (197882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (202882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (207882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (212882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (217882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (222882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (227892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (232882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (237882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (242882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (247882) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (252892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (257892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (262902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (267912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (272892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.0
+[0;32mI (277942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (282892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (287892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (292892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (297962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (302892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (307892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (312892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (317912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (322892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (327932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (332892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (337892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (342912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (347892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (352902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (357892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (362892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (367982) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (372892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (377892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (382892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (387902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (392942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (397942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (402892) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (407952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (412902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (417902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (422902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (427902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (432902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (437902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (442902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (447902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (452902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (457902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (462902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (467902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (472902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (477902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (482902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (487932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (492902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (497902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (502902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (507902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (512902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (517902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (522902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (527902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 30.5
+[0;32mI (532902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (537902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (542902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (547902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (552902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (557912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (562952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (567912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (572912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (577902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (582912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (587902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (592902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.4
+[0;32mI (597912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (602902) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (607912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (612912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (617912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (622972) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (627912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (632912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (637912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (642912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (647912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (652912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (657932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (662912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (667962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (672922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (678022) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (683002) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (687912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (692912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (697992) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (702922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (707922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (712912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (717912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (722912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (727912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.0
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (732912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (737912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (742912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (747912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (752912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (757912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (762912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (767922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (772922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (777912) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (782992) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (787922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (792922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (797922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (802922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (807922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (812922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (817922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (822922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (827922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (832922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (837922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (842922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (847922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (852922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (857922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (862922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (867932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (872942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (877982) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (883042) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (887922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (892922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (897922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (902922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (907922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (913002) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (917922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.3
+[0;32mI (922932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (927932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (932922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (937932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (942922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (947992) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (952932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (957932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (962932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (967922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (972922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (977922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (982922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (987932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (992932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (997932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1002922) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1007932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1012932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1017942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1023002) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1027992) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1033022) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1037932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1043022) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1047932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1052932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1057932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1062932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1067932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1072932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1077932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1082932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1087932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1092932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1097932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1102932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1107942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1112932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1117942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1123052) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1127942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1132932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1137932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1143012) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1147942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1152942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1157942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1162942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1167942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 29.6
+[0;32mI (1172932) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1177942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1182942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1187942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1192942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1197942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1202942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1207942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1212982) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1217942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1222952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1227962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1232982) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1237942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1242962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1247942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1252942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1257942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1262942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1267982) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1273012) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1277942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1282952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1287942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1292952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1297942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1302942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1307942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1312942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.3
+[0;32mI (1317942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1322952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1327992) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1332942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1337942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1342942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1347942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1352992) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1357952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1362952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1367962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1372952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1377962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1382942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1387952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1392952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1397942) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1402952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1407952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1412992) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1418092) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1422952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1427952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 30.3
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1432962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.2
+[0;32mI (1437952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1442952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1447952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1452952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1457952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1462952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1467952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1472952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1477952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1482952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1487992) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 29.5
+[0;32mI (1492952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1497952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1502962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1507952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1512952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1517952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1522952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1528072) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1532962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.0
+[0;32mI (1537962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1542962) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+[0;32mI (1547952) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp 35.1
+=== Reading NTC103 ===
+Temp 35.0
+[0;32mI (1552962) http_server: /ntcSensor.json requested[0m

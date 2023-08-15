@@ -1,0 +1,362 @@
+ets Ju�8 201�0:22:5SH�Hrst:�� (POWER��%MQ�,boot:0xL&B�A%}MT_FLASH%==Q�
+��˥�ͥ�� 0, SPIW���5
+,k�E���0�0,q_drv'��0,d_d.����0,�.�����0x00,hd_d.����0,�}drv:0x�j
+mode�T����� div:2!�+��0x������bb�n:7132!�������12 roo[�
+load'��00780�blen:1Mӓj
+ho �����12�����4!�+��0x��80400,���4
+l�X����00��04,leK�884
+e���0x40650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-1349-gcf7e743a9b-dirty 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Jul 17 2023 17:41:06[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (114) boot: No factory image, trying OTA 0[0m
+[0;32mI (119) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6bce4h (441572) map[0m
+[0;32mI (287) esp_image: segment 1: paddr=0007bd0c vaddr=3ffb0000 size=03768h ( 14184) load[0m
+[0;32mI (293) esp_image: segment 2: paddr=0007f47c vaddr=40080000 size=00b9ch (  2972) load[0m
+[0;32mI (294) esp_image: segment 3: paddr=00080020 vaddr=400d0020 size=8dae8h (580328) map[0m
+[0;32mI (511) esp_image: segment 4: paddr=0010db10 vaddr=40080b9c size=14c64h ( 85092) load[0m
+[0;32mI (557) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (618) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (618) boot: Disabling RNG early entropy source...[0m
+[0;32mI (629) cpu_start: Multicore app[0m
+[0;32mI (629) cpu_start: Pro cpu up.[0m
+[0;32mI (630) cpu_start: Starting app cpu, entry point is 0x400811f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (647) cpu_start: Pro cpu start user code[0m
+[0;32mI (647) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (647) cpu_start: Application information:[0m
+[0;32mI (652) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (658) cpu_start: App version:      1[0m
+[0;32mI (663) cpu_start: Compile time:     Jul 17 2023 17:41:02[0m
+[0;32mI (669) cpu_start: ELF file SHA256:  07ad968bd...[0m
+[0;32mI (674) cpu_start: ESP-IDF:          v5.2-dev-1349-gcf7e743a9b-dirty[0m
+[0;32mI (681) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (686) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (691) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (696) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (703) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (709) heap_init: At 3FFB7900 len 00028700 (161 KiB): DRAM[0m
+[0;32mI (715) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (721) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (728) heap_init: At 40095800 len 0000A800 (42 KiB): IRAM[0m
+[0;32mI (736) spi_flash: detected chip: generic[0m
+[0;32mI (739) spi_flash: flash io: dio[0m
+[0;33mW (743) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (751) app_start: Starting scheduler on CPU0[0m
+[0;32mI (756) app_start: Starting scheduler on CPU1[0m
+[0;32mI (756) main_task: Started on CPU0[0m
+[0;32mI (766) main_task: Calling app_main()[0m
+[0;32mI (786) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (786) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (796) wifi_init: rx ba win: 6[0m
+[0;32mI (796) wifi_init: tcpip mbox: 32[0m
+[0;32mI (796) wifi_init: udp mbox: 6[0m
+[0;32mI (806) wifi_init: tcp mbox: 6[0m
+[0;32mI (806) wifi_init: tcp tx win: 5744[0m
+[0;32mI (806) wifi_init: tcp rx win: 5744[0m
+[0;32mI (816) wifi_init: tcp mss: 1440[0m
+[0;32mI (816) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (826) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1546) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07[0m
+[0;32mI (1656) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (1656) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (1656) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (1656) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (1666) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+[0;32mI (1676) http_server: http_server_configure: Registering URI handlers[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp 32.8
+=== Reading NTC103 ===
+Temp 29.5
+=== Reading NTC103 ===
+Temp 29.2
+=== Reading NTC103 ===
+Temp 29.2
+=== Reading NTC103 ===
+Temp 30.4
+=== Reading NTC103 ===
+Temp 30.8
+=== Reading NTC103 ===
+Temp 31.2
+=== Reading NTC103 ===
+Temp 31.5
+[0;32mI (44216) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (44236) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.0.2[0m
+=== Reading NTC103 ===
+Temp 31.8
+=== Reading NTC103 ===
+Temp 32.1
+=== Reading NTC103 ===
+Temp 32.2
+=== Reading NTC103 ===
+Temp 32.4
+=== Reading NTC103 ===
+Temp 32.6
+=== Reading NTC103 ===
+Temp 32.6
+=== Reading NTC103 ===
+Temp 32.9
+=== Reading NTC103 ===
+Temp 33.0
+=== Reading NTC103 ===
+Temp 33.1
+[0;32mI (79846) http_server: index.html requested[0m
+[0;32mI (79906) http_server: JQuery requested[0m
+[0;32mI (80006) http_server: app.css requested[0m
+[0;32mI (80026) http_server: app.js requested[0m
+=== Reading NTC103 ===
+Temp 33.2
+=== Reading NTC103 ===
+Temp 33.3
+=== Reading NTC103 ===
+Temp 30.6
+=== Reading NTC103 ===
+Temp 33.4
+=== Reading NTC103 ===
+Temp 33.4
+=== Reading NTC103 ===
+Temp 33.5
+=== Reading NTC103 ===
+Temp 33.6
+=== Reading NTC103 ===
+Temp 33.7
+=== Reading NTC103 ===
+Temp 33.7
+=== Reading NTC103 ===
+Temp 33.7
+=== Reading NTC103 ===
+Temp 33.7
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 31.7
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 30.3
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 30.4
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.0
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 32.0
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.9
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 32.7
+=== Reading NTC103 ===
+Temp 33.8
+=== Reading NTC103 ===
+Temp 33.8

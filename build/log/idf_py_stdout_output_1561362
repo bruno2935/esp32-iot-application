@@ -1,0 +1,102 @@
+[1/11] Performing build step for 'bootloader'
+[1/1] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader/esp-idf/esptool_py && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader/bootloader.bin
+Bootloader binary size 0x68a0 bytes. 0x760 bytes (7%) free.
+[2/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[3/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/NTC103.c.obj
+In file included from /home/bruno/Documents/esp32-projects/esp32-iot-application/main/NTC103.c:2:
+/home/bruno/esp/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from /home/bruno/Documents/esp32-projects/esp32-iot-application/main/NTC103.c:4:
+/home/bruno/esp/esp-idf/components/esp_adc/deprecated/include/esp_adc_cal.h:17:2: warning: #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h" [-Wcpp]
+   17 | #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h"
+      |  ^~~~~~~
+/home/bruno/Documents/esp32-projects/esp32-iot-application/main/NTC103.c:17:21: warning: 'TAG' defined but not used [-Wunused-variable]
+   17 | static const char * TAG = "DHT";
+      |                     ^~~
+[4/9] Linking C static library esp-idf/main/libmain.a
+[5/9] Generating ld/sections.ld
+[6/9] Linking CXX executable esp32-iot-application.elf
+[7/9] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp32-iot-application.bin
+[8/9] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp-idf/esptool_py && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/bruno/Documents/esp32-projects/esp32-iot-application/build/partition_table/partition-table.bin /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp32-iot-application.bin
+esp32-iot-application.bin binary size 0x110d70 bytes. Smallest app partition is 0x1f0000 bytes. 0xdf290 bytes (45%) free.
+[8/9] cd /home/bruno/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/bruno/esp/esp-idf -D "SERIAL_TOOL=/home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/home/bruno/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/bruno/Documents/esp32-projects/esp32-iot-application/build -P /home/bruno/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 esp32-iot-application.bin 0x8000 partition_table/partition-table.bin 0xd000 ota_data_initial.bin
+esptool.py v4.6.2
+Serial port /dev/ttyACM0
+Connecting....
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 24:0a:c4:8b:6c:04
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00120fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000d000 to 0x0000efff...
+Compressed 26784 bytes to 16825...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007679... (100 %)
+Wrote 26784 bytes (16825 compressed) at 0x00001000 in 0.8 seconds (effective 259.4 kbit/s)...
+Hash of data verified.
+Compressed 1117552 bytes to 595582...
+Writing at 0x00010000... (2 %)
+Writing at 0x000180bd... (5 %)
+Writing at 0x000362ab... (8 %)
+Writing at 0x0004869b... (10 %)
+Writing at 0x0005607b... (13 %)
+Writing at 0x00062a8c... (16 %)
+Writing at 0x0006d4e7... (18 %)
+Writing at 0x00072f85... (21 %)
+Writing at 0x0007acf8... (24 %)
+Writing at 0x00082e35... (27 %)
+Writing at 0x000884c2... (29 %)
+Writing at 0x0008e3e5... (32 %)
+Writing at 0x00093b5f... (35 %)
+Writing at 0x00098f63... (37 %)
+Writing at 0x0009e7a8... (40 %)
+Writing at 0x000a406f... (43 %)
+Writing at 0x000a9d00... (45 %)
+Writing at 0x000afc0e... (48 %)
+Writing at 0x000b520e... (51 %)
+Writing at 0x000ba46c... (54 %)
+Writing at 0x000bfa2e... (56 %)
+Writing at 0x000c4c08... (59 %)
+Writing at 0x000ca3ad... (62 %)
+Writing at 0x000cfa52... (64 %)
+Writing at 0x000d54a5... (67 %)
+Writing at 0x000dad97... (70 %)
+Writing at 0x000e04e9... (72 %)
+Writing at 0x000e5fcc... (75 %)
+Writing at 0x000ec204... (78 %)
+Writing at 0x000f1cfb... (81 %)
+Writing at 0x000f75aa... (83 %)
+Writing at 0x001000b4... (86 %)
+Writing at 0x0010830b... (89 %)
+Writing at 0x0010e28d... (91 %)
+Writing at 0x00113df7... (94 %)
+Writing at 0x001199e8... (97 %)
+Writing at 0x0011ec6d... (100 %)
+Wrote 1117552 bytes (595582 compressed) at 0x00010000 in 15.0 seconds (effective 596.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 128...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (128 compressed) at 0x00008000 in 0.1 seconds (effective 347.8 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000d000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000d000 in 0.1 seconds (effective 453.2 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

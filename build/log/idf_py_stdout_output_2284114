@@ -1,0 +1,449 @@
+e�R��� &�򀂺��ʗ#a�r����E�	u�����%SQU�)���'�e��}FP*�e1�����U��c���g.i��*U��Ս��Ϳ�ٺ��0��E�ٺ��0I��.W��A09�A���:�a�	��V�i�A������¸A�պT�Q�,�+͠Vk�2�!�Ť'��f���0���i���*
+����������o[��!�+����0��0���ʕ��!�Ť��0�������i�!����Ŭ�����C!��i�Q�°�,�Y�ژ�A�ɹ�����Sj
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6f588h (456072) map[0m
+[0;32mI (291) esp_image: segment 1: paddr=0007f5b0 vaddr=3ffb0000 size=00a68h (  2664) load[0m
+[0;32mI (292) esp_image: segment 2: paddr=00080020 vaddr=400d0020 size=95de8h (613864) map[0m
+[0;32mI (518) esp_image: segment 3: paddr=00115e10 vaddr=3ffb0a68 size=02dc4h ( 11716) load[0m
+[0;32mI (523) esp_image: segment 4: paddr=00118bdc vaddr=40080000 size=15e90h ( 89744) load[0m
+[0;32mI (572) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (635) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (635) boot: Disabling RNG early entropy source...[0m
+[0;32mI (645) cpu_start: Multicore app[0m
+[0;32mI (646) cpu_start: Pro cpu up.[0m
+[0;32mI (646) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (664) cpu_start: Pro cpu start user code[0m
+[0;32mI (664) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (664) cpu_start: Application information:[0m
+[0;32mI (668) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (675) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (680) cpu_start: Compile time:     Aug 22 2023 17:17:19[0m
+[0;32mI (686) cpu_start: ELF file SHA256:  e422eaa5f...[0m
+[0;32mI (692) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (698) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (703) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (708) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (713) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (720) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (726) heap_init: At 3FFB7F80 len 00028080 (160 KiB): DRAM[0m
+[0;32mI (732) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (738) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (745) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (752) spi_flash: detected chip: generic[0m
+[0;32mI (755) spi_flash: flash io: dio[0m
+[0;33mW (760) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (768) app_start: Starting scheduler on CPU0[0m
+[0;32mI (773) app_start: Starting scheduler on CPU1[0m
+[0;32mI (773) main_task: Started on CPU0[0m
+[0;32mI (783) main_task: Calling app_main()[0m
+[0;32mI (803) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (803) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (813) wifi_init: rx ba win: 6[0m
+[0;32mI (813) wifi_init: tcpip mbox: 32[0m
+[0;32mI (823) wifi_init: udp mbox: 6[0m
+[0;32mI (823) wifi_init: tcp mbox: 6[0m
+[0;32mI (823) wifi_init: tcp tx win: 5744[0m
+[0;32mI (833) wifi_init: tcp rx win: 5744[0m
+[0;32mI (833) wifi_init: tcp mss: 1440[0m
+[0;32mI (843) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (843) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2013) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2103) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2103) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2103) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2103) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2113) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2123) wifi_app: Loaded station configuration[0m
+[0;32mI (2133) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2133) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2153) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4093) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5093) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5093) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5093) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5093) main: Wifi application connected!![0m
+[0;32mI (5103) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (5103) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (5113) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (15113) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (15113) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 15000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (25113) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (25113) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (35113) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (35113) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (45113) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (45113) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 30000 ms
+ets Jun  8 201��Ғ�:57
+
+rst:0x1 (P�UI=9_RESET),boot:0x13 (SPReMQ_FLASH_BOOT)
+configsi� 0, SPIWP:0xee
+clk_drv:0x0b�}��v:0x00,d_drv:0x00,cs0_���0x00,hd_drv:0x00,wp_drv:��0
+mode:DIO, clock di��j
+load:0x3fff0030,len:71&�H�� tail 12 room 4
+loX����0078000,len:15708
+loa����0080400,len:4
+ho ���l 4 room 4
+load:0x400����bb���3884
+entry 0x4008���j
+[0;32mI (32) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6f588h (456072) map[0m
+[0;32mI (287) esp_image: segment 1: paddr=0007f5b0 vaddr=3ffb0000 size=00a68h (  2664) load[0m
+[0;32mI (288) esp_image: segment 2: paddr=00080020 vaddr=400d0020 size=95de8h (613864) map[0m
+[0;32mI (514) esp_image: segment 3: paddr=00115e10 vaddr=3ffb0a68 size=02dc4h ( 11716) load[0m
+[0;32mI (519) esp_image: segment 4: paddr=00118bdc vaddr=40080000 size=15e90h ( 89744) load[0m
+[0;32mI (568) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (568) boot: Disabling RNG early entropy source...[0m
+[0;32mI (580) cpu_start: Multicore app[0m
+[0;32mI (580) cpu_start: Pro cpu up.[0m
+[0;32mI (580) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (598) cpu_start: Pro cpu start user code[0m
+[0;32mI (598) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (598) cpu_start: Application information:[0m
+[0;32mI (603) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (609) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (614) cpu_start: Compile time:     Aug 22 2023 17:17:19[0m
+[0;32mI (620) cpu_start: ELF file SHA256:  e422eaa5f...[0m
+[0;32mI (626) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (632) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (637) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (642) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (647) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (654) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (660) heap_init: At 3FFB7F80 len 00028080 (160 KiB): DRAM[0m
+[0;32mI (666) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (672) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (679) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (687) spi_flash: detected chip: generic[0m
+[0;32mI (690) spi_flash: flash io: dio[0m
+[0;33mW (694) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (702) app_start: Starting scheduler on CPU0[0m
+[0;32mI (707) app_start: Starting scheduler on CPU1[0m
+[0;32mI (707) main_task: Started on CPU0[0m
+[0;32mI (717) main_task: Calling app_main()[0m
+[0;32mI (737) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (737) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (747) wifi_init: rx ba win: 6[0m
+[0;32mI (747) wifi_init: tcpip mbox: 32[0m
+[0;32mI (757) wifi_init: udp mbox: 6[0m
+[0;32mI (757) wifi_init: tcp mbox: 6[0m
+[0;32mI (757) wifi_init: tcp tx win: 5744[0m
+[0;32mI (767) wifi_init: tcp rx win: 5744[0m
+[0;32mI (767) wifi_init: tcp mss: 1440[0m
+[0;32mI (777) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (777) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1947) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2037) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2037) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2037) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2037) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2047) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2057) wifi_app: Loaded station configuration[0m
+[0;32mI (2067) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2067) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2077) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4027) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5027) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5027) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5027) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5037) main: Wifi application connected!![0m
+[0;32mI (5037) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (5037) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (5047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (15047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (15047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 15000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (25047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (25047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (35047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (35047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (45047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (45047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 30000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (55047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (55047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (65047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (65047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (75047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (75047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (85047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (85047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (95047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (95047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 60000 ms
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (105047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (105047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (115047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (115047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (125047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (125047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (135047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (135047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (145047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (145047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (155047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (155047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (165047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (165047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 120000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (175047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (175047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (185047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (185047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (195047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (195047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (205047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (205047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (215047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (215047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (225047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (225047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp 159.6
+[0;32mI (235047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (235047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (245047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (245047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (255047) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (255047) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1

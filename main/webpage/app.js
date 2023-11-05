@@ -9,6 +9,7 @@ var wifiConnectInterval = null;
  * Initialize functions here.
  */
 $(document).ready(function(){
+	getSSID();
 	getUpdateStatus();
 	startNtcSensorInterval();
 	startLocalTimeInterval();
@@ -319,15 +320,25 @@ function startLocalTimeInterval()
  * Gets the local time.
  * @note connect the ESP32 to the internet and the time will be updated.
  */
-function startLocalTimeInterval()
+function getLocalTime()
 {
 	$.getJSON('/localTime.json', function(data){
-		$("#local_time").text(data["time"])
+		$("#local_time").text(data["time"]);
+	});
+}
+
+/**
+ * gets the ESP32's access point SSID For displayring on the web page
+ */
+function getSSID()
+{
+	
+	$.getJSON('/apSSID.json', function(data){
+		$("#ap_ssid").text(data["ssid"]);
 	});
 }
 
 
 
-    
 
 

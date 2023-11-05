@@ -1,0 +1,1919 @@
+ؚ�j%�(291) ��ׁJ�&�Ҁ���Ҫ��H�¸BB�WQ���%S�Uɒ��W¸�&��}FP*�%��*�%=����c���ݳ� �	����¸��H�k���'�A�	}��W�x�bdE��:���i�0���:�A�	K������,���W¸��a���'T�����+��VKi�!�d'��f�a�b��n�S������7���L&��ݭ��!���'�Q���0�b���'�7�j
+�+�:�Q��0��i�!�8��������A�!�d���0�����K�i����Y����Q0�j
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6f588h (456072) map[0m
+[0;32mI (291) esp_image: segment 1: paddr=0007f5b0 vaddr=3ffb0000 size=00a68h (  2664) load[0m
+[0;32mI (292) esp_image: segment 2: paddr=00080020 vaddr=400d0020 size=95cfch (613628) map[0m
+[0;32mI (518) esp_image: segment 3: paddr=00115d24 vaddr=3ffb0a68 size=02dc4h ( 11716) load[0m
+[0;32mI (523) esp_image: segment 4: paddr=00118af0 vaddr=40080000 size=15e90h ( 89744) load[0m
+[0;32mI (572) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (632) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (632) boot: Disabling RNG early entropy source...[0m
+[0;32mI (643) cpu_start: Multicore app[0m
+[0;32mI (643) cpu_start: Pro cpu up.[0m
+[0;32mI (643) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (661) cpu_start: Pro cpu start user code[0m
+[0;32mI (661) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (661) cpu_start: Application information:[0m
+[0;32mI (666) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (672) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (678) cpu_start: Compile time:     Aug 22 2023 17:17:19[0m
+[0;32mI (684) cpu_start: ELF file SHA256:  eb0c71d03...[0m
+[0;32mI (689) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (696) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (700) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (705) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (710) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (717) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (723) heap_init: At 3FFB7F80 len 00028080 (160 KiB): DRAM[0m
+[0;32mI (729) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (736) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (742) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (750) spi_flash: detected chip: generic[0m
+[0;32mI (753) spi_flash: flash io: dio[0m
+[0;33mW (757) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (766) app_start: Starting scheduler on CPU0[0m
+[0;32mI (770) app_start: Starting scheduler on CPU1[0m
+[0;32mI (770) main_task: Started on CPU0[0m
+[0;32mI (780) main_task: Calling app_main()[0m
+[0;32mI (800) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (800) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (810) wifi_init: rx ba win: 6[0m
+[0;32mI (810) wifi_init: tcpip mbox: 32[0m
+[0;32mI (820) wifi_init: udp mbox: 6[0m
+[0;32mI (820) wifi_init: tcp mbox: 6[0m
+[0;32mI (820) wifi_init: tcp tx win: 5744[0m
+[0;32mI (830) wifi_init: tcp rx win: 5744[0m
+[0;32mI (830) wifi_init: tcp mss: 1440[0m
+[0;32mI (840) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (840) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2010) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2100) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2100) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2100) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2100) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2110) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.0.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2120) wifi_app: Loaded station configuration[0m
+[0;32mI (2130) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2130) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2150) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4090) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5100) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5100) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5100) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5100) main: Wifi application connected!![0m
+[0;32mI (5110) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (5110) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (5120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (15120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (15120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 15000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (25120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (25120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (35120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (35120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (45120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (45120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 30000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (55120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (55120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (65120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (65120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (75120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (75120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (85120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (85120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (95120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (95120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 60000 ms
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (105120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (105120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (115120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (115120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (125120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (125120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (135120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (135120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (145120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (145120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (155120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (155120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (165120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (165120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 120000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (175120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (175120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (185120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (185120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (195120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (195120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (205120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (205120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (215120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (215120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (225120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (225120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (235120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (235120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (245120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (245120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (255120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (255120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (265120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (265120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (275120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (275120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (285120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (285120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (295120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (295120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (305120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (305120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (315120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (315120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (325120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (325120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (335120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (335120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (345120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (345120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (355120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (355120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (365120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (365120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (375120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (375120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (385120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (385120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (395120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (395120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (405120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (405120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (415120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (415120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (425120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (425120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (435120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (435120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (445120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (445120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+[0;32mI (455120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (455120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (465120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (465120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (475120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (475120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (485120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (485120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (495120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (495120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (505120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (505120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (515120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (515120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (525120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (525120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (535120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (535120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (545120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (545120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -197.9
+[0;32mI (555120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (555120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (565120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (565120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (575120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (575120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (585120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (585120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (595120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (595120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (605120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (605120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (615120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (615120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (625120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (625120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (635120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (635120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (645120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (645120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (655120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (655120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (665120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (665120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (675120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (675120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (685120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (685120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (695120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (695120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (705120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (705120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (715120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (715120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (725120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (725120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (735120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (735120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (745120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (745120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (755120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (755120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (765120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (765120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (775120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (775120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (785120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (785120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (795120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (795120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (805120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (805120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -219.5
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (815120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (815120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (825120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (825120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (835120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (835120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (845120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (845120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (855120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (855120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (865120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (865120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -200.7
+[0;32mI (875120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (875120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (885120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (885120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (895120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (895120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (905120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (905120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (915120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (915120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (925120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (925120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (935120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (935120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (945120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (945120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (955120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (955120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (965120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (965120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (975120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (975120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (985120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (985120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (995120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (995120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1005120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1005120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1015120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1015120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1025120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1025120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1035120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1035120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1045120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1045120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1055120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1055120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1065120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1065120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1075120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1075120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1085120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1085120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1095120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1095120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1105120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1105120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1115120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1115120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1125120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1125120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1135120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1135120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1145120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1145120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1155120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1155120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1165120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1165120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1175120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1175120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1185120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1185120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1195120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1195120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1205120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1205120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1215120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1215120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1225120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1225120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1235120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1235120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1245120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1245120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1255120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1255120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1265120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1265120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+[0;32mI (1275120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1275120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1285120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1285120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1295120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1295120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1305120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1305120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1315120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1315120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1325120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1325120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1335120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1335120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1345120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1345120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1355120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1355120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1365120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1365120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1375120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1375120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1385120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1385120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1395120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1395120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1405120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1405120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1415120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1415120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1425120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1425120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1435120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1435120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1445120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1445120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1455120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1455120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1465120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1465120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1475120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1475120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1485120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1485120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1495120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1495120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1505120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1505120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1515120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1515120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1525120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1525120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1535120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1535120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1545120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1545120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1555120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1555120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1565120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1565120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1575120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1575120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1585120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1585120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1595120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1595120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1605120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1605120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1615120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1615120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1625120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1625120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1635120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1635120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1645120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1645120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1655120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1655120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1665120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1665120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1675120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1675120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1685120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1685120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1695120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1695120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1705120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1705120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1715120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1715120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1725120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1725120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1735120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1735120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1745120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1745120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1755120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1755120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1765120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1765120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1775120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1775120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1785120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1785120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1795120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1795120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1805120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1805120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1815120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1815120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1825120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1825120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1835120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1835120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1845120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1845120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1855120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1855120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1865120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1865120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1875120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1875120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1885120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1885120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1895120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1895120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1905120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1905120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1915120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1915120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1925120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1925120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1935120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1935120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1945120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1945120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1955120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1955120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1965120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1965120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1975120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1975120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1985120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1985120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (1995120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (1995120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2005120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2005120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2015120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2015120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2025120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2025120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2035120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2035120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2045120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2045120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2055120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2055120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2065120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2065120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2075120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2075120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2085120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2085120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+sntp_request: Waiting for server address to be resolved.
+[0;32mI (2095120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2095120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2105120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2105120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+sntp_dns_found: Failed to resolve server address resolved, trying next server
+sntp_retry: Next request will be sent in 150000 ms
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2115120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2115120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2125120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2125120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2135120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2135120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2145120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2145120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2155120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2155120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2165120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2165120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2175120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2175120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2185120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2185120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2195120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2195120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2205120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2205120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2215120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2215120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (2225120) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (2225120) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1

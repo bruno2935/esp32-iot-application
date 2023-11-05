@@ -1,0 +1,2090 @@
+���]��Ґ,��:���������E�	�]���ꅕ�15ɒ��W��E��}FP*�e1���%=���H(�n��V�����Z���¸���c�}Ѳ���A�)�����E�v'�A�i�0E�ٺ�A�	K��.W��A���_V�i�A�!�ѥ'4�Q�,�+̀V��2C!��i�M���3��K�i���j
+���7�рL����������Q������kٚ��!��i�Q�°����i�#!�A������r������'�q�����:&�4�A�ɹ����0�-j�[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (93) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=78ad0h (494288) map[0m
+[0;32mI (305) esp_image: segment 1: paddr=00088af8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (311) esp_image: segment 2: paddr=0008c38c vaddr=40080000 size=03c8ch ( 15500) load[0m
+[0;32mI (317) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a93cch (693196) map[0m
+[0;32mI (569) esp_image: segment 4: paddr=001393f4 vaddr=40083c8c size=12204h ( 74244) load[0m
+[0;32mI (611) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (673) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (673) boot: Disabling RNG early entropy source...[0m
+[0;32mI (684) cpu_start: Multicore app[0m
+[0;32mI (684) cpu_start: Pro cpu up.[0m
+[0;32mI (684) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (702) cpu_start: Pro cpu start user code[0m
+[0;32mI (702) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (702) cpu_start: Application information:[0m
+[0;32mI (707) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (713) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (719) cpu_start: Compile time:     Aug 25 2023 09:53:59[0m
+[0;32mI (725) cpu_start: ELF file SHA256:  01b979c43...[0m
+[0;32mI (730) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (737) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (741) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (746) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (751) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (758) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (764) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (770) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (777) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (783) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (791) spi_flash: detected chip: generic[0m
+[0;32mI (794) spi_flash: flash io: dio[0m
+[0;33mW (798) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (807) app_start: Starting scheduler on CPU0[0m
+[0;32mI (811) app_start: Starting scheduler on CPU1[0m
+[0;32mI (811) main_task: Started on CPU0[0m
+[0;32mI (821) main_task: Calling app_main()[0m
+[0;32mI (831) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (841) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (851) wifi_init: rx ba win: 6[0m
+[0;32mI (851) wifi_init: tcpip mbox: 32[0m
+[0;32mI (851) wifi_init: udp mbox: 6[0m
+[0;32mI (861) wifi_init: tcp mbox: 6[0m
+[0;32mI (861) wifi_init: tcp tx win: 5744[0m
+[0;32mI (871) wifi_init: tcp rx win: 5744[0m
+[0;32mI (871) wifi_init: tcp mss: 1440[0m
+[0;32mI (871) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (881) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2051) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2141) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2141) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2141) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2141) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2151) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2161) wifi_app: Loaded station configuration[0m
+[0;32mI (2171) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2171) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (3351) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (3361) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (7361) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (7361) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (7361) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (7361) main: Wifi application connected!![0m
+[0;32mI (7371) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (7371) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (7381) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (7391) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+[0;32mI (8771) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (8771) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (8781) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (8791) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (8801) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (8931) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (8931) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (8941) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 2.
+
+[0m
+[0;32mI (9001) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (9001) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (9001) coreMQTT: PUBACK received for packet id 2.
+
+[0m
+[0;32mI (9001) coreMQTT: Cleaned up outgoing publish packet with packet id 2.
+
+[0m
+[0;32mI (9021) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (9021) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (9031) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (9031) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (14051) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (15051) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (15051) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 3.
+
+[0m
+[0;32mI (15101) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (15101) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (15101) coreMQTT: PUBACK received for packet id 3.
+
+[0m
+[0;32mI (15111) coreMQTT: Cleaned up outgoing publish packet with packet id 3.
+
+[0m
+[0;32mI (15131) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (15131) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (15131) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (15141) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (20161) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (21161) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (21161) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 4.
+
+[0m
+[0;32mI (21211) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (21211) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (21211) coreMQTT: PUBACK received for packet id 4.
+
+[0m
+[0;32mI (21221) coreMQTT: Cleaned up outgoing publish packet with packet id 4.
+
+[0m
+[0;32mI (21241) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (21241) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (21241) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (21251) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (26271) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (27271) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (27271) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 5.
+
+[0m
+[0;32mI (27321) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (27321) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (27331) coreMQTT: PUBACK received for packet id 5.
+
+[0m
+[0;32mI (27331) coreMQTT: Cleaned up outgoing publish packet with packet id 5.
+
+[0m
+[0;32mI (27351) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (27351) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (27361) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (27361) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (32401) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (33401) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (33401) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 6.
+
+[0m
+[0;32mI (33501) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (33501) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (33511) coreMQTT: PUBACK received for packet id 6.
+
+[0m
+[0;32mI (33511) coreMQTT: Cleaned up outgoing publish packet with packet id 6.
+
+[0m
+[0;32mI (33531) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (33531) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (33541) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (33541) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -36.
+
+[0m
+=== Reading NTC103 ===
+Temp -247.8
+[0;32mI (38641) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (39641) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (39641) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (39741) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (39741) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (39751) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (39761) coreMQTT: Demo completed successfully.[0m
+[0;32mI (39761) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (44771) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (46131) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (46131) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (46131) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (46141) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (46161) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (46221) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (46221) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (46241) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 9.
+
+[0m
+[0;32mI (46281) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (46281) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (46291) coreMQTT: PUBACK received for packet id 9.
+
+[0m
+[0;32mI (46291) coreMQTT: Cleaned up outgoing publish packet with packet id 9.
+
+[0m
+[0;32mI (46311) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (46311) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (46321) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (46321) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (51421) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (52421) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (52421) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 10.
+
+[0m
+[0;32mI (52521) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (52521) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (52531) coreMQTT: PUBACK received for packet id 10.
+
+[0m
+[0;32mI (52531) coreMQTT: Cleaned up outgoing publish packet with packet id 10.
+
+[0m
+[0;32mI (52551) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (52551) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (52561) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (52561) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -37.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (57661) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (58661) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (58661) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 11.
+
+[0m
+[0;32mI (58751) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (58751) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (58751) coreMQTT: PUBACK received for packet id 11.
+
+[0m
+[0;32mI (58761) coreMQTT: Cleaned up outgoing publish packet with packet id 11.
+
+[0m
+[0;32mI (58771) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (58781) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (58781) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (58791) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -36.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (63891) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (64891) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (64891) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 12.
+
+[0m
+[0;32mI (64991) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (64991) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (64991) coreMQTT: PUBACK received for packet id 12.
+
+[0m
+[0;32mI (65001) coreMQTT: Cleaned up outgoing publish packet with packet id 12.
+
+[0m
+[0;32mI (65021) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (65021) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (65031) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (65031) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -36.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (70131) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (71131) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (71131) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 13.
+
+[0m
+[0;32mI (71231) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (71231) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (71231) coreMQTT: PUBACK received for packet id 13.
+
+[0m
+[0;32mI (71241) coreMQTT: Cleaned up outgoing publish packet with packet id 13.
+
+[0m
+[0;32mI (71261) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (71261) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (71261) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (71271) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (76371) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (77371) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (77371) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (77471) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (77471) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (77481) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (77491) coreMQTT: Demo completed successfully.[0m
+[0;32mI (77491) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (82501) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (83921) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (83921) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (83921) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (83931) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (83951) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (84011) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (84011) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (84021) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 16.
+
+[0m
+[0;32mI (84111) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (84121) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (84121) coreMQTT: PUBACK received for packet id 16.
+
+[0m
+[0;32mI (84121) coreMQTT: Cleaned up outgoing publish packet with packet id 16.
+
+[0m
+[0;32mI (84141) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (84141) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (84151) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (84151) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (89251) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (90251) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (90251) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 17.
+
+[0m
+[0;32mI (90341) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (90341) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (90341) coreMQTT: PUBACK received for packet id 17.
+
+[0m
+[0;32mI (90351) coreMQTT: Cleaned up outgoing publish packet with packet id 17.
+
+[0m
+[0;32mI (90361) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (90371) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (90371) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (90381) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (95481) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (96481) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (96481) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 18.
+
+[0m
+[0;32mI (96581) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (96581) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (96581) coreMQTT: PUBACK received for packet id 18.
+
+[0m
+[0;32mI (96591) coreMQTT: Cleaned up outgoing publish packet with packet id 18.
+
+[0m
+[0;32mI (96611) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (96611) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (96611) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (96621) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -44.8
+[0;32mI (101721) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (102721) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (102721) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 19.
+
+[0m
+[0;32mI (102811) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (102811) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (102821) coreMQTT: PUBACK received for packet id 19.
+
+[0m
+[0;32mI (102821) coreMQTT: Cleaned up outgoing publish packet with packet id 19.
+
+[0m
+[0;32mI (102841) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (102841) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (102851) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (102851) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (107951) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (108951) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (108951) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 20.
+
+[0m
+[0;32mI (109041) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (109041) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (109041) coreMQTT: PUBACK received for packet id 20.
+
+[0m
+[0;32mI (109051) coreMQTT: Cleaned up outgoing publish packet with packet id 20.
+
+[0m
+[0;32mI (109071) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (109071) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (109071) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (109081) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (114181) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (115181) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (115181) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (115281) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (115281) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (115291) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (115301) coreMQTT: Demo completed successfully.[0m
+[0;32mI (115301) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (120311) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (121681) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (121681) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (121691) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (121701) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (121711) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (121781) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (121781) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (121791) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 23.
+
+[0m
+[0;32mI (121841) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (121841) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (121841) coreMQTT: PUBACK received for packet id 23.
+
+[0m
+[0;32mI (121851) coreMQTT: Cleaned up outgoing publish packet with packet id 23.
+
+[0m
+[0;32mI (121871) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (121871) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (121871) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (121881) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (126981) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (127981) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (127981) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 24.
+
+[0m
+[0;32mI (128081) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (128081) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (128081) coreMQTT: PUBACK received for packet id 24.
+
+[0m
+[0;32mI (128091) coreMQTT: Cleaned up outgoing publish packet with packet id 24.
+
+[0m
+[0;32mI (128111) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (128111) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (128111) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (128121) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (133221) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (134221) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (134221) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 25.
+
+[0m
+[0;32mI (134311) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (134311) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (134311) coreMQTT: PUBACK received for packet id 25.
+
+[0m
+[0;32mI (134321) coreMQTT: Cleaned up outgoing publish packet with packet id 25.
+
+[0m
+[0;32mI (134341) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (134341) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (134341) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (134351) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (139451) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (140451) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (140451) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 26.
+
+[0m
+[0;32mI (140551) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (140551) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (140551) coreMQTT: PUBACK received for packet id 26.
+
+[0m
+[0;32mI (140561) coreMQTT: Cleaned up outgoing publish packet with packet id 26.
+
+[0m
+[0;32mI (140571) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (140571) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (140581) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (140581) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (145681) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (146681) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (146681) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 27.
+
+[0m
+[0;32mI (146771) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (146771) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (146771) coreMQTT: PUBACK received for packet id 27.
+
+[0m
+[0;32mI (146781) coreMQTT: Cleaned up outgoing publish packet with packet id 27.
+
+[0m
+[0;32mI (146801) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (146801) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (146801) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (146811) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (151911) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (152911) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (152911) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (153011) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (153011) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (153021) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (153031) coreMQTT: Demo completed successfully.[0m
+[0;32mI (153031) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (158041) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (159431) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (159431) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (159441) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (159451) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (159461) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (159531) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (159531) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (159541) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 30.
+
+[0m
+[0;32mI (159591) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (159591) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (159591) coreMQTT: PUBACK received for packet id 30.
+
+[0m
+[0;32mI (159601) coreMQTT: Cleaned up outgoing publish packet with packet id 30.
+
+[0m
+[0;32mI (159611) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (159611) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (159621) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (159621) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (164721) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -139.4
+[0;32mI (165721) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (165721) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 31.
+
+[0m
+[0;32mI (165811) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (165811) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (165811) coreMQTT: PUBACK received for packet id 31.
+
+[0m
+[0;32mI (165821) coreMQTT: Cleaned up outgoing publish packet with packet id 31.
+
+[0m
+[0;32mI (165841) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (165841) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (165841) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (165851) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (170951) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (171951) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (171951) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 32.
+
+[0m
+[0;32mI (172041) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (172041) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (172041) coreMQTT: PUBACK received for packet id 32.
+
+[0m
+[0;32mI (172051) coreMQTT: Cleaned up outgoing publish packet with packet id 32.
+
+[0m
+[0;32mI (172071) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (172071) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (172071) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (172081) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (177181) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (178181) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (178181) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 33.
+
+[0m
+[0;32mI (178281) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (178281) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (178281) coreMQTT: PUBACK received for packet id 33.
+
+[0m
+[0;32mI (178291) coreMQTT: Cleaned up outgoing publish packet with packet id 33.
+
+[0m
+[0;32mI (178311) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (178311) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (178311) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (178321) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (183421) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (184421) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (184421) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 34.
+
+[0m
+[0;32mI (184511) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (184511) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (184511) coreMQTT: PUBACK received for packet id 34.
+
+[0m
+[0;32mI (184521) coreMQTT: Cleaned up outgoing publish packet with packet id 34.
+
+[0m
+[0;32mI (184531) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (184541) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (184541) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (184551) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (189651) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (190651) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (190651) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (190751) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (190751) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (190761) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (190771) coreMQTT: Demo completed successfully.[0m
+[0;32mI (190771) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (195771) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (197121) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (197121) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (197121) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (197131) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (197141) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (197211) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (197211) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (197221) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 37.
+
+[0m
+[0;32mI (197271) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (197271) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (197271) coreMQTT: PUBACK received for packet id 37.
+
+[0m
+[0;32mI (197281) coreMQTT: Cleaned up outgoing publish packet with packet id 37.
+
+[0m
+[0;32mI (197301) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (197301) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (197301) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (197311) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (202411) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (203411) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (203411) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 38.
+
+[0m
+[0;32mI (203501) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (203501) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (203501) coreMQTT: PUBACK received for packet id 38.
+
+[0m
+[0;32mI (203511) coreMQTT: Cleaned up outgoing publish packet with packet id 38.
+
+[0m
+[0;32mI (203531) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (203531) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (203531) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (203541) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (208641) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (209641) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (209641) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 39.
+
+[0m
+[0;32mI (209721) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (209731) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (209731) coreMQTT: PUBACK received for packet id 39.
+
+[0m
+[0;32mI (209731) coreMQTT: Cleaned up outgoing publish packet with packet id 39.
+
+[0m
+[0;32mI (209771) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (209771) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (209781) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (209781) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (214881) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (215881) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (215881) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 40.
+
+[0m
+[0;32mI (215971) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (215971) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (215981) coreMQTT: PUBACK received for packet id 40.
+
+[0m
+[0;32mI (215981) coreMQTT: Cleaned up outgoing publish packet with packet id 40.
+
+[0m
+[0;32mI (216001) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (216001) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (216011) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (216011) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (221111) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (222111) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (222111) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 41.
+
+[0m
+[0;32mI (222211) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (222211) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (222211) coreMQTT: PUBACK received for packet id 41.
+
+[0m
+[0;32mI (222221) coreMQTT: Cleaned up outgoing publish packet with packet id 41.
+
+[0m
+[0;32mI (222231) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (222241) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (222241) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (222251) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (227351) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (228351) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (228351) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (228471) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (228471) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (228481) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (228481) coreMQTT: Demo completed successfully.[0m
+[0;32mI (228491) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -244.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (233491) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (234881) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (234881) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (234881) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (234891) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (234901) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (234971) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (234971) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (234981) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 44.
+
+[0m
+[0;32mI (235031) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (235031) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (235041) coreMQTT: PUBACK received for packet id 44.
+
+[0m
+[0;32mI (235041) coreMQTT: Cleaned up outgoing publish packet with packet id 44.
+
+[0m
+[0;32mI (235061) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (235061) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (235071) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (235071) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (240171) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (241171) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (241171) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 45.
+
+[0m
+[0;32mI (241261) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (241261) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (241261) coreMQTT: PUBACK received for packet id 45.
+
+[0m
+[0;32mI (241271) coreMQTT: Cleaned up outgoing publish packet with packet id 45.
+
+[0m
+[0;32mI (241291) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (241291) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (241291) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (241301) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (246401) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (247401) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (247401) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 46.
+
+[0m
+[0;32mI (247491) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (247491) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (247491) coreMQTT: PUBACK received for packet id 46.
+
+[0m
+[0;32mI (247501) coreMQTT: Cleaned up outgoing publish packet with packet id 46.
+
+[0m
+[0;32mI (247521) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (247521) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (247521) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (247531) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (252631) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (253631) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (253631) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 47.
+
+[0m
+[0;32mI (253731) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (253731) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (253731) coreMQTT: PUBACK received for packet id 47.
+
+[0m
+[0;32mI (253741) coreMQTT: Cleaned up outgoing publish packet with packet id 47.
+
+[0m
+[0;32mI (253761) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (253761) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (253761) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (253771) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (258871) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (259871) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (259871) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 48.
+
+[0m
+[0;32mI (259971) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (259971) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (259971) coreMQTT: PUBACK received for packet id 48.
+
+[0m
+[0;32mI (259981) coreMQTT: Cleaned up outgoing publish packet with packet id 48.
+
+[0m
+[0;32mI (259991) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (259991) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (260001) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (260001) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (265101) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (266101) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (266101) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (266201) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (266201) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (266211) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (266221) coreMQTT: Demo completed successfully.[0m
+[0;32mI (266221) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (271231) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (272581) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (272581) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (272581) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (272591) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (272601) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (272671) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (272671) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (272691) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 51.
+
+[0m
+[0;32mI (272771) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (272771) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (272781) coreMQTT: PUBACK received for packet id 51.
+
+[0m
+[0;32mI (272781) coreMQTT: Cleaned up outgoing publish packet with packet id 51.
+
+[0m
+[0;32mI (272801) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (272801) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (272811) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (272811) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (277911) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (278911) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (278911) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 52.
+
+[0m
+[0;32mI (279001) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (279001) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (279011) coreMQTT: PUBACK received for packet id 52.
+
+[0m
+[0;32mI (279011) coreMQTT: Cleaned up outgoing publish packet with packet id 52.
+
+[0m
+[0;32mI (279031) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (279031) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (279041) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (279041) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (284141) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (285141) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (285141) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 53.
+
+[0m
+[0;32mI (285231) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (285231) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (285231) coreMQTT: PUBACK received for packet id 53.
+
+[0m
+[0;32mI (285241) coreMQTT: Cleaned up outgoing publish packet with packet id 53.
+
+[0m
+[0;32mI (285261) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (285261) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (285261) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (285271) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (290351) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (291351) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (291351) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 54.
+
+[0m
+[0;32mI (291481) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (291481) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (291481) coreMQTT: PUBACK received for packet id 54.
+
+[0m
+[0;32mI (291491) coreMQTT: Cleaned up outgoing publish packet with packet id 54.
+
+[0m
+[0;32mI (291511) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (291511) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (291511) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (291521) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -55.4
+[0;32mI (296621) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (297621) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (297631) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 55.
+
+[0m
+[0;32mI (297711) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (297711) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (297721) coreMQTT: PUBACK received for packet id 55.
+
+[0m
+[0;32mI (297721) coreMQTT: Cleaned up outgoing publish packet with packet id 55.
+
+[0m
+[0;32mI (297741) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (297741) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (297751) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (297751) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (302901) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (303901) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (303901) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (304001) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (304001) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (304011) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (304011) coreMQTT: Demo completed successfully.[0m
+[0;32mI (304021) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (309021) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (310411) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (310411) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (310411) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (310421) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (310441) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (310531) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (310531) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (310541) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 58.
+
+[0m
+[0;32mI (310601) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (310601) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (310611) coreMQTT: PUBACK received for packet id 58.
+
+[0m
+[0;32mI (310611) coreMQTT: Cleaned up outgoing publish packet with packet id 58.
+
+[0m
+[0;32mI (310621) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (310631) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (310641) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (310641) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (315741) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (316741) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (316741) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 59.
+
+[0m
+[0;32mI (316841) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (316841) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (316851) coreMQTT: PUBACK received for packet id 59.
+
+[0m
+=== Reading NTC103 ===
+[0;32mI (316851) coreMQTT: Cleaned up outgoing publish packet with packet id 59.
+
+[0m
+Temp -273.1
+[0;32mI (316901) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (316901) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (316901) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (316911) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (322011) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (323011) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (323021) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 60.
+
+[0m
+[0;32mI (323101) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (323101) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (323111) coreMQTT: PUBACK received for packet id 60.
+
+[0m
+[0;32mI (323111) coreMQTT: Cleaned up outgoing publish packet with packet id 60.
+
+[0m
+[0;32mI (323131) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (323131) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (323141) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (323141) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -36.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (328241) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (329241) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (329241) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 61.
+
+[0m
+[0;32mI (329331) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (329331) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (329341) coreMQTT: PUBACK received for packet id 61.
+
+[0m
+[0;32mI (329341) coreMQTT: Cleaned up outgoing publish packet with packet id 61.
+
+[0m
+[0;32mI (329361) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (329361) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (329371) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (329371) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (334471) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (335471) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (335471) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 62.
+
+[0m
+[0;32mI (335571) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (335571) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (335571) coreMQTT: PUBACK received for packet id 62.
+
+[0m
+[0;32mI (335581) coreMQTT: Cleaned up outgoing publish packet with packet id 62.
+
+[0m
+[0;32mI (335601) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (335601) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (335601) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (335611) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (340711) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (341711) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (341711) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (341811) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (341811) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (341821) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (341821) coreMQTT: Demo completed successfully.[0m
+[0;32mI (341831) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (346831) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (348261) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (348271) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (348271) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (348281) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (348291) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (348361) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (348371) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (348381) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 65.
+
+[0m
+[0;32mI (348421) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (348421) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (348431) coreMQTT: PUBACK received for packet id 65.
+
+[0m
+[0;32mI (348431) coreMQTT: Cleaned up outgoing publish packet with packet id 65.
+
+[0m
+[0;32mI (348451) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (348451) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (348461) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (348461) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (353561) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (354561) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (354561) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 66.
+
+[0m
+[0;32mI (354661) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (354661) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (354671) coreMQTT: PUBACK received for packet id 66.
+
+[0m
+[0;32mI (354671) coreMQTT: Cleaned up outgoing publish packet with packet id 66.
+
+[0m
+[0;32mI (354691) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (354691) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (354701) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (354701) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (359801) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (360801) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (360811) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 67.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (360901) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (360901) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (360901) coreMQTT: PUBACK received for packet id 67.
+
+[0m
+[0;32mI (360911) coreMQTT: Cleaned up outgoing publish packet with packet id 67.
+
+[0m
+[0;32mI (360931) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (360931) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (360941) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (360941) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (366041) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (367041) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (367041) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 68.
+
+[0m
+[0;32mI (367131) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (367131) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (367131) coreMQTT: PUBACK received for packet id 68.
+
+[0m
+[0;32mI (367141) coreMQTT: Cleaned up outgoing publish packet with packet id 68.
+
+[0m
+[0;32mI (367161) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (367161) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (367171) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (367171) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (372271) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (373271) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (373271) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 69.
+
+[0m
+[0;32mI (373361) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (373361) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (373371) coreMQTT: PUBACK received for packet id 69.
+
+[0m
+[0;32mI (373371) coreMQTT: Cleaned up outgoing publish packet with packet id 69.
+
+[0m
+[0;32mI (373391) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (373391) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (373401) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (373401) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (378501) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (379501) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (379501) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (379611) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (379611) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (379621) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (379621) coreMQTT: Demo completed successfully.[0m
+[0;32mI (379631) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (384631) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (386081) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (386081) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (386081) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (386091) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (386101) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (386171) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (386171) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (386191) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 72.
+
+[0m
+[0;32mI (386241) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (386241) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (386241) coreMQTT: PUBACK received for packet id 72.
+
+[0m
+[0;32mI (386251) coreMQTT: Cleaned up outgoing publish packet with packet id 72.
+
+[0m
+[0;32mI (386261) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (386261) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (386271) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (386271) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (391371) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (392371) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (392371) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 73.
+
+[0m
+[0;32mI (392461) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (392461) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (392471) coreMQTT: PUBACK received for packet id 73.
+
+[0m
+[0;32mI (392471) coreMQTT: Cleaned up outgoing publish packet with packet id 73.
+
+[0m
+[0;32mI (392491) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (392491) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (392501) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (392501) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (397601) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (398601) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (398601) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 74.
+
+[0m
+[0;32mI (398691) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (398691) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (398701) coreMQTT: PUBACK received for packet id 74.
+
+[0m
+[0;32mI (398701) coreMQTT: Cleaned up outgoing publish packet with packet id 74.
+
+[0m
+[0;32mI (398721) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (398721) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (398731) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (398731) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (403831) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (404831) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (404831) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 75.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (404921) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (404921) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (404931) coreMQTT: PUBACK received for packet id 75.
+
+[0m
+[0;32mI (404931) coreMQTT: Cleaned up outgoing publish packet with packet id 75.
+
+[0m
+[0;32mI (404951) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (404951) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (404961) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (404961) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (410061) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (411061) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (411061) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 76.
+
+[0m
+[0;32mI (411161) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (411161) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (411171) coreMQTT: PUBACK received for packet id 76.
+
+[0m
+[0;32mI (411171) coreMQTT: Cleaned up outgoing publish packet with packet id 76.
+
+[0m
+[0;32mI (411191) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (411191) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (411201) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (411201) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (416301) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (417301) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (417301) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (417431) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (417431) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (417441) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (417451) coreMQTT: Demo completed successfully.[0m
+[0;32mI (417451) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (422461) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (423801) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (423801) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (423801) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (423811) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (423831) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (423891) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (423891) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (423911) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 79.
+
+[0m
+[0;32mI (424001) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (424001) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (424011) coreMQTT: PUBACK received for packet id 79.
+
+[0m
+[0;32mI (424011) coreMQTT: Cleaned up outgoing publish packet with packet id 79.
+
+[0m
+[0;32mI (424031) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (424031) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (424041) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (424041) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (429141) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (430141) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (430141) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 80.
+
+[0m
+[0;32mI (430231) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (430231) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (430241) coreMQTT: PUBACK received for packet id 80.
+
+[0m
+[0;32mI (430241) coreMQTT: Cleaned up outgoing publish packet with packet id 80.
+
+[0m
+[0;32mI (430261) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (430261) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (430271) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (430271) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (435371) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (436371) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (436381) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 81.
+
+[0m
+[0;32mI (436461) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (436461) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (436471) coreMQTT: PUBACK received for packet id 81.
+
+[0m
+[0;32mI (436471) coreMQTT: Cleaned up outgoing publish packet with packet id 81.
+
+[0m
+[0;32mI (436511) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (436511) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (436521) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (436521) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (441621) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (442621) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (442621) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 82.
+
+[0m
+[0;32mI (442711) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (442711) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (442721) coreMQTT: PUBACK received for packet id 82.
+
+[0m
+[0;32mI (442721) coreMQTT: Cleaned up outgoing publish packet with packet id 82.
+
+[0m
+[0;32mI (442741) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (442741) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (442751) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (442751) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (447851) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (448851) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (448851) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 83.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (448941) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (448941) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (448941) coreMQTT: PUBACK received for packet id 83.
+
+[0m
+[0;32mI (448951) coreMQTT: Cleaned up outgoing publish packet with packet id 83.
+
+[0m
+[0;32mI (448971) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (448971) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (448981) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (448981) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (454081) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (455081) coreMQTT: Unsubscribing from the MQTT topic test_topic/esp32.[0m
+[0;32mI (455081) coreMQTT: UNSUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (455181) coreMQTT: Unsubscribed from the topic test_topic/esp32.
+
+[0m
+[0;32mI (455181) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (455191) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (455201) coreMQTT: Demo completed successfully.[0m
+[0;32mI (455201) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (460211) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (461641) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (461641) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (461651) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (461661) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (461671) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (461741) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (461741) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (461751) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 86.
+
+[0m
+[0;32mI (461801) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (461801) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (461801) coreMQTT: PUBACK received for packet id 86.
+
+[0m
+[0;32mI (461811) coreMQTT: Cleaned up outgoing publish packet with packet id 86.
+
+[0m
+[0;32mI (461831) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (461831) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (461841) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (461841) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -35.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (466941) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (467941) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (467941) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 87.
+
+[0m
+[0;32mI (468041) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (468041) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (468041) coreMQTT: PUBACK received for packet id 87.
+
+[0m
+[0;32mI (468051) coreMQTT: Cleaned up outgoing publish packet with packet id 87.
+
+[0m
+[0;32mI (468061) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (468061) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (468071) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (468081) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -33.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (473181) coreMQTT: Delay before continuing to next iteration.
+
+[0m
+[0;32mI (474181) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (474181) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 88.
+
+[0m
+[0;32mI (474281) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (474281) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (474281) coreMQTT: PUBACK received for packet id 88.
+
+[0m
+[0;32mI (474291) coreMQTT: Cleaned up outgoing publish packet with packet id 88.
+
+[0m
+[0;32mI (474311) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (474311) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (474321) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (474321) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -34.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1

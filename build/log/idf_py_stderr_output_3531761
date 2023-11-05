@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:16:
+  Parse error.  Expected a command name, got right paren with text ")".
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

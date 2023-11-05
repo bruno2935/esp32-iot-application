@@ -1,0 +1,1701 @@
+[0;33m--- idf_monitor on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x400811f8: call_start_cpu1 at /home/bruno/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x40141a1e: hal_mac_tx_set_ppdu at ??:?
+[0m
+[0;33m0x4013af3f: lmacSetTxFrame at ??:?
+[0m
+[0;33m0x40090726: lmacTxFrame at ??:?
+[0m
+[0;33m0x40091813: ppProcessTxQ at ??:?
+[0m
+[0;33m0x40091d0b: ppTask at ??:?
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x40128593: wifi_get_macaddr at ??:?
+[0m
+[0;33m0x40133ffd: sta_recv_mgmt at ??:?
+[0m
+[0;33m0x40090069: sta_input at ??:?
+[0m
+[0;33m0x40090119: sta_rx_cb at ??:?
+[0m
+[0;33m0x40093f85: ppRxPkt at ??:?
+[0m
+[0;33m0x40091d34: ppTask at ??:?
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x4015ae8b: noise_check_loop at /home/cff/gittree/chip7.1_phy/chip_7.1/board_code/app_test/pp/phy/phy_chip_v7.c:2370
+[0m
+[0;33m0x4013c0f4: pm_noise_check at ??:?
+[0m
+[0;33m0x40093c1f: pm_tbtt_process at ??:?
+[0m
+[0;33m0x401753fe: pm_connectionless_wake_window_timeout_process at ??:?
+[0m
+[0;33m0x40175465: pp_timer_do_process at ??:?
+[0m
+[0;33m0x40091cda: ppTask at ??:?
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400e2873: task_wdt_timeout_handling at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400e29fa: task_wdt_isr at /home/bruno/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40083411: _xt_lowint1 at /home/bruno/esp/esp-idf/components/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400da636: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1524 (discriminator 1)
+[0m
+[0;33m0x400da71f: aws_iot_demo_main at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1760
+[0m
+[0;33m0x400d841d: wifi_application_connected_events at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/main.c:23
+[0m
+[0;33m0x400d8891: wifi_app_call_callback at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:396
+[0m
+[0;33m0x400d89f4: wifi_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/wifi_app.c:311
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m

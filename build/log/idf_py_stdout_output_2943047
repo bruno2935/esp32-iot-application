@@ -1,0 +1,299 @@
+�w�J������0���������x��UI�����QU�)���'��3�iU���*�e��*�%��5�
+�˙�v��Z����x���c�}Ѳ������%�'��0I}Ѳ���A�iͰE����A�	K��.���A���_V�i�A�!�ѥ�q�,�+̀V��2�!�+њ�M���0��l�K��3�!�A���i�2����A�#!�Ť'��0��0����5�!�+њ�Q�°���9K�*�����i� ��ˁ4������0��4��������K����0��6�j�[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (93) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781b0h (491952) map[0m
+[0;32mI (304) esp_image: segment 1: paddr=000881d8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (310) esp_image: segment 2: paddr=0008ba6c vaddr=40080000 size=045ach ( 17836) load[0m
+[0;32mI (318) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (568) esp_image: segment 4: paddr=00138fbc vaddr=400845ac size=118e4h ( 71908) load[0m
+[0;32mI (609) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (671) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (671) boot: Disabling RNG early entropy source...[0m
+[0;32mI (682) cpu_start: Multicore app[0m
+[0;32mI (682) cpu_start: Pro cpu up.[0m
+[0;32mI (682) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (700) cpu_start: Pro cpu start user code[0m
+[0;32mI (700) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (700) cpu_start: Application information:[0m
+[0;32mI (705) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (711) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (716) cpu_start: Compile time:     Aug 23 2023 22:59:45[0m
+[0;32mI (723) cpu_start: ELF file SHA256:  686266155...[0m
+[0;32mI (728) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (734) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (739) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (744) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (749) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (756) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (762) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (768) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (775) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (781) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (789) spi_flash: detected chip: generic[0m
+[0;32mI (792) spi_flash: flash io: dio[0m
+[0;33mW (796) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (805) app_start: Starting scheduler on CPU0[0m
+[0;32mI (809) app_start: Starting scheduler on CPU1[0m
+[0;32mI (809) main_task: Started on CPU0[0m
+[0;32mI (819) main_task: Calling app_main()[0m
+[0;32mI (829) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (839) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (849) wifi_init: rx ba win: 6[0m
+[0;32mI (849) wifi_init: tcpip mbox: 32[0m
+[0;32mI (849) wifi_init: udp mbox: 6[0m
+[0;32mI (859) wifi_init: tcp mbox: 6[0m
+[0;32mI (859) wifi_init: tcp tx win: 5744[0m
+[0;32mI (869) wifi_init: tcp rx win: 5744[0m
+[0;32mI (869) wifi_init: tcp mss: 1440[0m
+[0;32mI (869) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (879) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2049) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2139) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2139) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2139) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2139) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2149) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2159) wifi_app: Loaded station configuration[0m
+[0;32mI (2169) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2179) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2189) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4149) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5149) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5149) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5149) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5149) main: Wifi application connected!![0m
+[0;32mI (5159) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5159) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (5169) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (5179) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+[0;31mE (5589) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (5589) esp-tls: Failed to open new connection[0m
+[0;32mI (5589) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (5599) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (5609) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (5619) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (5629) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (5639) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (5649) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (5649) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (5659) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (10669) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (10759) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (10759) esp-tls: Failed to open new connection[0m
+[0;32mI (10769) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (10779) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (10789) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (10799) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (10809) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (10819) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (10819) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (10829) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (10839) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (15839) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (15899) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (15909) esp-tls: Failed to open new connection[0m
+[0;32mI (15909) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (15919) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (15929) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (15939) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (15949) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (15959) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (15959) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (15969) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (15979) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (20989) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (21079) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (21079) esp-tls: Failed to open new connection[0m
+[0;32mI (21079) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (21089) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (21099) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (21109) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (21119) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (21129) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (21139) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (21139) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (21149) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (26159) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (26219) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (26219) esp-tls: Failed to open new connection[0m
+[0;32mI (26229) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (26239) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (26249) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (26249) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (26259) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (26269) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (26279) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (26289) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (26289) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (31299) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (31369) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (31369) esp-tls: Failed to open new connection[0m
+[0;32mI (31379) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (31389) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (31399) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (31399) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (31409) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (31419) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (31429) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (31439) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (31449) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (36449) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (36499) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (36509) esp-tls: Failed to open new connection[0m
+[0;32mI (36509) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (36519) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (36529) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (36539) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (36549) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (36559) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (36569) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (36569) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (36579) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (41589) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (41659) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (41669) esp-tls: Failed to open new connection[0m
+[0;32mI (41669) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (41679) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (41689) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (41699) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (41709) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (41719) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (41719) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (41729) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (41739) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (46749) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (46799) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (46799) esp-tls: Failed to open new connection[0m
+[0;32mI (46809) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (46819) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (46829) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (46839) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (46839) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (46859) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (46859) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (46869) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (46879) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (51879) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (51949) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (51949) esp-tls: Failed to open new connection[0m
+[0;32mI (51949) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (51959) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (51969) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (51979) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (51989) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (51999) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (52009) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (52009) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (52019) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (57029) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (57099) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (57099) esp-tls: Failed to open new connection[0m
+[0;32mI (57099) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (57109) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (57119) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (57129) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (57139) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (57149) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (57159) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (57159) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (57169) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (62179) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (62239) esp-tls: couldn't get hostname for :a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com: getaddrinfo() returns 202, addrinfo=0x0[0m
+[0;31mE (62239) esp-tls: Failed to open new connection[0m
+[0;32mI (62239) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (62259) coreMQTT: Subscribing to the MQTT topic ESP32_Iot_Testtest_topic/esp32.[0m
+[0;31mE (62259) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (62269) coreMQTT: Failed to send SUBSCRIBE packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (62279) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;31mE (62289) coreMQTT: sendBuffer: Unable to send packet: Network Error.[0m
+[0;31mE (62299) coreMQTT: Transport send failed for DISCONNECT packet.[0m
+[0;31mE (62299) coreMQTT: Sending MQTT DISCONNECT failed with status=MQTTSendFailed.[0m
+[0;32mI (62309) coreMQTT: Short delay before starting the next iteration....
+[0m

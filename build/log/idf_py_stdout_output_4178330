@@ -1,0 +1,171 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/bruno/Documents/esp32-projects/esp32-iot-application/sdkconfig
+-- Compiler supported targets: xtensa-esp32-elf
+-- App "esp32-iot-application" version: b3c1a90-dirty
+-- Adding linker script /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: Jobs-for-AWS-IoT-embedded-sdk app_trace app_update backoffAlgorithm bootloader bootloader_support bt cmock console coreJSON coreMQTT cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon posix_compat protobuf-c protocol_examples_common protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/bruno/Documents/esp32-projects/esp32-iot-application/esp-aws-iot/libraries/Jobs-for-AWS-IoT-embedded-sdk /home/bruno/esp/esp-idf/components/app_trace /home/bruno/esp/esp-idf/components/app_update /home/bruno/Documents/esp32-projects/esp32-iot-application/esp-aws-iot/libraries/backoffAlgorithm /home/bruno/esp/esp-idf/components/bootloader /home/bruno/esp/esp-idf/components/bootloader_support /home/bruno/esp/esp-idf/components/bt /home/bruno/esp/esp-idf/components/cmock /home/bruno/esp/esp-idf/components/console /home/bruno/Documents/esp32-projects/esp32-iot-application/esp-aws-iot/libraries/coreJSON /home/bruno/Documents/esp32-projects/esp32-iot-application/esp-aws-iot/libraries/coreMQTT /home/bruno/esp/esp-idf/components/cxx /home/bruno/esp/esp-idf/components/driver /home/bruno/esp/esp-idf/components/efuse /home/bruno/esp/esp-idf/components/esp-tls /home/bruno/esp/esp-idf/components/esp_adc /home/bruno/esp/esp-idf/components/esp_app_format /home/bruno/esp/esp-idf/components/esp_bootloader_format /home/bruno/esp/esp-idf/components/esp_coex /home/bruno/esp/esp-idf/components/esp_common /home/bruno/esp/esp-idf/components/esp_eth /home/bruno/esp/esp-idf/components/esp_event /home/bruno/esp/esp-idf/components/esp_gdbstub /home/bruno/esp/esp-idf/components/esp_hid /home/bruno/esp/esp-idf/components/esp_http_client /home/bruno/esp/esp-idf/components/esp_http_server /home/bruno/esp/esp-idf/components/esp_https_ota /home/bruno/esp/esp-idf/components/esp_https_server /home/bruno/esp/esp-idf/components/esp_hw_support /home/bruno/esp/esp-idf/components/esp_lcd /home/bruno/esp/esp-idf/components/esp_local_ctrl /home/bruno/esp/esp-idf/components/esp_mm /home/bruno/esp/esp-idf/components/esp_netif /home/bruno/esp/esp-idf/components/esp_netif_stack /home/bruno/esp/esp-idf/components/esp_partition /home/bruno/esp/esp-idf/components/esp_phy /home/bruno/esp/esp-idf/components/esp_pm /home/bruno/esp/esp-idf/components/esp_psram /home/bruno/esp/esp-idf/components/esp_ringbuf /home/bruno/esp/esp-idf/components/esp_rom /home/bruno/esp/esp-idf/components/esp_system /home/bruno/esp/esp-idf/components/esp_timer /home/bruno/esp/esp-idf/components/esp_wifi /home/bruno/esp/esp-idf/components/espcoredump /home/bruno/esp/esp-idf/components/esptool_py /home/bruno/esp/esp-idf/components/fatfs /home/bruno/esp/esp-idf/components/freertos /home/bruno/esp/esp-idf/components/hal /home/bruno/esp/esp-idf/components/heap /home/bruno/esp/esp-idf/components/http_parser /home/bruno/esp/esp-idf/components/idf_test /home/bruno/esp/esp-idf/components/ieee802154 /home/bruno/esp/esp-idf/components/json /home/bruno/esp/esp-idf/components/log /home/bruno/esp/esp-idf/components/lwip /home/bruno/Documents/esp32-projects/esp32-iot-application/main /home/bruno/esp/esp-idf/components/mbedtls /home/bruno/esp/esp-idf/components/mqtt /home/bruno/esp/esp-idf/components/newlib /home/bruno/esp/esp-idf/components/nvs_flash /home/bruno/esp/esp-idf/components/nvs_sec_provider /home/bruno/esp/esp-idf/components/openthread /home/bruno/esp/esp-idf/components/partition_table /home/bruno/esp/esp-idf/components/perfmon /home/bruno/Documents/esp32-projects/esp32-iot-application/esp-aws-iot/libraries/common/posix_compat /home/bruno/esp/esp-idf/components/protobuf-c /home/bruno/esp/esp-idf/examples/common_components/protocol_examples_common /home/bruno/esp/esp-idf/components/protocomm /home/bruno/esp/esp-idf/components/pthread /home/bruno/esp/esp-idf/components/sdmmc /home/bruno/esp/esp-idf/components/soc /home/bruno/esp/esp-idf/components/spi_flash /home/bruno/esp/esp-idf/components/spiffs /home/bruno/esp/esp-idf/components/tcp_transport /home/bruno/esp/esp-idf/components/ulp /home/bruno/esp/esp-idf/components/unity /home/bruno/esp/esp-idf/components/usb /home/bruno/esp/esp-idf/components/vfs /home/bruno/esp/esp-idf/components/wear_levelling /home/bruno/esp/esp-idf/components/wifi_provisioning /home/bruno/esp/esp-idf/components/wpa_supplicant /home/bruno/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bruno/Documents/esp32-projects/esp32-iot-application/build
+[1/32] Building C object esp-idf/Jobs-for-AWS-IoT-embedded-sdk/CMakeFiles/__idf_Jobs-for-AWS-IoT-embedded-sdk.dir/Jobs-for-AWS-IoT-embedded-sdk/source/jobs.c.obj
+[2/32] Building C object esp-idf/coreJSON/CMakeFiles/__idf_coreJSON.dir/coreJSON/source/core_json.c.obj
+[3/32] Linking C static library esp-idf/coreJSON/libcoreJSON.a
+[4/32] Linking C static library esp-idf/Jobs-for-AWS-IoT-embedded-sdk/libJobs-for-AWS-IoT-embedded-sdk.a
+[5/32] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/rgb_led.c.obj
+[6/32] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/app_nvs.c.obj
+[7/32] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/wifi_reset_button.c.obj
+[8/32] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[9/32] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/NTC103.c.obj
+In file included from /home/bruno/Documents/esp32-projects/esp32-iot-application/main/NTC103.c:2:
+/home/bruno/esp/esp-idf/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+In file included from /home/bruno/Documents/esp32-projects/esp32-iot-application/main/NTC103.c:5:
+/home/bruno/esp/esp-idf/components/esp_adc/deprecated/include/esp_adc_cal.h:17:2: warning: #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h" [-Wcpp]
+   17 | #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h"
+      |  ^~~~~~~
+/home/bruno/Documents/esp32-projects/esp32-iot-application/main/NTC103.c:18:21: warning: 'TAG' defined but not used [-Wunused-variable]
+   18 | static const char * TAG = "DHT";
+      |                     ^~~
+[10/32] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/app.css.S.obj
+[11/32] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/app.js.S.obj
+[12/32] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/sntp_time_sync.c.obj
+[13/32] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/index.html.S.obj
+[14/32] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/certificate_pem_crt.S.obj
+[15/32] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/aws_root_ca_pem.S.obj
+[16/32] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/private_pem_key.S.obj
+[17/32] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/jquery-3.3.1.min.js.S.obj
+[18/32] Building ASM object esp-idf/main/CMakeFiles/__idf_main.dir/__/__/favicon.ico.S.obj
+[19/32] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/http_server.c.obj
+[20/32] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/JobsDemoExample.c.obj
+/home/bruno/Documents/esp32-projects/esp32-iot-application/main/JobsDemoExample.c:268:26: warning: 'xBuffer' defined but not used [-Wunused-variable]
+  268 | static MQTTFixedBuffer_t xBuffer =
+      |                          ^~~~~~~
+/home/bruno/Documents/esp32-projects/esp32-iot-application/main/JobsDemoExample.c:253:25: warning: 'xNetworkContext' defined but not used [-Wunused-variable]
+  253 | static NetworkContext_t xNetworkContext;
+      |                         ^~~~~~~~~~~~~~~
+[21/32] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/wifi_app.c.obj
+[22/32] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/mqtt_demo_helpers.c.obj
+[23/32] Linking C static library esp-idf/main/libmain.a
+[24/32] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/bruno/Documents/esp32-projects/esp32-iot-application/sdkconfig
+-- Compiler supported targets: xtensa-esp32-elf
+-- Adding linker script /home/bruno/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Bootloader project name: "bootloader" version: 1
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script /home/bruno/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_bootloader_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/bruno/esp/esp-idf/components/bootloader /home/bruno/esp/esp-idf/components/bootloader_support /home/bruno/esp/esp-idf/components/efuse /home/bruno/esp/esp-idf/components/esp_app_format /home/bruno/esp/esp-idf/components/esp_bootloader_format /home/bruno/esp/esp-idf/components/esp_common /home/bruno/esp/esp-idf/components/esp_hw_support /home/bruno/esp/esp-idf/components/esp_rom /home/bruno/esp/esp-idf/components/esp_system /home/bruno/esp/esp-idf/components/esptool_py /home/bruno/esp/esp-idf/components/freertos /home/bruno/esp/esp-idf/components/hal /home/bruno/esp/esp-idf/components/log /home/bruno/esp/esp-idf/components/bootloader/subproject/main /home/bruno/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/bruno/esp/esp-idf/components/newlib /home/bruno/esp/esp-idf/components/partition_table /home/bruno/esp/esp-idf/components/soc /home/bruno/esp/esp-idf/components/spi_flash /home/bruno/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader
+[1/1] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader/esp-idf/esptool_py && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader/bootloader.bin
+Bootloader binary size 0x68d0 bytes. 0x730 bytes (6%) free.
+[25/30] Generating ld/sections.ld
+[26/30] Building C object CMakeFiles/esp32-iot-application.elf.dir/project_elf_src_esp32.c.obj
+[27/30] Linking CXX executable esp32-iot-application.elf
+[28/30] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32 image...
+Merged 26 ELF sections
+Successfully created esp32 image.
+Generated /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp32-iot-application.bin
+[29/30] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp-idf/esptool_py && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/bruno/Documents/esp32-projects/esp32-iot-application/build/partition_table/partition-table.bin /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp32-iot-application.bin
+esp32-iot-application.bin binary size 0x13e370 bytes. Smallest app partition is 0x1f0000 bytes. 0xb1c90 bytes (36%) free.
+[29/30] cd /home/bruno/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/bruno/esp/esp-idf -D "SERIAL_TOOL=/home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/home/bruno/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/bruno/Documents/esp32-projects/esp32-iot-application/build -P /home/bruno/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 esp32-iot-application.bin 0x8000 partition_table/partition-table.bin 0xd000 ota_data_initial.bin
+esptool.py v4.6.2
+Serial port /dev/ttyACM0
+Connecting.....
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 24:0a:c4:8b:6c:04
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0014efff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000d000 to 0x0000efff...
+Compressed 26832 bytes to 16849...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007680... (100 %)
+Wrote 26832 bytes (16849 compressed) at 0x00001000 in 0.9 seconds (effective 244.6 kbit/s)...
+Hash of data verified.
+Compressed 1303408 bytes to 701704...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001b3f8... (4 %)
+Writing at 0x0002e6db... (6 %)
+Writing at 0x00049040... (9 %)
+Writing at 0x000568c3... (11 %)
+Writing at 0x00061ba4... (13 %)
+Writing at 0x0006f4ee... (16 %)
+Writing at 0x000784da... (18 %)
+Writing at 0x0007dd27... (20 %)
+Writing at 0x000876c2... (23 %)
+Writing at 0x00090a79... (25 %)
+Writing at 0x00096678... (27 %)
+Writing at 0x0009c019... (30 %)
+Writing at 0x000a1f94... (32 %)
+Writing at 0x000a7a9b... (34 %)
+Writing at 0x000ad380... (37 %)
+Writing at 0x000b28be... (39 %)
+Writing at 0x000b80d4... (41 %)
+Writing at 0x000bd9e5... (44 %)
+Writing at 0x000c3675... (46 %)
+Writing at 0x000c9071... (48 %)
+Writing at 0x000ce9b3... (51 %)
+Writing at 0x000d4962... (53 %)
+Writing at 0x000da47e... (55 %)
+Writing at 0x000dfd6f... (58 %)
+Writing at 0x000e5325... (60 %)
+Writing at 0x000ea608... (62 %)
+Writing at 0x000efab6... (65 %)
+Writing at 0x000f4e16... (67 %)
+Writing at 0x000fa474... (69 %)
+Writing at 0x000ffc24... (72 %)
+Writing at 0x001056bd... (74 %)
+Writing at 0x0010af2b... (76 %)
+Writing at 0x00110716... (79 %)
+Writing at 0x0011620c... (81 %)
+Writing at 0x0011c40c... (83 %)
+Writing at 0x00121b6a... (86 %)
+Writing at 0x0012a4bc... (88 %)
+Writing at 0x00132710... (90 %)
+Writing at 0x00138bfd... (93 %)
+Writing at 0x0013e8ad... (95 %)
+Writing at 0x00144358... (97 %)
+Writing at 0x00149a17... (100 %)
+Wrote 1303408 bytes (701704 compressed) at 0x00010000 in 17.8 seconds (effective 585.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 128...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (128 compressed) at 0x00008000 in 0.1 seconds (effective 339.9 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000d000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000d000 in 0.1 seconds (effective 459.0 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

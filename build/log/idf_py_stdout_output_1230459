@@ -1,0 +1,1116 @@
+�ׁJ]���'���#a�r����E�	�]������QU��ݴ'��3�iU���*�e1A*�%=O�
+��Kŧ�� �	�A�����ե��ퟖ�:��0��E�����0��E�����0)�A���i�a�	��V�i�A���_V�i�A�C���'T�ʂc�k� Ki�C!��'�M���3��K�i��&*���0���슲������!�Ť'��0����n'�7�j��+њ�Q0��4�b�Y���8�7�р������!�Ť'��0�������i�´!�����Q�°��*�[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=78590h (492944) map[0m
+[0;32mI (304) esp_image: segment 1: paddr=000885b8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (310) esp_image: segment 2: paddr=0008be4c vaddr=40080000 size=041cch ( 16844) load[0m
+[0;32mI (318) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f3ch (692028) map[0m
+[0;32mI (568) esp_image: segment 4: paddr=00138f64 vaddr=400841cc size=11cc4h ( 72900) load[0m
+[0;32mI (610) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (671) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (671) boot: Disabling RNG early entropy source...[0m
+[0;32mI (682) cpu_start: Multicore app[0m
+[0;32mI (682) cpu_start: Pro cpu up.[0m
+[0;32mI (683) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (700) cpu_start: Pro cpu start user code[0m
+[0;32mI (700) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (700) cpu_start: Application information:[0m
+[0;32mI (705) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (711) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (717) cpu_start: Compile time:     Aug 26 2023 15:08:06[0m
+[0;32mI (723) cpu_start: ELF file SHA256:  5cd6c718a...[0m
+[0;32mI (728) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (735) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (739) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (744) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (749) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (756) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (762) heap_init: At 3FFB8AC8 len 00027538 (157 KiB): DRAM[0m
+[0;32mI (768) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (775) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (781) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (789) spi_flash: detected chip: generic[0m
+[0;32mI (792) spi_flash: flash io: dio[0m
+[0;33mW (796) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (805) app_start: Starting scheduler on CPU0[0m
+[0;32mI (810) app_start: Starting scheduler on CPU1[0m
+[0;32mI (810) main_task: Started on CPU0[0m
+[0;32mI (820) main_task: Calling app_main()[0m
+[0;32mI (830) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (840) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (850) wifi_init: rx ba win: 6[0m
+[0;32mI (850) wifi_init: tcpip mbox: 32[0m
+[0;32mI (850) wifi_init: udp mbox: 6[0m
+[0;32mI (850) wifi_init: tcp mbox: 6[0m
+[0;32mI (860) wifi_init: tcp tx win: 5744[0m
+[0;32mI (860) wifi_init: tcp rx win: 5744[0m
+[0;32mI (870) wifi_init: tcp mss: 1440[0m
+[0;32mI (870) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (870) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2040) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2130) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2130) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2130) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2130) wifi_app: WIFI_EVENT_AP_START[0m
+app_nvs_load_sta_creds: (ESP_ERR_NVS_NOT_FOUND) no station SSID found in NVS[0;32mI (2150) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+[0;32mI (2150) wifi_app: Unable to load station configuration[0m
+[0;32mI (2170) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2170) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2180) http_server: http_server_configure: Registering URI handlers[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (17170) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (17190) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.1.2[0m
+[0;32mI (18690) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (22690) http_server: /localTime.json requested[0m
+[0;32mI (23690) http_server: /ntcSensor.json requested[0m
+[0;32mI (24200) http_server: /wifiConnect.json requested[0m
+[0;32mI (24200) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (24200) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;32mI (24210) wifi_app: WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER[0m
+[0;32mI (24230) http_server: HTTP_MSG_WIFI_CONNECT_INIT[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (25420) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+[0;32mI (26420) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (26420) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (26420) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (26430) nvs: app_nvs_save_sta_creds: Saving station mode credentials to flash[0m
+[0;32mI (26440) nvs: app_nvs_save_sta_creds: wrote wifi_sta_config: Station SSID: Ferreiro Password: 939454321[0m
+app_nvs_save_sta_creds: returned ESP_OK
+[0;32mI (26450) main: Wifi application connected!![0m
+[0;32mI (26450) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (26450) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (26450) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (26470) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+[0;32mI (27890) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (27890) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (27900) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (27910) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (27920) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (28040) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (28040) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (28050) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 2.
+
+[0m
+[0;32mI (28110) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (28110) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (28110) coreMQTT: PUBACK received for packet id 2.
+
+[0m
+[0;32mI (28120) coreMQTT: Cleaned up outgoing publish packet with packet id 2.
+
+[0m
+[0;32mI (28140) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (28140) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (28140) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (28150) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -40.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (28920) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+[0;32mI (29970) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+[0;32mI (30500) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (31100) http_server: /wifiConnectStatus requested[0m
+[0;32mI (31130) http_server: /wifiConnectInfo.json requested[0m
+[0;32mI (31140) http_server: /ntcSensor.json requested[0m
+[0;32mI (32530) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.1.2[0m
+[0;32mI (32690) http_server: /localTime.json requested[0m
+[0;32mI (32690) sntp_time_sync: Current time info: 29.08.2023 16:48:36[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (36310) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (38220) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (38230) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 3.
+
+[0m
+[0;32mI (38330) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (38330) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (38340) coreMQTT: PUBACK received for packet id 3.
+
+[0m
+[0;32mI (38340) coreMQTT: Cleaned up outgoing publish packet with packet id 3.
+
+[0m
+[0;32mI (38360) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (38360) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (38360) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (38370) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -40.
+
+[0m
+=== Reading NTC103 ===
+Temp 61.9
+[0;32mI (41300) http_server: /ntcSensor.json requested[0m
+[0;32mI (42690) http_server: /localTime.json requested[0m
+[0;32mI (42690) sntp_time_sync: Current time info: 29.08.2023 16:48:46[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (46310) http_server: /ntcSensor.json requested[0m
+[0;32mI (48500) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (48510) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 4.
+
+[0m
+[0;32mI (48610) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (48610) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (48610) coreMQTT: PUBACK received for packet id 4.
+
+[0m
+[0;32mI (48620) coreMQTT: Cleaned up outgoing publish packet with packet id 4.
+
+[0m
+[0;32mI (48680) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (48680) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (48690) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (48690) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -40.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (51310) http_server: /ntcSensor.json requested[0m
+[0;32mI (52700) http_server: /localTime.json requested[0m
+[0;32mI (52700) sntp_time_sync: Current time info: 29.08.2023 16:48:56[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (53420) http_server: wifiDisconnect.json requested[0m
+[0;32mI (53420) wifi_app: WIFI_APP_MSG_USER_REQUESTED_STA_DISCONECT[0m
+[0;32mI (53420) wifi_app: WIFI_EVENT_STA_DISCONNECTED[0m
+WIFI_EVENT_STA_DISCONNECTED, reason code 8
+[0;31mE (53430) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;32mI (53430) nvs: app_nvs_clear_sta_creds: Clearing Wifi station mode credentials from flash[0m
+[0;31mE (53430) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+app_nvs_clear_sta_creds: returned ESP_OK
+[0;32mI (53450) wifi_app: WIFI_APP_MSG_STA_DISCONNECTED[0m
+[0;32mI (53460) wifi_app: WIFI_APP_MSG_STA_DISCONNECTED: USER REQUESTED DISCONNECTION[0m
+[0;32mI (53470) http_server: HTTP_MSG_WIFI_CONNECT_FAIL[0m
+[0;32mI (53470) http_server: HTTP_MSG_WIFI_USER_DISCONNECT[0m
+[0;32mI (55450) http_server: index.html requested[0m
+[0;32mI (55500) http_server: JQuery requested[0m
+[0;32mI (55600) http_server: app.css requested[0m
+[0;32mI (55610) http_server: app.js requested[0m
+[0;33mW (55640) httpd_uri: httpd_uri: URI '/favicon.ico' not found[0m
+[0;33mW (55640) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;32mI (55660) http_server: /apSSID.json requested[0m
+[0;32mI (55660) http_server: OTAstatus requested[0m
+[0;32mI (55720) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (58450) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (58450) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (58450) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (58460) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (58470) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (58480) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (58480) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (60730) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (63490) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (63490) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (63490) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (63500) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (63510) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (63520) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (63520) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (65730) http_server: /localTime.json requested[0m
+[0;32mI (65730) sntp_time_sync: Current time info: 29.08.2023 16:49:10[0m
+[0;32mI (65740) http_server: /ntcSensor.json requested[0m
+[0;32mI (68530) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (68530) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (68530) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (68540) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (68550) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (68560) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (68560) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (70730) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (73570) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (73570) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (73570) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (73580) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (73590) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (73600) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (73600) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (75730) http_server: /localTime.json requested[0m
+[0;32mI (75730) sntp_time_sync: Current time info: 29.08.2023 16:49:20[0m
+[0;32mI (75740) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (78610) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (78610) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (78610) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (78620) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (78630) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (78640) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (78640) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (80730) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (83650) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (83650) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (83650) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (83660) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (83670) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (83680) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (83680) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (85730) http_server: /localTime.json requested[0m
+[0;32mI (85730) sntp_time_sync: Current time info: 29.08.2023 16:49:30[0m
+[0;32mI (85740) http_server: /ntcSensor.json requested[0m
+[0;32mI (87510) http_server: /wifiConnect.json requested[0m
+[0;32mI (87510) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (87520) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;32mI (87530) wifi_app: WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER[0m
+[0;32mI (87540) http_server: HTTP_MSG_WIFI_CONNECT_INIT[0m
+[0;32mI (87570) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+[0;32mI (88570) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (88570) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (88570) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (88580) nvs: app_nvs_save_sta_creds: Saving station mode credentials to flash[0m
+[0;32mI (88590) nvs: app_nvs_save_sta_creds: wrote wifi_sta_config: Station SSID: Ferreiro Password: 939454321[0m
+app_nvs_save_sta_creds: returned ESP_OK
+[0;32mI (88600) main: Wifi application connected!![0m
+[0;32mI (88600) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (88600) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (88690) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (90010) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (90010) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (90010) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (90020) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;31mE (90030) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (90040) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (90040) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (90050) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (90060) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (90120) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;31mE (90120) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (90130) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (90130) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (90150) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 2.
+
+[0m
+[0;32mI (90200) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (90200) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (90210) coreMQTT: PUBACK received for packet id 2.
+
+[0m
+[0;32mI (90210) coreMQTT: Cleaned up outgoing publish packet with packet id 2.
+
+[0m
+[0;32mI (90230) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (90230) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (90240) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (90240) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -43.
+
+[0m
+[0;32mI (90310) http_server: /wifiConnectStatus requested[0m
+[0;32mI (90330) http_server: /wifiConnectInfo.json requested[0m
+[0;32mI (90730) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (95130) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (95360) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (95360) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (95370) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (95370) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (95380) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (95390) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (95720) http_server: /localTime.json requested[0m
+[0;32mI (95730) sntp_time_sync: Current time info: 29.08.2023 16:49:40[0m
+[0;32mI (95750) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (100360) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (100370) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 3.
+
+[0m
+[0;32mI (100390) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (100470) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (100470) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (100470) coreMQTT: PUBACK received for packet id 3.
+
+[0m
+[0;32mI (100480) coreMQTT: Cleaned up outgoing publish packet with packet id 3.
+
+[0m
+[0;31mE (100490) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (100490) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (100500) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (100510) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (100520) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (100520) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (100530) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (100540) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -43.
+
+[0m
+[0;31mE (100530) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (100560) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (100730) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (105570) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (105690) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (105690) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (105700) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (105700) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (105710) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (105720) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (105720) http_server: /localTime.json requested[0m
+[0;32mI (105730) sntp_time_sync: Current time info: 29.08.2023 16:49:50[0m
+[0;32mI (105750) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (110690) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (110700) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 4.
+
+[0m
+[0;32mI (110720) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (110730) http_server: /ntcSensor.json requested[0m
+[0;32mI (110800) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (110800) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (110800) coreMQTT: PUBACK received for packet id 4.
+
+[0m
+[0;32mI (110810) coreMQTT: Cleaned up outgoing publish packet with packet id 4.
+
+[0m
+[0;31mE (110810) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (110820) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (110830) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (110830) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (110840) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (110850) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (110840) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (110870) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (110870) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (110880) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -43.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (115730) http_server: /localTime.json requested[0m
+[0;32mI (115730) sntp_time_sync: Current time info: 29.08.2023 16:50:00[0m
+[0;32mI (115740) http_server: /ntcSensor.json requested[0m
+[0;32mI (115860) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (116010) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (116010) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (116020) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (116020) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (116030) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (116040) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (120730) http_server: /ntcSensor.json requested[0m
+[0;32mI (121010) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (121020) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 5.
+
+[0m
+[0;32mI (121040) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (122500) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (122500) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (122500) coreMQTT: PUBACK received for packet id 5.
+
+[0m
+[0;32mI (122510) coreMQTT: Cleaned up outgoing publish packet with packet id 5.
+
+[0m
+[0;31mE (122510) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (122520) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (122530) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (122530) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (122540) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (122550) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (122560) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (122560) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -43.
+
+[0m
+[0;31mE (122560) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (122590) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (125720) http_server: /localTime.json requested[0m
+[0;32mI (125730) sntp_time_sync: Current time info: 29.08.2023 16:50:10[0m
+[0;32mI (125740) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (127590) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (127590) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (127590) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (127600) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (127610) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (127620) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (127620) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (130740) http_server: /ntcSensor.json requested[0m
+[0;32mI (131690) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (131700) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 6.
+
+[0m
+[0;32mI (131800) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (131800) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (131800) coreMQTT: PUBACK received for packet id 6.
+
+[0m
+[0;32mI (131810) coreMQTT: Cleaned up outgoing publish packet with packet id 6.
+
+[0m
+[0;32mI (131820) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (131820) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (131830) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (131840) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -43.
+
+[0m
+[0;32mI (132630) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (136040) http_server: /localTime.json requested[0m
+[0;32mI (136040) sntp_time_sync: Current time info: 29.08.2023 16:50:20[0m
+[0;32mI (136050) http_server: /ntcSensor.json requested[0m
+[0;31mE (136960) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (136960) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (136970) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (136970) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (136980) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (136990) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (141040) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (141960) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (141970) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 7.
+
+[0m
+[0;32mI (141990) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (142070) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (142070) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (142080) coreMQTT: PUBACK received for packet id 7.
+
+[0m
+[0;32mI (142080) coreMQTT: Cleaned up outgoing publish packet with packet id 7.
+
+[0m
+[0;31mE (142090) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (142100) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (142100) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (142110) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (142120) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (142120) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (142110) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (142140) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (142150) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (142150) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -43.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (146030) http_server: /localTime.json requested[0m
+[0;32mI (146040) sntp_time_sync: Current time info: 29.08.2023 16:50:30[0m
+[0;32mI (146050) http_server: /ntcSensor.json requested[0m
+[0;32mI (147130) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (147290) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (147290) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (147300) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (147300) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (147310) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (147320) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (151030) http_server: /ntcSensor.json requested[0m
+[0;32mI (152290) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (152290) coreMQTT: MQTT PUBLISH failed with status MQTTNoMemory.[0m
+[0;31mE (152290) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTNoMemory.[0m
+[0;32mI (152320) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (152320) coreMQTT: MQTT PUBLISH failed with status MQTTNoMemory.[0m
+[0;31mE (152320) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTNoMemory.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (156030) http_server: /localTime.json requested[0m
+[0;32mI (156040) sntp_time_sync: Current time info: 29.08.2023 16:50:40[0m
+[0;32mI (156050) http_server: /ntcSensor.json requested[0m
+[0;31mE (157410) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (157410) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (161040) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (162410) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (162410) coreMQTT: MQTT PUBLISH failed with status MQTTNoMemory.[0m
+[0;31mE (162410) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTNoMemory.[0m
+[0;32mI (162420) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (162430) coreMQTT: MQTT PUBLISH failed with status MQTTNoMemory.[0m
+[0;31mE (162440) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTNoMemory.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (166030) http_server: /localTime.json requested[0m
+[0;32mI (166030) sntp_time_sync: Current time info: 29.08.2023 16:50:50[0m
+[0;32mI (166050) http_server: /ntcSensor.json requested[0m
+[0;31mE (167540) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (167540) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (171040) http_server: /ntcSensor.json requested[0m
+[0;32mI (172540) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (172540) coreMQTT: MQTT PUBLISH failed with status MQTTNoMemory.[0m
+[0;31mE (172540) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTNoMemory.[0m
+[0;32mI (172550) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (172560) coreMQTT: MQTT PUBLISH failed with status MQTTNoMemory.[0m
+[0;31mE (172570) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTNoMemory.[0m
+=== Reading NTC103 ===
+Temp -273.1
+���=�ҐL'�:�SH��W��e �u���ʽ��J�E�b��:�ų³U���
+�51���%��U����k�gn� �	Z���������k�%�v��a�)�d��¸�,�%�v��a�i��%�v��a0���.����,�}Ѳ�x�*
+�K�:������ͫ�Ŷ'*���d��m��a0��l���1��H�� ����&���;��!�Ť'�Q����0�k�:��!��:�Ѱ°��+ٚ��h�� �X:����ˁ4C!��d��q���4��ծ�´#a�K�y��q��0�M*
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (78) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (93) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (108) boot: End of partition table[0m
+[0;32mI (113) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=78590h (492944) map[0m
+[0;32mI (299) esp_image: segment 1: paddr=000885b8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (305) esp_image: segment 2: paddr=0008be4c vaddr=40080000 size=041cch ( 16844) load[0m
+[0;32mI (312) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f3ch (692028) map[0m
+[0;32mI (563) esp_image: segment 4: paddr=00138f64 vaddr=400841cc size=11cc4h ( 72900) load[0m
+[0;32mI (605) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (605) boot: Disabling RNG early entropy source...[0m
+[0;32mI (616) cpu_start: Multicore app[0m
+[0;32mI (617) cpu_start: Pro cpu up.[0m
+[0;32mI (617) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (635) cpu_start: Pro cpu start user code[0m
+[0;32mI (635) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (635) cpu_start: Application information:[0m
+[0;32mI (639) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (646) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (651) cpu_start: Compile time:     Aug 26 2023 15:08:06[0m
+[0;32mI (657) cpu_start: ELF file SHA256:  5cd6c718a...[0m
+[0;32mI (663) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (669) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (674) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (679) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (684) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (691) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (697) heap_init: At 3FFB8AC8 len 00027538 (157 KiB): DRAM[0m
+[0;32mI (703) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (709) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (716) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (723) spi_flash: detected chip: generic[0m
+[0;32mI (726) spi_flash: flash io: dio[0m
+[0;33mW (731) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (739) app_start: Starting scheduler on CPU0[0m
+[0;32mI (744) app_start: Starting scheduler on CPU1[0m
+[0;32mI (744) main_task: Started on CPU0[0m
+[0;32mI (754) main_task: Calling app_main()[0m
+[0;32mI (764) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (774) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (784) wifi_init: rx ba win: 6[0m
+[0;32mI (784) wifi_init: tcpip mbox: 32[0m
+[0;32mI (784) wifi_init: udp mbox: 6[0m
+[0;32mI (794) wifi_init: tcp mbox: 6[0m
+[0;32mI (794) wifi_init: tcp tx win: 5744[0m
+[0;32mI (804) wifi_init: tcp rx win: 5744[0m
+[0;32mI (804) wifi_init: tcp mss: 1440[0m
+[0;32mI (804) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (814) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1984) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2064) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2064) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2064) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2064) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2084) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2094) wifi_app: Loaded station configuration[0m
+[0;32mI (2104) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2104) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (3274) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (3344) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+[0;32mI (4344) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (4344) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (4344) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (4344) main: Wifi application connected!![0m
+[0;32mI (4354) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (4354) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (4354) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (4374) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5774) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (5774) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (5774) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (5784) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (5794) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (5884) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (5884) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (5894) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 2.
+
+[0m
+[0;32mI (5944) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (5944) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (5944) coreMQTT: PUBACK received for packet id 2.
+
+[0m
+[0;32mI (5954) coreMQTT: Cleaned up outgoing publish packet with packet id 2.
+
+[0m
+[0;32mI (5974) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (5974) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (5974) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (5984) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -37.
+
+[0m
+[0;32mI (9164) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (10084) http_server: /localTime.json requested[0m
+[0;32mI (10084) sntp_time_sync: Current time info: 29.08.2023 16:51:09[0m
+[0;32mI (10094) http_server: /ntcSensor.json requested[0m
+[0;32mI (10854) http_server: /localTime.json requested[0m
+[0;32mI (10854) sntp_time_sync: Current time info: 29.08.2023 16:51:10[0m
+[0;32mI (10864) http_server: /ntcSensor.json requested[0m
+[0;32mI (11204) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.1.2[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (15854) http_server: /ntcSensor.json requested[0m
+[0;32mI (16004) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (16014) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 3.
+
+[0m
+[0;32mI (16064) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (16064) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (16064) coreMQTT: PUBACK received for packet id 3.
+
+[0m
+[0;32mI (16074) coreMQTT: Cleaned up outgoing publish packet with packet id 3.
+
+[0m
+[0;32mI (16094) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (16094) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (16104) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (16104) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -37.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (20854) http_server: /localTime.json requested[0m
+[0;32mI (20854) sntp_time_sync: Current time info: 29.08.2023 16:51:20[0m
+[0;32mI (20874) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (25864) http_server: /ntcSensor.json requested[0m
+[0;32mI (26124) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (26134) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 4.
+
+[0m
+[0;32mI (26194) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (26194) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (26194) coreMQTT: PUBACK received for packet id 4.
+
+[0m
+[0;32mI (26204) coreMQTT: Cleaned up outgoing publish packet with packet id 4.
+
+[0m
+[0;32mI (26214) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (26224) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (26224) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (26224) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -37.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (30854) http_server: /localTime.json requested[0m
+[0;32mI (30854) sntp_time_sync: Current time info: 29.08.2023 16:51:30[0m
+[0;32mI (30864) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (35854) http_server: /ntcSensor.json requested[0m
+[0;32mI (36244) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (36254) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 5.
+
+[0m
+[0;32mI (36354) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (36354) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (36354) coreMQTT: PUBACK received for packet id 5.
+
+[0m
+[0;32mI (36364) coreMQTT: Cleaned up outgoing publish packet with packet id 5.
+
+[0m
+[0;32mI (36384) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (36384) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (36384) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (36394) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -37.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (40854) http_server: /localTime.json requested[0m
+[0;32mI (40854) sntp_time_sync: Current time info: 29.08.2023 16:51:40[0m
+[0;32mI (40864) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (45864) http_server: /ntcSensor.json requested[0m
+[0;32mI (46524) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (46534) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 6.
+
+[0m
+[0;32mI (46634) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (46634) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (46634) coreMQTT: PUBACK received for packet id 6.
+
+[0m
+[0;32mI (46644) coreMQTT: Cleaned up outgoing publish packet with packet id 6.
+
+[0m
+[0;32mI (46654) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (46654) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (46664) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (46664) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -37.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (50854) http_server: /localTime.json requested[0m
+[0;32mI (50854) sntp_time_sync: Current time info: 29.08.2023 16:51:50[0m
+[0;32mI (50864) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (55864) http_server: /ntcSensor.json requested[0m
+[0;32mI (56784) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (56794) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 7.
+
+[0m
+[0;32mI (56894) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (56894) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (56894) coreMQTT: PUBACK received for packet id 7.
+
+[0m
+[0;32mI (56904) coreMQTT: Cleaned up outgoing publish packet with packet id 7.
+
+[0m
+[0;32mI (56914) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (56914) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (56924) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (56924) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -37.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (60854) http_server: /localTime.json requested[0m
+[0;32mI (60854) sntp_time_sync: Current time info: 29.08.2023 16:52:00[0m
+[0;32mI (60864) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (65814) http_server: wifiDisconnect.json requested[0m
+[0;32mI (65814) wifi_app: WIFI_APP_MSG_USER_REQUESTED_STA_DISCONECT[0m
+[0;32mI (65814) wifi_app: WIFI_EVENT_STA_DISCONNECTED[0m
+WIFI_EVENT_STA_DISCONNECTED, reason code 8
+[0;32mI (65824) nvs: app_nvs_clear_sta_creds: Clearing Wifi station mode credentials from flash[0m
+app_nvs_clear_sta_creds: returned ESP_OK
+[0;32mI (65844) wifi_app: WIFI_APP_MSG_STA_DISCONNECTED[0m
+[0;32mI (65844) wifi_app: WIFI_APP_MSG_STA_DISCONNECTED: USER REQUESTED DISCONNECTION[0m
+[0;32mI (65844) http_server: HTTP_MSG_WIFI_CONNECT_FAIL[0m
+[0;32mI (65854) http_server: HTTP_MSG_WIFI_USER_DISCONNECT[0m
+[0;32mI (65864) http_server: /ntcSensor.json requested[0m
+[0;32mI (67064) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (67064) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (67064) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (67074) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (67084) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (67094) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (67094) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (67844) http_server: index.html requested[0m
+[0;32mI (67894) http_server: JQuery requested[0m
+[0;32mI (67984) http_server: app.css requested[0m
+[0;32mI (67994) http_server: app.js requested[0m
+[0;33mW (68024) httpd_uri: httpd_uri: URI '/favicon.ico' not found[0m
+[0;33mW (68024) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;32mI (68044) http_server: OTAstatus requested[0m
+[0;32mI (68054) http_server: /apSSID.json requested[0m
+[0;32mI (68104) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (72104) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (72104) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (72104) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (72114) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (72124) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (72134) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (72134) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (73244) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (77144) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (77144) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (77144) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (77154) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (77164) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (77174) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (77174) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (78114) http_server: /localTime.json requested[0m
+[0;32mI (78114) sntp_time_sync: Current time info: 29.08.2023 16:52:17[0m
+[0;32mI (78254) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (82184) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (82184) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (82184) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (82194) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (82204) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (82214) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (82214) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (83254) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (87224) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (87224) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (87224) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (87234) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (87244) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (87254) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (87254) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (88104) http_server: /localTime.json requested[0m
+[0;32mI (88104) sntp_time_sync: Current time info: 29.08.2023 16:52:27[0m
+[0;32mI (88254) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (92264) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (92264) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (92264) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (92274) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (92284) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (92294) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (92294) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (93274) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (97304) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;31mE (97304) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (97304) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (97314) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (97324) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (97334) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (97334) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (98114) http_server: /localTime.json requested[0m
+[0;32mI (98114) sntp_time_sync: Current time info: 29.08.2023 16:52:37[0m
+[0;32mI (98274) http_server: /ntcSensor.json requested[0m
+[0;32mI (98484) http_server: /wifiConnect.json requested[0m
+[0;32mI (98484) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-ssid: Ferreiro[0m
+[0;32mI (98484) http_server: http_server_wifi_connect_json_handler: Found header => my-connect-pwd: 939454321[0m
+[0;32mI (98494) wifi_app: WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER[0m
+[0;32mI (98504) http_server: HTTP_MSG_WIFI_CONNECT_INIT[0m
+[0;32mI (98544) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+[0;32mI (99544) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (99544) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (99544) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (99554) nvs: app_nvs_save_sta_creds: Saving station mode credentials to flash[0m
+[0;32mI (99564) nvs: app_nvs_save_sta_creds: wrote wifi_sta_config: Station SSID: Ferreiro Password: 939454321[0m
+app_nvs_save_sta_creds: returned ESP_OK
+[0;32mI (99574) main: Wifi application connected!![0m
+[0;32mI (99574) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (99574) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (100954) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (100954) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (100964) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (100974) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (100984) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (101124) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (101124) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (101134) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 2.
+
+[0m
+[0;32mI (101184) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (101184) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (101194) coreMQTT: PUBACK received for packet id 2.
+
+[0m
+[0;32mI (101194) coreMQTT: Cleaned up outgoing publish packet with packet id 2.
+
+[0m
+[0;32mI (101214) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (101214) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (101224) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (101224) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -38.
+
+[0m
+[0;32mI (101284) http_server: /wifiConnectStatus requested[0m
+[0;32mI (101304) http_server: /wifiConnectInfo.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (102344) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (103274) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;31mE (106364) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (106364) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (106374) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (106374) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;31mE (106384) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (106394) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (108114) http_server: /localTime.json requested[0m
+[0;32mI (108114) sntp_time_sync: Current time info: 29.08.2023 16:52:47[0m
+[0;32mI (108274) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (111364) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (111374) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 3.
+
+[0m
+[0;32mI (111404) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (111464) coreMQTT: Ack packet deserialized with result: MQTTSuccess.[0m
+[0;32mI (111464) coreMQTT: State record updated. New state=MQTTPublishDone.[0m
+[0;32mI (111474) coreMQTT: PUBACK received for packet id 3.
+
+[0m
+[0;32mI (111474) coreMQTT: Cleaned up outgoing publish packet with packet id 3.
+
+[0m
+[0;31mE (111474) esp-tls-mbedtls: write error :-0x004E:[0m
+[0;31mE (111494) coreMQTT: sendMessageVector: Unable to send packet: Network Error.[0m
+[0;31mE (111494) coreMQTT: MQTT PUBLISH failed with status MQTTSendFailed.[0m
+[0;31mE (111504) coreMQTT: Failed to send PUBLISH packet to broker with error = MQTTSendFailed.[0m
+[0;32mI (111514) coreMQTT: De-serialized incoming PUBLISH packet: DeserializerResult=MQTTSuccess.[0m
+[0;32mI (111524) coreMQTT: State record updated. New state=MQTTPubAckSend.[0m
+[0;32mI (111524) coreMQTT: Incoming QOS : 1.[0m
+[0;32mI (111534) coreMQTT: Incoming Publish Topic Name: test_topic/esp32 matches subscribed topic.
+Incoming Publish message Packet Id is 1.
+Incoming Publish Message : WiFi RSSI : -38.
+
+[0m
+[0;31mE (111524) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (111554) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (113274) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1

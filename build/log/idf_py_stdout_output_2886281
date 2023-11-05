@@ -1,0 +1,723 @@
+e�R��� �� �Ҳ������Ѻ�� 	u����}��J�U���Ki�e������*�e1���%=����c�٩֥�'���*�]����eC����.W���0	}Ѳ���A��}Ѳ�������_�.W��A�	���W�x�ⷽ��W¸����K��T�ʂ��k"�ٺF�l+њ�M���0����1�F�h�W�슲�����������0���b�Y�ʕ��!�Ť��0�������:��h���W�l��r������i�Q�°��l�K�SHhٴ��0�0��6�j�[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (93) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=73640h (472640) map[0m
+[0;32mI (297) esp_image: segment 1: paddr=00083668 vaddr=3ffb0000 size=0398ch ( 14732) load[0m
+[0;32mI (303) esp_image: segment 2: paddr=00086ffc vaddr=40080000 size=0901ch ( 36892) load[0m
+[0;32mI (319) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a5904h (678148) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=0013592c vaddr=4008901c size=0ceach ( 52908) load[0m
+[0;32mI (597) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (639) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (639) boot: Disabling RNG early entropy source...[0m
+[0;32mI (650) cpu_start: Multicore app[0m
+[0;32mI (650) cpu_start: Pro cpu up.[0m
+[0;32mI (650) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (668) cpu_start: Pro cpu start user code[0m
+[0;32mI (668) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (668) cpu_start: Application information:[0m
+[0;32mI (673) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (679) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (684) cpu_start: Compile time:     Aug 23 2023 18:30:07[0m
+[0;32mI (691) cpu_start: ELF file SHA256:  aab0c4464...[0m
+[0;32mI (696) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (702) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (707) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (712) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (717) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (724) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (730) heap_init: At 3FFB8200 len 00027E00 (159 KiB): DRAM[0m
+[0;32mI (736) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (743) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (749) heap_init: At 40095EC8 len 0000A138 (40 KiB): IRAM[0m
+[0;32mI (757) spi_flash: detected chip: generic[0m
+[0;32mI (760) spi_flash: flash io: dio[0m
+[0;33mW (764) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (773) app_start: Starting scheduler on CPU0[0m
+[0;32mI (777) app_start: Starting scheduler on CPU1[0m
+[0;32mI (777) main_task: Started on CPU0[0m
+[0;32mI (787) main_task: Calling app_main()[0m
+[0;32mI (797) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (807) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (817) wifi_init: rx ba win: 6[0m
+[0;32mI (817) wifi_init: tcpip mbox: 32[0m
+[0;32mI (817) wifi_init: udp mbox: 6[0m
+[0;32mI (827) wifi_init: tcp mbox: 6[0m
+[0;32mI (827) wifi_init: tcp tx win: 5744[0m
+[0;32mI (837) wifi_init: tcp rx win: 5744[0m
+[0;32mI (837) wifi_init: tcp mss: 1440[0m
+[0;32mI (837) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (847) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2017) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2097) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2107) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2107) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2107) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2117) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2127) wifi_app: Loaded station configuration[0m
+[0;32mI (2137) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2137) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2147) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4097) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5097) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5097) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5097) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5097) main: Wifi application connected!![0m
+[0;32mI (5107) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (5107) aws_iot: AWS IoT SDK Version 3.0.1-[0m
+[0;32mI (5117) aws_iot: Connecting to AWS...[0m
+[0;32mI (5107) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (5147) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+[0;32mI (6787) aws_iot: Subscribing...[0m
+[0;32mI (6957) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (9997) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (10027) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (10137) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (13177) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (13207) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (13317) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (16357) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (16387) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (16497) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (19537) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (19567) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (19677) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (22727) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (22757) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (22877) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (25917) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (25957) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (26057) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (29097) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (29137) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (29237) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (32277) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (32307) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (32417) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (35457) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (35487) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (35607) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (38647) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (38687) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (38787) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (41827) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (41857) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (41967) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (45007) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (45037) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (45147) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (48187) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (48217) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (48327) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (51367) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (51427) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (51537) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (54577) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (54607) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (54717) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (57757) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (57787) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (57897) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (60907) aws_iot: Subscribe callback Test: test_topic/esp32	{
+  "message": "Springfield is a good rifle"
+}[0m
+[0;32mI (60937) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (60957) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (61067) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (64107) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (64137) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (64247) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (67287) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (67327) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (67427) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (70467) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (70497) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (70607) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (73647) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (73697) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (73797) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (76837) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (76867) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (76967) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (80007) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (80037) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (80147) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (83187) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (83217) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (83327) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (86377) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (86407) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (86517) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (89557) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -43 [0m
+[0;32mI (89597) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (89697) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (92737) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (92767) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (92877) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (95917) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (95947) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (96057) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (99097) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (99127) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (99227) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (102267) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (102297) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (102407) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (105447) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (105477) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (105587) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (108627) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (108657) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (108757) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (111787) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (111827) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (111927) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (114967) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (115007) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (115117) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (118157) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (118187) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (118297) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (121337) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (121377) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (121477) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (124517) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -43 [0m
+[0;32mI (124547) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (124647) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (127687) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (127717) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (127827) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (130867) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (130897) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (130997) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (134037) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -43 [0m
+[0;32mI (134067) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (134187) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (137227) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (137257) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (137367) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (140407) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (140447) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (140547) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (143587) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (143617) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (143727) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (146767) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (146797) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (146907) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (149947) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (149977) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (150087) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (153127) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (153157) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (153277) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (156317) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (156347) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (156457) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (159497) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (159527) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (159627) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (162667) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -43 [0m
+[0;32mI (162687) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (162797) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (165837) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (165867) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (165977) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (169017) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (169077) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (169177) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (172217) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (172247) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (172357) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (175397) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (175427) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (175547) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (178587) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (178617) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (178737) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (181777) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -38 [0m
+[0;32mI (181817) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (181927) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (184967) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (184997) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (185097) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (188137) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (188167) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (188277) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (191317) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -38 [0m
+[0;32mI (191347) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (191457) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (194497) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (194527) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (194637) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (197677) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (197707) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (197817) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (200857) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (200917) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (201027) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (204067) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (204107) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (204217) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (207247) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -38 [0m
+[0;32mI (207277) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (207387) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (210427) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (210457) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (210567) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (213607) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -38 [0m
+[0;32mI (213637) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (213747) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (216787) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (216807) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (216917) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (219957) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (219987) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (220097) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (223137) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (223167) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (223277) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (226317) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (226347) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (226457) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (229497) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (229547) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (229657) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (232707) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -38 [0m
+[0;32mI (232737) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (232837) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (235887) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -38 [0m
+[0;32mI (235927) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (236027) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (239067) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (239107) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (239217) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (242257) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -38 [0m
+[0;32mI (242287) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (242397) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (245437) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (245477) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (245577) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (248627) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (248657) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (248767) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (251807) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (251837) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (251937) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (254977) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (255007) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (255107) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (258147) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (258177) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (258297) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (261337) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (261367) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (261467) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (264507) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (264537) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (264647) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (267677) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (267707) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (267817) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (270857) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (270887) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (270997) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (274037) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (274067) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (274167) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (277207) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (277237) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (277347) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (280417) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (280457) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (280557) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (283597) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (283627) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (283747) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (286787) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (286827) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (286947) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (289987) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (290017) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (290137) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (293177) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (293207) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (293317) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (296357) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (296397) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (296507) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (299547) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (299577) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (299687) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (302717) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (302747) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (302857) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (305887) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (305917) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (306027) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (309097) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (309127) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (309227) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (312267) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (312287) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (312397) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (315437) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (315467) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (315577) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (318617) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (318657) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (318777) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (321817) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (321847) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (321957) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (324997) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (325047) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (325147) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (328187) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (328217) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (328317) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (331357) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (331387) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (331497) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (334537) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (334567) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (334667) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (337707) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (337747) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (337857) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (340897) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (340927) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (341047) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (344097) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (344117) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (344227) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (347267) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (347297) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (347407) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (350447) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (350487) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (350597) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (353637) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (353717) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (353827) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (356867) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (356887) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (356997) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (360037) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (360067) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (360167) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (363227) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (363257) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (363357) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (366397) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (366427) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (366527) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (369567) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -39 [0m
+[0;32mI (369587) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (369697) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (372737) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (372767) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (372877) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (375917) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (375947) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (376057) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (379097) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (379127) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (379237) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (382277) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (382307) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (382417) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (385457) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (385487) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (385597) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (388637) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (388667) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (388787) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (391827) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (391857) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (391967) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (395007) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (395037) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (395147) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (398187) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (398227) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (398327) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (401367) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (401397) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (401507) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (404547) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (404577) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (404687) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (407727) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (407757) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (407867) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (410917) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (410937) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (411047) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (414087) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (414127) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (414227) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (417277) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (417307) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (417407) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (420457) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (420487) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (420597) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (423627) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (423657) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (423767) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (426797) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (426827) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (426937) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (429967) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (430007) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (430117) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (433157) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -42 [0m
+[0;32mI (433187) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (433297) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (436337) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -41 [0m
+[0;32mI (436367) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (436477) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (439527) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : -40 [0m
+[0;32mI (439557) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (439667) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1

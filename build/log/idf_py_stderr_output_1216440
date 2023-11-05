@@ -1,0 +1,31 @@
+[0;33m--- idf_monitor on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x400811f8: call_start_cpu1 at /home/bruno/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0;33m0x40081862: panic_abort at /home/bruno/esp/esp-idf/components/esp_system/panic.c:452
+[0m
+[0;33m0x400891e5: esp_system_abort at /home/bruno/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+[0m
+[0;33m0x40090441: __assert_func at /home/bruno/esp/esp-idf/components/newlib/assert.c:81
+[0m
+[0;33m0x4008969d: xQueueGenericSend at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:882 (discriminator 8)
+[0m
+[0;33m0x400ddf21: espTlsTransportRecv at /home/bruno/Documents/esp32-projects/esp32-iot-application/esp-aws-iot/libraries/coreMQTT/port/network_transport/network_transport.c:102
+[0m
+[0;33m0x400dc342: receiveSingleIteration at /home/bruno/Documents/esp32-projects/esp32-iot-application/esp-aws-iot/libraries/coreMQTT/coreMQTT/source/core_mqtt.c:1658
+[0m
+[0;33m0x400dc4c5: MQTT_ProcessLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/esp-aws-iot/libraries/coreMQTT/coreMQTT/source/core_mqtt.c:3065
+[0m
+[0;33m0x400da580: processLoopWithTimeout at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1672
+[0m
+[0;33m0x400da749: subscribePublishLoop at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1551
+[0m
+[0;33m0x400da8e9: mqtt_app_task at /home/bruno/Documents/esp32-projects/esp32-iot-application/main/mqtt_demo_mutual_auth.c:1762
+[0m
+[0;33m0x4008bc35: vPortTaskWrapper at /home/bruno/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400811f8: call_start_cpu1 at /home/bruno/esp/esp-idf/components/esp_system/port/cpu_start.c:170
+[0m
+[0m

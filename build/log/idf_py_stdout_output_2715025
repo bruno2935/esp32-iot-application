@@ -1,0 +1,458 @@
+e�.R���&����:&�������i0� ��]���}IE����t'��3�i���MQ_�*M����ѩC��˙�VŰ��*U�P'e�����V�i0�0����'��0��E�'�A0)��E����a�	K�䮗��A0i��V�i0�0�a���'T��c���"�ٺ&H�+�i��f�������:S��C!�� Ŭ�2���[�!��'��0����ɕ�:L�!��'��0��4���Y���!�8����������H�+�i��0��4���Y��8�j�Y�y���0��6M*�[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (94) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=6fa40h (457280) map[0m
+[0;32mI (291) esp_image: segment 1: paddr=0007fa68 vaddr=3ffb0000 size=005b0h (  1456) load[0m
+[0;32mI (292) esp_image: segment 2: paddr=00080020 vaddr=400d0020 size=96250h (614992) map[0m
+[0;32mI (519) esp_image: segment 3: paddr=00116278 vaddr=3ffb05b0 size=0327ch ( 12924) load[0m
+[0;32mI (525) esp_image: segment 4: paddr=001194fc vaddr=40080000 size=15e90h ( 89744) load[0m
+[0;32mI (573) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (617) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (617) boot: Disabling RNG early entropy source...[0m
+[0;32mI (627) cpu_start: Multicore app[0m
+[0;32mI (628) cpu_start: Pro cpu up.[0m
+[0;32mI (628) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (646) cpu_start: Pro cpu start user code[0m
+[0;32mI (646) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (646) cpu_start: Application information:[0m
+[0;32mI (650) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (657) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (662) cpu_start: Compile time:     Aug 23 2023 12:41:43[0m
+[0;32mI (668) cpu_start: ELF file SHA256:  114d66aed...[0m
+[0;32mI (673) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (680) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (685) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (690) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (694) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (702) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (708) heap_init: At 3FFB7F80 len 00028080 (160 KiB): DRAM[0m
+[0;32mI (714) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (720) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (727) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (734) spi_flash: detected chip: generic[0m
+[0;32mI (737) spi_flash: flash io: dio[0m
+[0;33mW (742) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (750) app_start: Starting scheduler on CPU0[0m
+[0;32mI (755) app_start: Starting scheduler on CPU1[0m
+[0;32mI (755) main_task: Started on CPU0[0m
+[0;32mI (765) main_task: Calling app_main()[0m
+[0;32mI (775) wifi_app: STARTING WIFI APPLICATION[0m
+dns_init: initializing
+[0;32mI (785) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (795) wifi_init: rx ba win: 6[0m
+[0;32mI (795) wifi_init: tcpip mbox: 32[0m
+[0;32mI (795) wifi_init: udp mbox: 6[0m
+[0;32mI (805) wifi_init: tcp mbox: 6[0m
+[0;32mI (805) wifi_init: tcp tx win: 5744[0m
+[0;32mI (815) wifi_init: tcp rx win: 5744[0m
+[0;32mI (815) wifi_init: tcp mss: 1440[0m
+[0;32mI (815) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (825) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1995) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2085) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2085) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2085) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2095) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2105) wifi_app: Loaded station configuration[0m
+[0;32mI (2115) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2115) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2125) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4075) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5075) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5075) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5075) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5075) main: Wifi application connected!![0m
+[0;32mI (5085) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (5085) sntp_time_sync: Initializing the SNTP service[0m
+sntp_init: SNTP initialised
+[0;32mI (5095) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+dns_enqueue: "pool.ntp.org": use DNS entry 0
+dns_enqueue: "pool.ntp.org": use DNS pcb 0
+dns_send: dns_servers[0] "pool.ntp.org": request
+sending DNS request ID 47303 for name "pool.ntp.org" to server 0
+sntp_request: Waiting for server address to be resolved.
+dns_recv: "pool.ntp.org": response = 162.159.200.123
+sntp_dns_found: Server address resolved, sending request
+sntp_send_request: Sending request to server
+sntp_process: Wed Aug 23 12:42:59 2023
+, 132072 us
+sntp_recv: Scheduled next time request: 3600000 ms
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (12555) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+[0;32mI (13695) http_server: /ntcSensor.json requested[0m
+[0;32mI (13715) http_server: /ntcSensor.json requested[0m
+[0;32mI (13725) http_server: /localTime.json requested[0m
+[0;32mI (13735) sntp_time_sync: Current time info: 23.08.2023 12:43:05[0m
+dns_tmr: dns_check_entries
+[0;32mI (14615) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.1.2[0m
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (18675) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (22675) http_server: /localTime.json requested[0m
+[0;32mI (22675) sntp_time_sync: Current time info: 23.08.2023 12:43:14[0m
+dns_tmr: dns_check_entries
+[0;32mI (23695) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (28705) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (32715) http_server: /localTime.json requested[0m
+[0;32mI (32725) sntp_time_sync: Current time info: 23.08.2023 12:43:24[0m
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+[0;32mI (33745) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (38745) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (42725) http_server: /localTime.json requested[0m
+[0;32mI (42725) sntp_time_sync: Current time info: 23.08.2023 12:43:34[0m
+dns_tmr: dns_check_entries
+[0;32mI (43755) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (48745) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (52725) http_server: /localTime.json requested[0m
+[0;32mI (52725) sntp_time_sync: Current time info: 23.08.2023 12:43:44[0m
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+[0;32mI (53745) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (58745) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (62725) http_server: /localTime.json requested[0m
+[0;32mI (62725) sntp_time_sync: Current time info: 23.08.2023 12:43:54[0m
+dns_tmr: dns_check_entries
+[0;32mI (63745) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (68745) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (72725) http_server: /localTime.json requested[0m
+[0;32mI (72725) sntp_time_sync: Current time info: 23.08.2023 12:44:04[0m
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+[0;32mI (73755) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (78755) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (82725) http_server: /localTime.json requested[0m
+[0;32mI (82725) sntp_time_sync: Current time info: 23.08.2023 12:44:14[0m
+dns_tmr: dns_check_entries
+[0;32mI (83755) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (88755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+[0;32mI (92725) http_server: /localTime.json requested[0m
+[0;32mI (92725) sntp_time_sync: Current time info: 23.08.2023 12:44:24[0m
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+[0;32mI (93755) http_server: /ntcSensor.json requested[0m
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+=== Reading NTC103 ===
+Temp -273.1
+dns_tmr: dns_check_entries
+dns_tmr: dns_check_entries
+dns_check_entry: "pool.ntp.org": flush
+[0;32mI (98755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -229.1
+[0;32mI (102715) http_server: /localTime.json requested[0m
+[0;32mI (102725) sntp_time_sync: Current time info: 23.08.2023 12:44:34[0m
+[0;32mI (103755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (108755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (112725) http_server: /localTime.json requested[0m
+[0;32mI (112725) sntp_time_sync: Current time info: 23.08.2023 12:44:44[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (113755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (118755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (122725) http_server: /localTime.json requested[0m
+[0;32mI (122725) sntp_time_sync: Current time info: 23.08.2023 12:44:54[0m
+[0;32mI (123755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (128755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (132725) http_server: /localTime.json requested[0m
+[0;32mI (132725) sntp_time_sync: Current time info: 23.08.2023 12:45:04[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (133755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (138755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (142725) http_server: /localTime.json requested[0m
+[0;32mI (142725) sntp_time_sync: Current time info: 23.08.2023 12:45:14[0m
+[0;32mI (143755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (148755) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (152725) http_server: /localTime.json requested[0m
+[0;32mI (152725) sntp_time_sync: Current time info: 23.08.2023 12:45:24[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (153765) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (158765) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (162725) http_server: /localTime.json requested[0m
+[0;32mI (162725) sntp_time_sync: Current time info: 23.08.2023 12:45:34[0m
+[0;32mI (163765) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (168765) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (172725) http_server: /localTime.json requested[0m
+[0;32mI (172725) sntp_time_sync: Current time info: 23.08.2023 12:45:44[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (173765) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (178765) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (182725) http_server: /localTime.json requested[0m
+[0;32mI (182725) sntp_time_sync: Current time info: 23.08.2023 12:45:54[0m
+[0;32mI (183765) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (188765) http_server: /ntcSensor.json requested[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (192725) http_server: /localTime.json requested[0m
+[0;32mI (192725) sntp_time_sync: Current time info: 23.08.2023 12:46:04[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (193805) http_server: /ntcSensor.json requested[0m
+[0;32mI (195275) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -113.2
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1

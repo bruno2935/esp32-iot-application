@@ -242,6 +242,9 @@ IDF_TARGET:STRING=esp32
 IDF_TOOLCHAIN:STRING=gcc
 
 //No help, variable specified on the command line.
+IGNORE_EXTRA_COMPONENT:UNINITIALIZED=
+
+//No help, variable specified on the command line.
 PROJECT_SOURCE_DIR:UNINITIALIZED=/home/bruno/Documents/esp32-projects/esp32-iot-application
 
 //No help, variable specified on the command line.

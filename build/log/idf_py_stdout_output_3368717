@@ -1,0 +1,153 @@
+e�.R�����0���'���S�����'�� �u�������j�U��њ�E���U��P�51���%��UɊ��ŷ�i���*ݐeC��k��ٺ�A�)��.W��a�	��.�������v��A��ѿ����a�iῖ���a�C��K�i�R���덫����j��Ť'������&b��n�S��#�0���l�,���m�SH�+њ�q��8��,K�i1���i��0��4��l����!�t�:����A4�!��i0���������¸SHh��^�����5�#�[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (93) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=788b0h (493744) map[0m
+[0;32mI (305) esp_image: segment 1: paddr=000888d8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (310) esp_image: segment 2: paddr=0008c16c vaddr=40080000 size=03each ( 16044) load[0m
+[0;32mI (317) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=aa514h (697620) map[0m
+[0;32mI (571) esp_image: segment 4: paddr=0013a53c vaddr=40083eac size=11fe4h ( 73700) load[0m
+[0;32mI (612) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (674) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (674) boot: Disabling RNG early entropy source...[0m
+[0;32mI (685) cpu_start: Multicore app[0m
+[0;32mI (685) cpu_start: Pro cpu up.[0m
+[0;32mI (685) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (703) cpu_start: Pro cpu start user code[0m
+[0;32mI (703) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (703) cpu_start: Application information:[0m
+[0;32mI (708) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (714) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (720) cpu_start: Compile time:     Aug 24 2023 23:06:24[0m
+[0;32mI (726) cpu_start: ELF file SHA256:  09d4b8bdc...[0m
+[0;32mI (731) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (738) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (742) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (747) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (752) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (759) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (765) heap_init: At 3FFB8798 len 00027868 (158 KiB): DRAM[0m
+[0;32mI (771) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (778) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (784) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (792) spi_flash: detected chip: generic[0m
+[0;32mI (795) spi_flash: flash io: dio[0m
+[0;33mW (799) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (808) app_start: Starting scheduler on CPU0[0m
+[0;32mI (812) app_start: Starting scheduler on CPU1[0m
+[0;32mI (812) main_task: Started on CPU0[0m
+[0;32mI (822) main_task: Calling app_main()[0m
+[0;32mI (832) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (842) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (852) wifi_init: rx ba win: 6[0m
+[0;32mI (852) wifi_init: tcpip mbox: 32[0m
+[0;32mI (852) wifi_init: udp mbox: 6[0m
+[0;32mI (862) wifi_init: tcp mbox: 6[0m
+[0;32mI (862) wifi_init: tcp tx win: 5744[0m
+[0;32mI (872) wifi_init: tcp rx win: 5744[0m
+[0;32mI (872) wifi_init: tcp mss: 1440[0m
+[0;32mI (872) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (882) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2052) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2142) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2142) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2142) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2142) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2152) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2162) wifi_app: Loaded station configuration[0m
+[0;32mI (2172) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2172) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2182) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4152) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5152) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5152) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5152) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5152) main: Wifi application connected!![0m
+[0;32mI (5162) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5162) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (5172) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (5182) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+[0;32mI (6932) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6932) coreMQTT: MQTT connection successfully established with broker.[0m
+[0;32mI (6942) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (6952) coreMQTT: SUBSCRIBE topic $aws/things/ESP32_Iot_Test/shadow/update/delta to broker.[0m
+[0;32mI (6962) coreMQTT: SUBSCRIBE topic $aws/things/ESP32_Iot_Test/shadow/update/accepted to broker.[0m
+[0;32mI (6972) coreMQTT: SUBSCRIBE topic $aws/things/ESP32_Iot_Test/shadow/update/rejected to broker.[0m
+[0;32mI (6972) DeviceShadow: Send desired power state with 1.[0m
+[0;32mI (6982) coreMQTT: Published payload: {"state":{"desired":{"powerOn":1}},"clientToken":"006195"}[0m
+[0;32mI (6992) coreMQTT: PUBLISH sent for topic $aws/things/ESP32_Iot_Test/shadow/update to broker with packet ID 4.[0m
+[0;31mE (7002) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;32mI (7012) DeviceShadow: No change from /update/delta, unsubscribe all shadow topics and disconnect from MQTT.
+[0m
+[0;32mI (7022) DeviceShadow: Start to unsubscribe shadow topics and disconnect from MQTT. 
+[0m
+[0;32mI (7032) coreMQTT: UNSUBSCRIBE sent topic $aws/things/ESP32_Iot_Test/shadow/update/delta to broker.[0m
+[0;31mE (7042) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (7042) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=00000005, LoopDuration=8, Status=MQTTRecvFailed[0m
+[0;32mI (7062) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (7072) DeviceShadow: Demo iteration 1 is successful.[0m
+[0;32mI (7072) DeviceShadow: Demo completed successfully.[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1

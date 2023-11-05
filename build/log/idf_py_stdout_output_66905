@@ -1,0 +1,102 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader/esp-idf/esptool_py && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/bruno/Documents/esp32-projects/esp32-iot-application/build/bootloader/bootloader.bin
+Bootloader binary size 0x68d0 bytes. 0x730 bytes (6%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/JobsDemoExample.c.obj
+/home/bruno/Documents/esp32-projects/esp32-iot-application/main/JobsDemoExample.c:268:26: warning: 'xBuffer' defined but not used [-Wunused-variable]
+  268 | static MQTTFixedBuffer_t xBuffer =
+      |                          ^~~~~~~
+/home/bruno/Documents/esp32-projects/esp32-iot-application/main/JobsDemoExample.c:253:25: warning: 'xNetworkContext' defined but not used [-Wunused-variable]
+  253 | static NetworkContext_t xNetworkContext;
+      |                         ^~~~~~~~~~~~~~~
+[3/8] Linking C static library esp-idf/main/libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable esp32-iot-application.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32 image...
+Merged 26 ELF sections
+Successfully created esp32 image.
+Generated /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp32-iot-application.bin
+[7/8] cd /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp-idf/esptool_py && /home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/bruno/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/bruno/Documents/esp32-projects/esp32-iot-application/build/partition_table/partition-table.bin /home/bruno/Documents/esp32-projects/esp32-iot-application/build/esp32-iot-application.bin
+esp32-iot-application.bin binary size 0x13e3b0 bytes. Smallest app partition is 0x1f0000 bytes. 0xb1c50 bytes (36%) free.
+[7/8] cd /home/bruno/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/bruno/esp/esp-idf -D "SERIAL_TOOL=/home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python;;/home/bruno/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/bruno/Documents/esp32-projects/esp32-iot-application/build -P /home/bruno/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x1000 bootloader/bootloader.bin 0x10000 esp32-iot-application.bin 0x8000 partition_table/partition-table.bin 0xd000 ota_data_initial.bin
+esptool.py v4.6.2
+Serial port /dev/ttyACM0
+Connecting......
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 24:0a:c4:8b:6c:04
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0014efff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000d000 to 0x0000efff...
+Compressed 26832 bytes to 16849...
+Writing at 0x00001000... (50 %)
+Writing at 0x00007680... (100 %)
+Wrote 26832 bytes (16849 compressed) at 0x00001000 in 0.9 seconds (effective 244.8 kbit/s)...
+Hash of data verified.
+Compressed 1303472 bytes to 701739...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001b40a... (4 %)
+Writing at 0x0002e6cf... (6 %)
+Writing at 0x0004903f... (9 %)
+Writing at 0x000568d6... (11 %)
+Writing at 0x00061bb0... (13 %)
+Writing at 0x0006f504... (16 %)
+Writing at 0x000784fa... (18 %)
+Writing at 0x0007dd46... (20 %)
+Writing at 0x000876f6... (23 %)
+Writing at 0x00090a87... (25 %)
+Writing at 0x0009669f... (27 %)
+Writing at 0x0009c046... (30 %)
+Writing at 0x000a1fab... (32 %)
+Writing at 0x000a7acb... (34 %)
+Writing at 0x000ad395... (37 %)
+Writing at 0x000b28d6... (39 %)
+Writing at 0x000b80e5... (41 %)
+Writing at 0x000bd9f4... (44 %)
+Writing at 0x000c367c... (46 %)
+Writing at 0x000c907e... (48 %)
+Writing at 0x000ce9b9... (51 %)
+Writing at 0x000d4970... (53 %)
+Writing at 0x000da487... (55 %)
+Writing at 0x000dfd77... (58 %)
+Writing at 0x000e5330... (60 %)
+Writing at 0x000ea612... (62 %)
+Writing at 0x000efac8... (65 %)
+Writing at 0x000f4e26... (67 %)
+Writing at 0x000fa479... (69 %)
+Writing at 0x000ffc31... (72 %)
+Writing at 0x001056c8... (74 %)
+Writing at 0x0010af38... (76 %)
+Writing at 0x00110718... (79 %)
+Writing at 0x00116204... (81 %)
+Writing at 0x0011c41b... (83 %)
+Writing at 0x00121b67... (86 %)
+Writing at 0x0012a4c0... (88 %)
+Writing at 0x0013270f... (90 %)
+Writing at 0x00138be5... (93 %)
+Writing at 0x0013e8b9... (95 %)
+Writing at 0x0014435f... (97 %)
+Writing at 0x00149a20... (100 %)
+Wrote 1303472 bytes (701739 compressed) at 0x00010000 in 17.5 seconds (effective 596.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 128...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (128 compressed) at 0x00008000 in 0.1 seconds (effective 339.7 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000d000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000d000 in 0.1 seconds (effective 627.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

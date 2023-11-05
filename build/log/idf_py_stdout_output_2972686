@@ -1,0 +1,1296 @@
+�ׁJ�� �������:�S����:�e�	�]���꥕�QU�����e����}FP*�%��
+�%��5�
+��k���Z� �	�A�ץ�eC�,����W¸���E�'��0��%ɶ�a�i�0E�ٺ��0��}Ѳ���A������W�x�j�[պ4�Q�����6Ki�C!�d'�M���0�b�Y����j
+���t�Z����ݭ���Ť'��0���K�i���Ť'��0�����l�K�*���W�l���� �Ȭ+�:��0��4���9K�¸��e��� �q�°S*�[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (79) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (93) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781a0h (491936) map[0m
+[0;32mI (304) esp_image: segment 1: paddr=000881c8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (310) esp_image: segment 2: paddr=0008ba5c vaddr=40080000 size=045bch ( 17852) load[0m
+[0;32mI (318) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (568) esp_image: segment 4: paddr=00138fbc vaddr=400845bc size=118d4h ( 71892) load[0m
+[0;32mI (609) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (655) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (655) boot: Disabling RNG early entropy source...[0m
+[0;32mI (665) cpu_start: Multicore app[0m
+[0;32mI (666) cpu_start: Pro cpu up.[0m
+[0;32mI (666) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (684) cpu_start: Pro cpu start user code[0m
+[0;32mI (684) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (684) cpu_start: Application information:[0m
+[0;32mI (688) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (695) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (700) cpu_start: Compile time:     Aug 23 2023 23:17:00[0m
+[0;32mI (706) cpu_start: ELF file SHA256:  370faca6b...[0m
+[0;32mI (711) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (718) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (723) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (728) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (732) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (740) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (746) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (752) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (758) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (765) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (772) spi_flash: detected chip: generic[0m
+[0;32mI (775) spi_flash: flash io: dio[0m
+[0;33mW (780) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (788) app_start: Starting scheduler on CPU0[0m
+[0;32mI (793) app_start: Starting scheduler on CPU1[0m
+[0;32mI (793) main_task: Started on CPU0[0m
+[0;32mI (803) main_task: Calling app_main()[0m
+[0;32mI (813) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (823) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (833) wifi_init: rx ba win: 6[0m
+[0;32mI (833) wifi_init: tcpip mbox: 32[0m
+[0;32mI (833) wifi_init: udp mbox: 6[0m
+[0;32mI (843) wifi_init: tcp mbox: 6[0m
+[0;32mI (843) wifi_init: tcp tx win: 5744[0m
+[0;32mI (853) wifi_init: tcp rx win: 5744[0m
+[0;32mI (853) wifi_init: tcp mss: 1440[0m
+[0;32mI (853) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (863) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2033) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2123) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2123) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2123) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2123) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2133) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2143) wifi_app: Loaded station configuration[0m
+[0;32mI (2153) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2153) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2163) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4163) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5163) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5163) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5163) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5163) main: Wifi application connected!![0m
+[0;32mI (5173) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5173) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (5183) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (5193) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+[0;32mI (6973) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6973) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (6973) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (6983) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (7003) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (7133) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (7133) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x400014fd  PS      : 0x00060a30  A0      : 0x80162f22  A1      : 0x3ffbc930  
+A2      : 0x00000000  A3      : 0xfffffffc  A4      : 0x000000ff  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x00000000  A9      : 0x3ffbc8f0  
+A10     : 0x3ffbcd51  A11     : 0x3f4737a4  A12     : 0x00000001  A13     : 0x3ffd9a44  
+A14     : 0x00000001  A15     : 0x00000018  SAR     : 0x00000005  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400014fa:0x3ffbc930 0x40162f1f:0x3ffbc940 0x4016014d:0x3ffbcc60 0x400da21f:0x3ffbcd20 0x400da610:0x3ffbce20 0x400da7c8:0x3ffbce50 0x400d83d5:0x3ffbcf20 0x400d8849:0x3ffbcf40 0x400d89ac:0x3ffbcf60 0x4008bc35:0x3ffbcf90
+
+
+
+
+ELF file SHA256: 370faca6b
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15708
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (114) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781a0h (491936) map[0m
+[0;32mI (300) esp_image: segment 1: paddr=000881c8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (306) esp_image: segment 2: paddr=0008ba5c vaddr=40080000 size=045bch ( 17852) load[0m
+[0;32mI (314) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=00138fbc vaddr=400845bc size=118d4h ( 71892) load[0m
+[0;32mI (605) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (606) boot: Disabling RNG early entropy source...[0m
+[0;32mI (617) cpu_start: Multicore app[0m
+[0;32mI (617) cpu_start: Pro cpu up.[0m
+[0;32mI (618) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (604) cpu_start: App cpu up.[0m
+[0;32mI (635) cpu_start: Pro cpu start user code[0m
+[0;32mI (635) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (636) cpu_start: Application information:[0m
+[0;32mI (640) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (646) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (652) cpu_start: Compile time:     Aug 23 2023 23:17:00[0m
+[0;32mI (658) cpu_start: ELF file SHA256:  370faca6b...[0m
+[0;32mI (663) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (670) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (675) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (679) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (684) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (692) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (697) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (704) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (710) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (716) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (724) spi_flash: detected chip: generic[0m
+[0;32mI (727) spi_flash: flash io: dio[0m
+[0;33mW (732) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (740) app_start: Starting scheduler on CPU0[0m
+[0;32mI (745) app_start: Starting scheduler on CPU1[0m
+[0;32mI (745) main_task: Started on CPU0[0m
+[0;32mI (755) main_task: Calling app_main()[0m
+[0;32mI (765) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (775) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (785) wifi_init: rx ba win: 6[0m
+[0;32mI (785) wifi_init: tcpip mbox: 32[0m
+[0;32mI (785) wifi_init: udp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (805) wifi_init: tcp mss: 1440[0m
+[0;32mI (805) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (815) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1985) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2075) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2075) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2085) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2095) wifi_app: Loaded station configuration[0m
+[0;32mI (2105) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2105) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2115) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4055) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5055) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5055) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5055) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5055) main: Wifi application connected!![0m
+[0;32mI (5065) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5065) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (5075) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (5085) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+[0;32mI (6895) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6895) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (6905) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (6915) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (6925) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (6995) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (6995) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x400014fd  PS      : 0x00060e30  A0      : 0x80162f22  A1      : 0x3ffbc930  
+A2      : 0x00000000  A3      : 0xfffffffc  A4      : 0x000000ff  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x00000000  A9      : 0x3ffbc8f0  
+A10     : 0x3ffbcd51  A11     : 0x3f4737a4  A12     : 0x00000001  A13     : 0x3ffda6bc  
+A14     : 0x00000001  A15     : 0x00000018  SAR     : 0x00000005  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400014fa:0x3ffbc930 0x40162f1f:0x3ffbc940 0x4016014d:0x3ffbcc60 0x400da21f:0x3ffbcd20 0x400da610:0x3ffbce20 0x400da7c8:0x3ffbce50 0x400d83d5:0x3ffbcf20 0x400d8849:0x3ffbcf40 0x400d89ac:0x3ffbcf60 0x4008bc35:0x3ffbcf90
+
+
+
+
+ELF file SHA256: 370faca6b
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15708
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (114) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781a0h (491936) map[0m
+[0;32mI (300) esp_image: segment 1: paddr=000881c8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (306) esp_image: segment 2: paddr=0008ba5c vaddr=40080000 size=045bch ( 17852) load[0m
+[0;32mI (314) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=00138fbc vaddr=400845bc size=118d4h ( 71892) load[0m
+[0;32mI (605) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (606) boot: Disabling RNG early entropy source...[0m
+[0;32mI (617) cpu_start: Multicore app[0m
+[0;32mI (617) cpu_start: Pro cpu up.[0m
+[0;32mI (618) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (604) cpu_start: App cpu up.[0m
+[0;32mI (635) cpu_start: Pro cpu start user code[0m
+[0;32mI (635) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (636) cpu_start: Application information:[0m
+[0;32mI (640) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (646) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (652) cpu_start: Compile time:     Aug 23 2023 23:17:00[0m
+[0;32mI (658) cpu_start: ELF file SHA256:  370faca6b...[0m
+[0;32mI (663) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (670) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (675) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (679) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (684) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (692) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (697) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (704) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (710) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (716) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (724) spi_flash: detected chip: generic[0m
+[0;32mI (727) spi_flash: flash io: dio[0m
+[0;33mW (732) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (740) app_start: Starting scheduler on CPU0[0m
+[0;32mI (745) app_start: Starting scheduler on CPU1[0m
+[0;32mI (745) main_task: Started on CPU0[0m
+[0;32mI (755) main_task: Calling app_main()[0m
+[0;32mI (765) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (775) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (785) wifi_init: rx ba win: 6[0m
+[0;32mI (785) wifi_init: tcpip mbox: 32[0m
+[0;32mI (785) wifi_init: udp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (805) wifi_init: tcp mss: 1440[0m
+[0;32mI (805) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (815) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1985) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2065) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2075) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2075) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2085) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2095) wifi_app: Loaded station configuration[0m
+[0;32mI (2105) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2105) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2115) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4065) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5065) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5065) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5065) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5065) main: Wifi application connected!![0m
+[0;32mI (5075) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5085) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (6885) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6885) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (6885) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (6895) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (6915) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (6995) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (6995) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x400014fd  PS      : 0x00060a30  A0      : 0x80162f22  A1      : 0x3ffbc930  
+A2      : 0x00000000  A3      : 0xfffffffc  A4      : 0x000000ff  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x00000000  A9      : 0x3ffbc8f0  
+A10     : 0x3ffbcd51  A11     : 0x3f4737a4  A12     : 0x00000001  A13     : 0x3ffda450  
+A14     : 0x00000001  A15     : 0x00000018  SAR     : 0x00000005  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400014fa:0x3ffbc930 0x40162f1f:0x3ffbc940 0x4016014d:0x3ffbcc60 0x400da21f:0x3ffbcd20 0x400da610:0x3ffbce20 0x400da7c8:0x3ffbce50 0x400d83d5:0x3ffbcf20 0x400d8849:0x3ffbcf40 0x400d89ac:0x3ffbcf60 0x4008bc35:0x3ffbcf90
+
+
+
+
+ELF file SHA256: 370faca6b
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15708
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (114) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781a0h (491936) map[0m
+[0;32mI (300) esp_image: segment 1: paddr=000881c8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (306) esp_image: segment 2: paddr=0008ba5c vaddr=40080000 size=045bch ( 17852) load[0m
+[0;32mI (314) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=00138fbc vaddr=400845bc size=118d4h ( 71892) load[0m
+[0;32mI (605) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (606) boot: Disabling RNG early entropy source...[0m
+[0;32mI (617) cpu_start: Multicore app[0m
+[0;32mI (617) cpu_start: Pro cpu up.[0m
+[0;32mI (618) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (604) cpu_start: App cpu up.[0m
+[0;32mI (635) cpu_start: Pro cpu start user code[0m
+[0;32mI (635) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (636) cpu_start: Application information:[0m
+[0;32mI (640) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (646) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (652) cpu_start: Compile time:     Aug 23 2023 23:17:00[0m
+[0;32mI (658) cpu_start: ELF file SHA256:  370faca6b...[0m
+[0;32mI (663) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (670) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (675) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (679) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (684) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (692) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (697) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (704) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (710) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (716) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (724) spi_flash: detected chip: generic[0m
+[0;32mI (727) spi_flash: flash io: dio[0m
+[0;33mW (732) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (740) app_start: Starting scheduler on CPU0[0m
+[0;32mI (745) app_start: Starting scheduler on CPU1[0m
+[0;32mI (745) main_task: Started on CPU0[0m
+[0;32mI (755) main_task: Calling app_main()[0m
+[0;32mI (765) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (775) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (785) wifi_init: rx ba win: 6[0m
+[0;32mI (785) wifi_init: tcpip mbox: 32[0m
+[0;32mI (785) wifi_init: udp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (805) wifi_init: tcp mss: 1440[0m
+[0;32mI (805) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (815) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1985) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2065) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2075) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2075) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2085) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2095) wifi_app: Loaded station configuration[0m
+[0;32mI (2105) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2105) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2115) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4055) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5065) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5065) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5065) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5065) main: Wifi application connected!![0m
+[0;32mI (5075) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5085) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (6865) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6865) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (6865) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (6875) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (6885) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (7015) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (7015) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x400014fd  PS      : 0x00060430  A0      : 0x80162f22  A1      : 0x3ffbc930  
+A2      : 0x00000000  A3      : 0xfffffffc  A4      : 0x000000ff  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x00000000  A9      : 0x3ffbc8f0  
+A10     : 0x3ffbcd51  A11     : 0x3f4737a4  A12     : 0x00000001  A13     : 0x3ffda5b0  
+A14     : 0x00000001  A15     : 0x00000018  SAR     : 0x00000005  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400014fa:0x3ffbc930 0x40162f1f:0x3ffbc940 0x4016014d:0x3ffbcc60 0x400da21f:0x3ffbcd20 0x400da610:0x3ffbce20 0x400da7c8:0x3ffbce50 0x400d83d5:0x3ffbcf20 0x400d8849:0x3ffbcf40 0x400d89ac:0x3ffbcf60 0x4008bc35:0x3ffbcf90
+
+
+
+
+ELF file SHA256: 370faca6b
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15708
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (114) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781a0h (491936) map[0m
+[0;32mI (300) esp_image: segment 1: paddr=000881c8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (306) esp_image: segment 2: paddr=0008ba5c vaddr=40080000 size=045bch ( 17852) load[0m
+[0;32mI (314) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=00138fbc vaddr=400845bc size=118d4h ( 71892) load[0m
+[0;32mI (605) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (606) boot: Disabling RNG early entropy source...[0m
+[0;32mI (617) cpu_start: Multicore app[0m
+[0;32mI (617) cpu_start: Pro cpu up.[0m
+[0;32mI (618) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (604) cpu_start: App cpu up.[0m
+[0;32mI (635) cpu_start: Pro cpu start user code[0m
+[0;32mI (635) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (636) cpu_start: Application information:[0m
+[0;32mI (640) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (646) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (652) cpu_start: Compile time:     Aug 23 2023 23:17:00[0m
+[0;32mI (658) cpu_start: ELF file SHA256:  370faca6b...[0m
+[0;32mI (663) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (670) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (675) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (679) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (684) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (692) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (697) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (704) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (710) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (716) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (724) spi_flash: detected chip: generic[0m
+[0;32mI (727) spi_flash: flash io: dio[0m
+[0;33mW (732) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (740) app_start: Starting scheduler on CPU0[0m
+[0;32mI (745) app_start: Starting scheduler on CPU1[0m
+[0;32mI (745) main_task: Started on CPU0[0m
+[0;32mI (755) main_task: Calling app_main()[0m
+[0;32mI (765) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (775) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (785) wifi_init: rx ba win: 6[0m
+[0;32mI (785) wifi_init: tcpip mbox: 32[0m
+[0;32mI (785) wifi_init: udp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (805) wifi_init: tcp mss: 1440[0m
+[0;32mI (805) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (815) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1985) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2065) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2065) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2065) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2085) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2095) wifi_app: Loaded station configuration[0m
+[0;32mI (2105) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2105) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2115) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4055) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5055) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5055) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5055) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5055) main: Wifi application connected!![0m
+[0;32mI (5065) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5075) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (6565) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6565) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (6575) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (6585) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (6595) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (7915) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (7915) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x400014fd  PS      : 0x00060c30  A0      : 0x80162f22  A1      : 0x3ffbc930  
+A2      : 0x00000000  A3      : 0xfffffffc  A4      : 0x000000ff  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x00000000  A9      : 0x3ffbc8f0  
+A10     : 0x3ffbcd51  A11     : 0x3f4737a4  A12     : 0x00000001  A13     : 0x3ffd92a4  
+A14     : 0x00000001  A15     : 0x00000018  SAR     : 0x00000005  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400014fa:0x3ffbc930 0x40162f1f:0x3ffbc940 0x4016014d:0x3ffbcc60 0x400da21f:0x3ffbcd20 0x400da610:0x3ffbce20 0x400da7c8:0x3ffbce50 0x400d83d5:0x3ffbcf20 0x400d8849:0x3ffbcf40 0x400d89ac:0x3ffbcf60 0x4008bc35:0x3ffbcf90
+
+
+
+
+ELF file SHA256: 370faca6b
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15708
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (114) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781a0h (491936) map[0m
+[0;32mI (300) esp_image: segment 1: paddr=000881c8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (306) esp_image: segment 2: paddr=0008ba5c vaddr=40080000 size=045bch ( 17852) load[0m
+[0;32mI (314) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=00138fbc vaddr=400845bc size=118d4h ( 71892) load[0m
+[0;32mI (605) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (606) boot: Disabling RNG early entropy source...[0m
+[0;32mI (617) cpu_start: Multicore app[0m
+[0;32mI (617) cpu_start: Pro cpu up.[0m
+[0;32mI (618) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (604) cpu_start: App cpu up.[0m
+[0;32mI (635) cpu_start: Pro cpu start user code[0m
+[0;32mI (635) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (636) cpu_start: Application information:[0m
+[0;32mI (640) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (646) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (652) cpu_start: Compile time:     Aug 23 2023 23:17:00[0m
+[0;32mI (658) cpu_start: ELF file SHA256:  370faca6b...[0m
+[0;32mI (663) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (670) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (675) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (679) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (684) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (692) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (697) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (704) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (710) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (716) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (724) spi_flash: detected chip: generic[0m
+[0;32mI (727) spi_flash: flash io: dio[0m
+[0;33mW (732) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (740) app_start: Starting scheduler on CPU0[0m
+[0;32mI (745) app_start: Starting scheduler on CPU1[0m
+[0;32mI (745) main_task: Started on CPU0[0m
+[0;32mI (755) main_task: Calling app_main()[0m
+[0;32mI (765) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (775) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (785) wifi_init: rx ba win: 6[0m
+[0;32mI (785) wifi_init: tcpip mbox: 32[0m
+[0;32mI (785) wifi_init: udp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (805) wifi_init: tcp mss: 1440[0m
+[0;32mI (805) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (815) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1985) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2065) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2075) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2075) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2085) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2095) wifi_app: Loaded station configuration[0m
+[0;32mI (2105) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2105) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2115) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4065) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5065) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5065) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5065) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5065) main: Wifi application connected!![0m
+[0;32mI (5075) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5085) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (6895) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6895) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (6895) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (6905) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (6915) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (7005) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (7005) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x400014fd  PS      : 0x00060430  A0      : 0x80162f22  A1      : 0x3ffbc930  
+A2      : 0x00000000  A3      : 0xfffffffc  A4      : 0x000000ff  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x00000000  A9      : 0x3ffbc8f0  
+A10     : 0x3ffbcd51  A11     : 0x3f4737a4  A12     : 0x00000001  A13     : 0x3ffd9adc  
+A14     : 0x00000001  A15     : 0x00000018  SAR     : 0x00000005  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400014fa:0x3ffbc930 0x40162f1f:0x3ffbc940 0x4016014d:0x3ffbcc60 0x400da21f:0x3ffbcd20 0x400da610:0x3ffbce20 0x400da7c8:0x3ffbce50 0x400d83d5:0x3ffbcf20 0x400d8849:0x3ffbcf40 0x400d89ac:0x3ffbcf60 0x4008bc35:0x3ffbcf90
+
+
+
+
+ELF file SHA256: 370faca6b
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15708
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (114) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781a0h (491936) map[0m
+[0;32mI (300) esp_image: segment 1: paddr=000881c8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (306) esp_image: segment 2: paddr=0008ba5c vaddr=40080000 size=045bch ( 17852) load[0m
+[0;32mI (314) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=00138fbc vaddr=400845bc size=118d4h ( 71892) load[0m
+[0;32mI (605) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (606) boot: Disabling RNG early entropy source...[0m
+[0;32mI (617) cpu_start: Multicore app[0m
+[0;32mI (617) cpu_start: Pro cpu up.[0m
+[0;32mI (618) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (604) cpu_start: App cpu up.[0m
+[0;32mI (635) cpu_start: Pro cpu start user code[0m
+[0;32mI (635) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (636) cpu_start: Application information:[0m
+[0;32mI (640) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (646) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (652) cpu_start: Compile time:     Aug 23 2023 23:17:00[0m
+[0;32mI (658) cpu_start: ELF file SHA256:  370faca6b...[0m
+[0;32mI (663) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (670) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (675) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (679) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (684) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (692) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (697) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (704) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (710) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (716) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (724) spi_flash: detected chip: generic[0m
+[0;32mI (727) spi_flash: flash io: dio[0m
+[0;33mW (732) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (740) app_start: Starting scheduler on CPU0[0m
+[0;32mI (745) app_start: Starting scheduler on CPU1[0m
+[0;32mI (745) main_task: Started on CPU0[0m
+[0;32mI (755) main_task: Calling app_main()[0m
+[0;32mI (765) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (775) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (785) wifi_init: rx ba win: 6[0m
+[0;32mI (785) wifi_init: tcpip mbox: 32[0m
+[0;32mI (785) wifi_init: udp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (805) wifi_init: tcp mss: 1440[0m
+[0;32mI (805) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (815) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1985) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2075) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2075) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2085) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2095) wifi_app: Loaded station configuration[0m
+[0;32mI (2105) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2105) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2125) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4065) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5075) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5075) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5075) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5075) main: Wifi application connected!![0m
+[0;32mI (5085) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5095) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (6875) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6875) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (6885) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (6895) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (6905) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (6985) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (6985) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x400014fd  PS      : 0x00060a30  A0      : 0x80162f22  A1      : 0x3ffbc930  
+A2      : 0x00000000  A3      : 0xfffffffc  A4      : 0x000000ff  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x00000000  A9      : 0x3ffbc8f0  
+A10     : 0x3ffbcd51  A11     : 0x3f4737a4  A12     : 0x00000001  A13     : 0x3ffda058  
+A14     : 0x00000001  A15     : 0x00000018  SAR     : 0x00000005  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400014fa:0x3ffbc930 0x40162f1f:0x3ffbc940 0x4016014d:0x3ffbcc60 0x400da21f:0x3ffbcd20 0x400da610:0x3ffbce20 0x400da7c8:0x3ffbce50 0x400d83d5:0x3ffbcf20 0x400d8849:0x3ffbcf40 0x400d89ac:0x3ffbcf60 0x4008bc35:0x3ffbcf90
+
+
+
+
+ELF file SHA256: 370faca6b
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15708
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (114) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781a0h (491936) map[0m
+[0;32mI (300) esp_image: segment 1: paddr=000881c8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (306) esp_image: segment 2: paddr=0008ba5c vaddr=40080000 size=045bch ( 17852) load[0m
+[0;32mI (314) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=00138fbc vaddr=400845bc size=118d4h ( 71892) load[0m
+[0;32mI (605) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (606) boot: Disabling RNG early entropy source...[0m
+[0;32mI (617) cpu_start: Multicore app[0m
+[0;32mI (617) cpu_start: Pro cpu up.[0m
+[0;32mI (618) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (604) cpu_start: App cpu up.[0m
+[0;32mI (635) cpu_start: Pro cpu start user code[0m
+[0;32mI (635) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (636) cpu_start: Application information:[0m
+[0;32mI (640) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (646) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (652) cpu_start: Compile time:     Aug 23 2023 23:17:00[0m
+[0;32mI (658) cpu_start: ELF file SHA256:  370faca6b...[0m
+[0;32mI (663) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (670) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (675) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (679) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (684) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (692) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (697) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (704) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (710) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (716) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (724) spi_flash: detected chip: generic[0m
+[0;32mI (727) spi_flash: flash io: dio[0m
+[0;33mW (732) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (740) app_start: Starting scheduler on CPU0[0m
+[0;32mI (745) app_start: Starting scheduler on CPU1[0m
+[0;32mI (745) main_task: Started on CPU0[0m
+[0;32mI (755) main_task: Calling app_main()[0m
+[0;32mI (765) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (775) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (785) wifi_init: rx ba win: 6[0m
+[0;32mI (785) wifi_init: tcpip mbox: 32[0m
+[0;32mI (785) wifi_init: udp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (805) wifi_init: tcp mss: 1440[0m
+[0;32mI (805) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (815) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1985) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2075) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2075) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2085) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2095) wifi_app: Loaded station configuration[0m
+[0;32mI (2105) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2105) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2125) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4085) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5085) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5085) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5085) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5085) main: Wifi application connected!![0m
+[0;32mI (5095) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5105) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (6895) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6895) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (6905) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (6915) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (6925) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (11295) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (11305) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x400014fd  PS      : 0x00060230  A0      : 0x80162f22  A1      : 0x3ffbc930  
+A2      : 0x00000000  A3      : 0xfffffffc  A4      : 0x000000ff  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x00000000  A9      : 0x3ffbc8f0  
+A10     : 0x3ffbcd51  A11     : 0x3f4737a4  A12     : 0x00000001  A13     : 0x3ffda0f8  
+A14     : 0x00000001  A15     : 0x00000018  SAR     : 0x00000005  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400014fa:0x3ffbc930 0x40162f1f:0x3ffbc940 0x4016014d:0x3ffbcc60 0x400da21f:0x3ffbcd20 0x400da610:0x3ffbce20 0x400da7c8:0x3ffbce50 0x400d83d5:0x3ffbcf20 0x400d8849:0x3ffbcf40 0x400d89ac:0x3ffbcf60 0x4008bc35:0x3ffbcf90
+
+
+
+
+ELF file SHA256: 370faca6b
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15708
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (114) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781a0h (491936) map[0m
+[0;32mI (300) esp_image: segment 1: paddr=000881c8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (306) esp_image: segment 2: paddr=0008ba5c vaddr=40080000 size=045bch ( 17852) load[0m
+[0;32mI (314) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=00138fbc vaddr=400845bc size=118d4h ( 71892) load[0m
+[0;32mI (605) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (606) boot: Disabling RNG early entropy source...[0m
+[0;32mI (617) cpu_start: Multicore app[0m
+[0;32mI (617) cpu_start: Pro cpu up.[0m
+[0;32mI (618) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (604) cpu_start: App cpu up.[0m
+[0;32mI (635) cpu_start: Pro cpu start user code[0m
+[0;32mI (635) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (636) cpu_start: Application information:[0m
+[0;32mI (640) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (646) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (652) cpu_start: Compile time:     Aug 23 2023 23:17:00[0m
+[0;32mI (658) cpu_start: ELF file SHA256:  370faca6b...[0m
+[0;32mI (663) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (670) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (675) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (679) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (684) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (692) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (697) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (704) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (710) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (716) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (724) spi_flash: detected chip: generic[0m
+[0;32mI (727) spi_flash: flash io: dio[0m
+[0;33mW (732) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (740) app_start: Starting scheduler on CPU0[0m
+[0;32mI (745) app_start: Starting scheduler on CPU1[0m
+[0;32mI (745) main_task: Started on CPU0[0m
+[0;32mI (755) main_task: Calling app_main()[0m
+[0;32mI (765) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (775) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (785) wifi_init: rx ba win: 6[0m
+[0;32mI (785) wifi_init: tcpip mbox: 32[0m
+[0;32mI (785) wifi_init: udp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (805) wifi_init: tcp mss: 1440[0m
+[0;32mI (805) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (815) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1985) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2075) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2075) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2085) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2095) wifi_app: Loaded station configuration[0m
+[0;32mI (2105) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2105) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2115) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4055) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5055) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5055) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5055) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5055) main: Wifi application connected!![0m
+[0;32mI (5065) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (5075) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (6855) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6855) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (6855) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (6865) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (6885) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (7005) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (7005) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x400014fd  PS      : 0x00060a30  A0      : 0x80162f22  A1      : 0x3ffbc930  
+A2      : 0x00000000  A3      : 0xfffffffc  A4      : 0x000000ff  A5      : 0x0000ff00  
+A6      : 0x00ff0000  A7      : 0xff000000  A8      : 0x00000000  A9      : 0x3ffbc8f0  
+A10     : 0x3ffbcd51  A11     : 0x3f4737a4  A12     : 0x00000001  A13     : 0x3ffd6d14  
+A14     : 0x00000001  A15     : 0x00000018  SAR     : 0x00000005  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xffffffff  
+
+
+Backtrace: 0x400014fa:0x3ffbc930 0x40162f1f:0x3ffbc940 0x4016014d:0x3ffbcc60 0x400da21f:0x3ffbcd20 0x400da610:0x3ffbce20 0x400da7c8:0x3ffbce50 0x400d83d5:0x3ffbcf20 0x400d8849:0x3ffbcf40 0x400d89ac:0x3ffbcf60 0x4008bc35:0x3ffbcf90
+
+
+
+
+ELF file SHA256: 370faca6b
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7132
+ho 0 tail 12 room 4
+load:0x40078000,len:15708
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (32) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (32) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (34) boot: Multicore bootloader[0m
+[0;32mI (39) boot: chip revision: v1.0[0m
+[0;32mI (42) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (47) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (52) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (56) boot: Enabling RNG early entropy source...[0m
+[0;32mI (62) boot: Partition Table:[0m
+[0;32mI (65) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (72) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (80) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (87) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (95) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (102) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (110) boot: End of partition table[0m
+[0;32mI (114) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=781a0h (491936) map[0m
+[0;32mI (300) esp_image: segment 1: paddr=000881c8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (306) esp_image: segment 2: paddr=0008ba5c vaddr=40080000 size=045bch ( 17852) load[0m
+[0;32mI (314) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a8f94h (692116) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=00138fbc vaddr=400845bc size=118d4h ( 71892) load[0m
+[0;32mI (605) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (606) boot: Disabling RNG early entropy source...[0m
+[0;32mI (617) cpu_start: Multicore app[0m
+[0;32mI (617) cpu_start: Pro cpu up.[0m
+[0;32mI (618) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (604) cpu_start: App cpu up.[0m
+[0;32mI (635) cpu_start: Pro cpu start user code[0m
+[0;32mI (635) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (636) cpu_start: Application information:[0m
+[0;32mI (640) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (646) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (652) cpu_start: Compile time:     Aug 23 2023 23:17:00[0m
+[0;32mI (658) cpu_start: ELF file SHA256:  370faca6b...[0m
+[0;32mI (663) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (670) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (675) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (679) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (684) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (692) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (697) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (704) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (710) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (716) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (724) spi_flash: detected chip: generic[0m
+[0;32mI (727) spi_flash: flash io: dio[0m
+[0;33mW (732) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (740) app_start: Starting scheduler on CPU0[0m
+[0;32mI (745) app_start: Starting scheduler on CPU1[0m
+[0;32mI (745) main_task: Started on CPU0[0m
+[0;32mI (755) main_task: Calling app_main()[0m
+[0;32mI (765) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (775) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (785) wifi_init: rx ba win: 6[0m
+[0;32mI (785) wifi_init: tcpip mbox: 32[0m
+[0;32mI (785) wifi_init: udp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp mbox: 6[0m
+[0;32mI (795) wifi_init: tcp tx win: 5744[0m
+[0;32mI (805) wifi_init: tcp rx win: 5744[0m
+[0;32mI (805) wifi_init: tcp mss: 1440[0m
+[0;32mI (805) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (815) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1985) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2065) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2075) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2075) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2075) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2085) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2095) wifi_app: Loaded station configuration[0m
+[0;32mI (2105) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2105) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2115) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4065) wifi_app: WIFI_EVENT_STA_CONNECTED[0m

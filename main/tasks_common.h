@@ -32,5 +32,8 @@
 #define STNP_TIME_SYNC_TASK_TASK_PRIORITY	4
 #define STNP_TIME_SYNC_TASK_CODE_ID			1
 
-
+// MQTT application Task
+#define MQTT_APP_TASK_STACK_SIZE				9216
+#define MQTT_APP_TASK_PRIORITY				6
+#define MQTT_APP_TASK_CORE_ID				1
 #endif

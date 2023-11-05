@@ -1,0 +1,123 @@
+e�R�� ����6�&���C!�r����,B��UI�����1%ɒݯ����&BZ��e���e1���%=O5�
+��������A���x��H(�k������0)}�r���0I}�����������'�A�	K}���������.W��A�#a�՚T�ʂc�k��V��2C!��'��f������ʓ�H��A������ �뵠��l�i�q0���0�������8�!�+�:�Q��������h������ ���S�l�i�q��0������&���9��� �Q�S���[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (78) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (93) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (109) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=73630h (472624) map[0m
+[0;32mI (297) esp_image: segment 1: paddr=00083658 vaddr=3ffb0000 size=0398ch ( 14732) load[0m
+[0;32mI (303) esp_image: segment 2: paddr=00086fec vaddr=40080000 size=0902ch ( 36908) load[0m
+[0;32mI (319) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a58d4h (678100) map[0m
+[0;32mI (564) esp_image: segment 4: paddr=001358fc vaddr=4008902c size=0ce9ch ( 52892) load[0m
+[0;32mI (597) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (642) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (642) boot: Disabling RNG early entropy source...[0m
+[0;32mI (653) cpu_start: Multicore app[0m
+[0;32mI (653) cpu_start: Pro cpu up.[0m
+[0;32mI (654) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (671) cpu_start: Pro cpu start user code[0m
+[0;32mI (671) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (671) cpu_start: Application information:[0m
+[0;32mI (676) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (682) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (688) cpu_start: Compile time:     Aug 23 2023 18:30:07[0m
+[0;32mI (694) cpu_start: ELF file SHA256:  539612595...[0m
+[0;32mI (699) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (706) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (710) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (715) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (720) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (727) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (733) heap_init: At 3FFB8200 len 00027E00 (159 KiB): DRAM[0m
+[0;32mI (739) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (746) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (752) heap_init: At 40095EC8 len 0000A138 (40 KiB): IRAM[0m
+[0;32mI (760) spi_flash: detected chip: generic[0m
+[0;32mI (763) spi_flash: flash io: dio[0m
+[0;33mW (767) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (776) app_start: Starting scheduler on CPU0[0m
+[0;32mI (781) app_start: Starting scheduler on CPU1[0m
+[0;32mI (781) main_task: Started on CPU0[0m
+[0;32mI (791) main_task: Calling app_main()[0m
+[0;32mI (801) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (811) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (821) wifi_init: rx ba win: 6[0m
+[0;32mI (821) wifi_init: tcpip mbox: 32[0m
+[0;32mI (821) wifi_init: udp mbox: 6[0m
+[0;32mI (831) wifi_init: tcp mbox: 6[0m
+[0;32mI (831) wifi_init: tcp tx win: 5744[0m
+[0;32mI (841) wifi_init: tcp rx win: 5744[0m
+[0;32mI (841) wifi_init: tcp mss: 1440[0m
+[0;32mI (841) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (851) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2021) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2101) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2111) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2111) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2111) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2121) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2131) wifi_app: Loaded station configuration[0m
+[0;32mI (2141) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2141) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (2151) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (4101) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5101) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (5101) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (5101) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (5101) main: Wifi application connected!![0m
+[0;32mI (5111) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (5111) aws_iot: AWS IoT SDK Version 3.0.1-[0m
+[0;32mI (5121) aws_iot: Connecting to AWS...[0m
+[0;32mI (5111) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (5151) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+[0;32mI (6551) aws_iot: Subscribing...[0m
+[0;32mI (6771) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (9811) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : 33 [0m
+[0;32mI (9901) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (10001) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (13041) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : 33 [0m
+[0;32mI (13061) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (13161) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+[0;32mI (16221) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : 33 [0m
+[0;32mI (16251) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (16351) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (19411) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : 33 [0m
+[0;32mI (19441) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (19551) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (22591) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : 33 [0m
+[0;32mI (22631) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (22731) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (25771) aws_iot: Subscribe callback Test: test_topic/esp32	WiFi RSSI : 33 [0m
+[0;32mI (25801) aws_iot: Subscribe callback Test: test_topic/esp32	Temperature : 2.3, Humidity : 3.0[0m
+[0;32mI (25911) aws_iot: Stack remaining for task 'aws_iot_task' is 3260 bytes[0m

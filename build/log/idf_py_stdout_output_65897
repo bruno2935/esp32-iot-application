@@ -1,0 +1,287 @@
+��A�=���0��0�&�5�C�H�.�¸L�P�թO���S�U��������B����
+�e1�S�%��U�
+���i��i�� �U��'�եC����'�A�)��.����,�%�v��a�)�0�����a0���.�¸�,}�r�'�A�#A�K�iD������k�V�i�#��y0�&��A�b�9K���j��A�����2�����SHȽ�V�����0��ծ��7�*
+�d'��0°�����SHh�� �X:������4C!��d��Q��0��,[��&´a�鹂�q��0��*
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (78) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (93) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (108) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=79cc0h (498880) map[0m
+[0;32mI (306) esp_image: segment 1: paddr=00089ce8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (312) esp_image: segment 2: paddr=0008d57c vaddr=40080000 size=02a9ch ( 10908) load[0m
+[0;32mI (317) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=aaf60h (700256) map[0m
+[0;32mI (573) esp_image: segment 4: paddr=0013af88 vaddr=40082a9c size=133f4h ( 78836) load[0m
+[0;32mI (617) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (679) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (679) boot: Disabling RNG early entropy source...[0m
+[0;32mI (689) cpu_start: Multicore app[0m
+[0;32mI (690) cpu_start: Pro cpu up.[0m
+[0;32mI (690) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (708) cpu_start: Pro cpu start user code[0m
+[0;32mI (708) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (708) cpu_start: Application information:[0m
+[0;32mI (713) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (719) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (724) cpu_start: Compile time:     Aug 26 2023 15:08:06[0m
+[0;32mI (730) cpu_start: ELF file SHA256:  312809ae5...[0m
+[0;32mI (736) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (742) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (747) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (752) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (757) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (764) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (770) heap_init: At 3FFB8B50 len 000274B0 (157 KiB): DRAM[0m
+[0;32mI (776) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (782) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (789) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (797) spi_flash: detected chip: generic[0m
+[0;32mI (800) spi_flash: flash io: dio[0m
+[0;33mW (804) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (813) app_start: Starting scheduler on CPU0[0m
+[0;32mI (817) app_start: Starting scheduler on CPU1[0m
+[0;32mI (817) main_task: Started on CPU0[0m
+[0;32mI (827) main_task: Calling app_main()[0m
+[0;32mI (837) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (847) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (857) wifi_init: rx ba win: 6[0m
+[0;32mI (857) wifi_init: tcpip mbox: 32[0m
+[0;32mI (857) wifi_init: udp mbox: 6[0m
+[0;32mI (867) wifi_init: tcp mbox: 6[0m
+[0;32mI (867) wifi_init: tcp tx win: 5744[0m
+[0;32mI (877) wifi_init: tcp rx win: 5744[0m
+[0;32mI (877) wifi_init: tcp mss: 1440[0m
+[0;32mI (877) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (887) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2057) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2137) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2137) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2137) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2137) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2157) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2167) wifi_app: Loaded station configuration[0m
+[0;32mI (2177) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2177) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (3347) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (3367) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+[0;32mI (4367) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (4367) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (4367) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (4367) main: Wifi application connected!![0m
+[0;32mI (4377) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (4377) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (4387) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+[0;32mI (4377) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (6677) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (6677) coreMQTT: MQTT connection successfully established with broker.[0m
+[0;32mI (6677) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (6697) coreMQTT: 
+/*-----------------------------------------------------------*/
+
+The Jobs demo is now ready to accept Jobs.
+Jobs may be created using the AWS IoT console or AWS CLI.
+See the following link for more information.
+[0m
+[0;32mI (6717) coreMQTT: https://docs.aws.amazon.com/cli/latest/reference/iot/create-job.html
+
+This demo expects Job documents to have an "action" JSON key.
+The following actions are currently supported:
+[0m
+[0;32mI (6737) coreMQTT:  - print          
+   Logs a message to the local console. The Job document must also contain a "message".
+   For example: { "action": "print", "message": "Hello world!"} will cause
+   "Hello world!" to be printed on the console.
+[0m
+[0;32mI (6757) coreMQTT:  - publish        
+   Publishes a message to an MQTT topic. The Job document must also contain a "message" and "topic".
+[0m
+[0;32mI (6767) coreMQTT:    For example: { "action": "publish", "topic": "demo/jobs", "message": "Hello world!"} will cause
+   "Hello world!" to be published to the topic "demo/jobs".
+[0m
+[0;32mI (6787) coreMQTT:  - exit           
+   Exits the demo program. This program will run until { "action": "exit" } is received.
+
+/*-----------------------------------------------------------*/
+[0m
+[0;32mI (6827) coreMQTT: SUBSCRIBE topic jobs/notifynext to broker.[0m
+[0;31mE (6887) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (6887) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=00000001, LoopDuration=58, Status=MQTTRecvFailed[0m
+[0;32mI (6937) coreMQTT: SUBSCRIBE topic $aws/things/ESP32_Iot_Test/jobs/notify-next to broker.[0m
+[0;31mE (6947) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (6957) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=00000002, LoopDuration=11, Status=MQTTRecvFailed[0m
+[0;31mE (6957) coreMQTT: Failed to subscribe to NextJobExecutionChanged API of AWS IoT Jobs service: Topic=$aws/things/ESP32_Iot_Test/jobs/notify-next[0m
+[0;33mW (6977) coreMQTT: Demo iteration 1 failed. Retrying...[0m
+[0;32mI (7007) coreMQTT: UNSUBSCRIBE sent topic $aws/things/ESP32_Iot_Test/jobs/notify-next to broker.[0m
+[0;31mE (7007) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (7027) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (7027) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=00000003, LoopDuration=12, Status=MQTTRecvFailed[0m
+[0;31mE (7037) coreMQTT: Failed to unsubscribe from the NextJobExecutionChanged API of AWS IoT Jobs service: Topic=$aws/things/ESP32_Iot_Test/jobs/notify-next[0m
+[0;32mI (7057) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (7077) coreMQTT: A short delay before the next demo iteration.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (12077) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (14307) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (14307) coreMQTT: MQTT connection successfully established with broker.[0m
+[0;32mI (14307) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (14317) coreMQTT: 
+/*-----------------------------------------------------------*/
+
+The Jobs demo is now ready to accept Jobs.
+Jobs may be created using the AWS IoT console or AWS CLI.
+See the following link for more information.
+[0m
+[0;32mI (14347) coreMQTT: https://docs.aws.amazon.com/cli/latest/reference/iot/create-job.html
+
+This demo expects Job documents to have an "action" JSON key.
+The following actions are currently supported:
+[0m
+[0;32mI (14367) coreMQTT:  - print          
+   Logs a message to the local console. The Job document must also contain a "message".
+   For example: { "action": "print", "message": "Hello world!"} will cause
+   "Hello world!" to be printed on the console.
+[0m
+[0;32mI (14387) coreMQTT:  - publish        
+   Publishes a message to an MQTT topic. The Job document must also contain a "message" and "topic".
+[0m
+[0;32mI (14397) coreMQTT:    For example: { "action": "publish", "topic": "demo/jobs", "message": "Hello world!"} will cause
+   "Hello world!" to be published to the topic "demo/jobs".
+[0m
+[0;32mI (14427) coreMQTT:  - exit           
+   Exits the demo program. This program will run until { "action": "exit" } is received.
+
+/*-----------------------------------------------------------*/
+[0m
+[0;32mI (14467) coreMQTT: SUBSCRIBE topic jobs/notifynext to broker.[0m
+[0;31mE (14507) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (14507) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=00000001, LoopDuration=44, Status=MQTTRecvFailed[0m
+[0;32mI (14537) coreMQTT: SUBSCRIBE topic $aws/things/ESP32_Iot_Test/jobs/notify-next to broker.[0m
+[0;31mE (14557) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (14557) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=00000002, LoopDuration=5, Status=MQTTRecvFailed[0m
+[0;31mE (14567) coreMQTT: Failed to subscribe to NextJobExecutionChanged API of AWS IoT Jobs service: Topic=$aws/things/ESP32_Iot_Test/jobs/notify-next[0m
+[0;33mW (14587) coreMQTT: Demo iteration 2 failed. Retrying...[0m
+[0;32mI (14617) coreMQTT: UNSUBSCRIBE sent topic $aws/things/ESP32_Iot_Test/jobs/notify-next to broker.[0m
+[0;31mE (14617) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (14627) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (14637) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=00000003, LoopDuration=12, Status=MQTTRecvFailed[0m
+[0;31mE (14647) coreMQTT: Failed to unsubscribe from the NextJobExecutionChanged API of AWS IoT Jobs service: Topic=$aws/things/ESP32_Iot_Test/jobs/notify-next[0m
+[0;32mI (14677) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (14687) coreMQTT: A short delay before the next demo iteration.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (19697) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (21997) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (21997) coreMQTT: MQTT connection successfully established with broker.[0m
+[0;32mI (21997) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (22007) coreMQTT: 
+/*-----------------------------------------------------------*/
+
+The Jobs demo is now ready to accept Jobs.
+Jobs may be created using the AWS IoT console or AWS CLI.
+See the following link for more information.
+[0m
+[0;32mI (22027) coreMQTT: https://docs.aws.amazon.com/cli/latest/reference/iot/create-job.html
+
+This demo expects Job documents to have an "action" JSON key.
+The following actions are currently supported:
+[0m
+[0;32mI (22057) coreMQTT:  - print          
+   Logs a message to the local console. The Job document must also contain a "message".
+   For example: { "action": "print", "message": "Hello world!"} will cause
+   "Hello world!" to be printed on the console.
+[0m
+[0;32mI (22077) coreMQTT:  - publish        
+   Publishes a message to an MQTT topic. The Job document must also contain a "message" and "topic".
+[0m
+[0;32mI (22087) coreMQTT:    For example: { "action": "publish", "topic": "demo/jobs", "message": "Hello world!"} will cause
+   "Hello world!" to be published to the topic "demo/jobs".
+[0m
+[0;32mI (22107) coreMQTT:  - exit           
+   Exits the demo program. This program will run until { "action": "exit" } is received.
+
+/*-----------------------------------------------------------*/
+[0m
+[0;32mI (22147) coreMQTT: SUBSCRIBE topic jobs/notifynext to broker.[0m
+[0;31mE (22197) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (22197) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=00000001, LoopDuration=36, Status=MQTTRecvFailed[0m
+[0;32mI (22257) coreMQTT: SUBSCRIBE topic $aws/things/ESP32_Iot_Test/jobs/notify-next to broker.[0m
+[0;31mE (22267) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (22267) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=00000002, LoopDuration=10, Status=MQTTRecvFailed[0m
+[0;31mE (22277) coreMQTT: Failed to subscribe to NextJobExecutionChanged API of AWS IoT Jobs service: Topic=$aws/things/ESP32_Iot_Test/jobs/notify-next[0m
+[0;31mE (22297) coreMQTT: All 3 demo iterations failed.[0m
+[0;32mI (22317) coreMQTT: UNSUBSCRIBE sent topic $aws/things/ESP32_Iot_Test/jobs/notify-next to broker.[0m
+[0;31mE (22317) esp-tls-mbedtls: read error :-0x004C:[0m
+[0;31mE (22317) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (22337) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=00000003, LoopDuration=16, Status=MQTTRecvFailed[0m
+[0;31mE (22337) coreMQTT: Failed to unsubscribe from the NextJobExecutionChanged API of AWS IoT Jobs service: Topic=$aws/things/ESP32_Iot_Test/jobs/notify-next[0m
+[0;32mI (22357) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (22377) coreMQTT: Deleting Jobs Demo task.[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1

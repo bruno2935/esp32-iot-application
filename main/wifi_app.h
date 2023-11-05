@@ -4,7 +4,11 @@
 #include "esp_netif.h"
 #include "esp_wifi_types.h"
 #include "portmacro.h"
+#include <stdint.h>
 
+
+// Callback typedef
+typedef void (*wifi_connected_event_callback_t)(void);
 
 // Wifi application settings
 #define WIFI_AP_SSID				"ESP32_AP"		// AP name
@@ -13,9 +17,9 @@
 #define WIFI_AP_SSID_HIDDEN			0				// AP visibility
 #define WIFI_AP_MAX_CONNECTIONS		5				// AP max clients
 #define WIFI_AP_BEACON_INTERVAL		100				// AP beacon interval 100 ms as recommended
-#define WIFI_AP_IP					"192.168.0.1"	// AP default IP
-#define WIFI_AP_GATEWAY				"192.168.0.1"	// AP default Gateway (shold be the same as the IP adress)
-#define WIFI_AP_NETMASK				"255.255.255.0.1"	//	AP netmask
+#define WIFI_AP_IP					"192.168.1.1"	// AP default IP
+#define WIFI_AP_GATEWAY				"192.168.1.1"	// AP default Gateway (shold be the same as the IP adress)
+#define WIFI_AP_NETMASK				"255.255.255.0"	//	AP netmask
 #define WIFI_AP_BANDWIDTH			WIFI_BW_HT20		//	AP bandwidth 20 MHz (40 Mhz is the other option)
 #define WIFI_STA_POWER_SAVE			WIFI_PS_NONE		//  Power save is not used
 #define MAX_SSID_LENGTH				32					//	IEEE Standard maximum
@@ -68,6 +72,24 @@ void wifi_app_start(void);
  */
 
 wifi_config_t* wifi_app_get_wifi_config(void);
+
+/**
+ * Sets the callback function.
+*/
+void wifi_app_set_callback(wifi_connected_event_callback_t cb);
+
+/** Calls the callback function
+ *
+ */
+void wifi_app_call_callback(void);
+
+/**
+ * Gets the RSSI Value of the wifi connection
+ * @return current RSSI level.
+*/
+int8_t wifi_app_get_rssi(void);
+
+
 
 
 #endif

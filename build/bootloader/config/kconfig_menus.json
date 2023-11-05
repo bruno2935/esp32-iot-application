@@ -583,6 +583,16 @@
         "children": [],
         "depends_on": null,
         "help": null,
+        "id": "SOC_ADC_SHARED_POWER",
+        "name": "SOC_ADC_SHARED_POWER",
+        "range": null,
+        "title": null,
+        "type": "bool"
+    },
+    {
+        "children": [],
+        "depends_on": null,
+        "help": null,
         "id": "SOC_SHARED_IDCACHE_SUPPORTED",
         "name": "SOC_SHARED_IDCACHE_SUPPORTED",
         "range": null,
@@ -775,6 +785,16 @@
         "help": null,
         "id": "SOC_I2C_SUPPORT_APB",
         "name": "SOC_I2C_SUPPORT_APB",
+        "range": null,
+        "title": null,
+        "type": "bool"
+    },
+    {
+        "children": [],
+        "depends_on": null,
+        "help": null,
+        "id": "SOC_I2C_STOP_INDEPENDENT",
+        "name": "SOC_I2C_STOP_INDEPENDENT",
         "range": null,
         "title": null,
         "type": "bool"
@@ -1723,6 +1743,16 @@
         "children": [],
         "depends_on": null,
         "help": null,
+        "id": "SOC_SHA_ENDIANNESS_BE",
+        "name": "SOC_SHA_ENDIANNESS_BE",
+        "range": null,
+        "title": null,
+        "type": "bool"
+    },
+    {
+        "children": [],
+        "depends_on": null,
+        "help": null,
         "id": "SOC_SHA_SUPPORT_SHA1",
         "name": "SOC_SHA_SUPPORT_SHA1",
         "range": null,
@@ -2285,6 +2315,16 @@
         "help": null,
         "id": "IDF_TARGET",
         "name": "IDF_TARGET",
+        "range": null,
+        "title": null,
+        "type": "string"
+    },
+    {
+        "children": [],
+        "depends_on": null,
+        "help": null,
+        "id": "IDF_INIT_VERSION",
+        "name": "IDF_INIT_VERSION",
         "range": null,
         "title": null,
         "type": "string"
@@ -5293,7 +5333,7 @@
                             },
                             {
                                 "children": [],
-                                "depends_on": "!APP_BUILD_TYPE_PURE_RAM_APP && !ESP_SLEEP_POWER_DOWN_FLASH && !PM_POWER_DOWN_PERIPHERAL_IN_LIGHT_SLEEP",
+                                "depends_on": "!APP_BUILD_TYPE_PURE_RAM_APP && !ESP_SLEEP_POWER_DOWN_FLASH",
                                 "help": "All IOs will be set to isolate(floating) state by default during sleep.\nSince the power supply of SPI Flash is not lost during lightsleep, if its CS pin is recognized as\nlow level(selected state) in the floating state, there will be a large current leakage, and the\ndata in Flash may be corrupted by random signals on other SPI pins.\nSelect this option will set the CS pin of Flash to PULL-UP state during sleep, but this will\nincrease the sleep current about 10 uA.\nIf you are developing with esp32xx modules, you must select this option, but if you are developing\nwith chips, you can also pull up the CS pin of SPI Flash in the external circuit to save power\nconsumption caused by internal pull-up during sleep.\n(!!! Don't deselect this option if you don't have external SPI Flash CS pin pullups.)",
                                 "id": "ESP_SLEEP_FLASH_LEAKAGE_WORKAROUND",
                                 "name": "ESP_SLEEP_FLASH_LEAKAGE_WORKAROUND",
@@ -5303,7 +5343,7 @@
                             },
                             {
                                 "children": [],
-                                "depends_on": "SPIRAM && !PM_POWER_DOWN_PERIPHERAL_IN_LIGHT_SLEEP",
+                                "depends_on": "SPIRAM",
                                 "help": "All IOs will be set to isolate(floating) state by default during sleep.\nSince the power supply of PSRAM is not lost during lightsleep, if its CS pin is recognized as\nlow level(selected state) in the floating state, there will be a large current leakage, and the\ndata in PSRAM may be corrupted by random signals on other SPI pins.\nSelect this option will set the CS pin of PSRAM to PULL-UP state during sleep, but this will\nincrease the sleep current about 10 uA.\nIf you are developing with esp32xx modules, you must select this option, but if you are developing\nwith chips, you can also pull up the CS pin of PSRAM in the external circuit to save power\nconsumption caused by internal pull-up during sleep.\n(!!! Don't deselect this option if you don't have external PSRAM CS pin pullups.)",
                                 "id": "ESP_SLEEP_PSRAM_LEAKAGE_WORKAROUND",
                                 "name": "ESP_SLEEP_PSRAM_LEAKAGE_WORKAROUND",
@@ -5313,7 +5353,7 @@
                             },
                             {
                                 "children": [],
-                                "depends_on": "!ESP_SLEEP_POWER_DOWN_FLASH && !PM_POWER_DOWN_PERIPHERAL_IN_LIGHT_SLEEP && (ESP_SLEEP_PSRAM_LEAKAGE_WORKAROUND || ESP_SLEEP_FLASH_LEAKAGE_WORKAROUND)",
+                                "depends_on": "!ESP_SLEEP_POWER_DOWN_FLASH && (ESP_SLEEP_PSRAM_LEAKAGE_WORKAROUND || ESP_SLEEP_FLASH_LEAKAGE_WORKAROUND)",
                                 "help": "To reduce leakage current, some types of SPI Flash/RAM only need to pull up the CS pin\nduring light sleep. But there are also some kinds of SPI Flash/RAM that need to pull up\nall pins. It depends on the SPI Flash/RAM chip used.",
                                 "id": "ESP_SLEEP_MSPI_NEED_ALL_IO_PU",
                                 "name": "ESP_SLEEP_MSPI_NEED_ALL_IO_PU",
@@ -5353,6 +5393,26 @@
                                 ],
                                 "title": "Extra delay in deep sleep wake stub (in us)",
                                 "type": "int"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Enabling it will check the cache safety of the code before the flash power is ready after\nlight sleep wakeup, and check PM_SLP_IRAM_OPT related code cache safety. This option is\nonly for code quality inspection. Enabling it will increase the time overhead of entering\nand exiting sleep. It is not recommended to enable it in the release version.",
+                                "id": "ESP_SLEEP_CACHE_SAFE_ASSERTION",
+                                "name": "ESP_SLEEP_CACHE_SAFE_ASSERTION",
+                                "range": null,
+                                "title": "Check the cache safety of the sleep wakeup code in sleep process",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": null,
+                                "help": "Enable esp sleep debug.",
+                                "id": "ESP_SLEEP_DEBUG",
+                                "name": "ESP_SLEEP_DEBUG",
+                                "range": null,
+                                "title": "esp sleep debug",
+                                "type": "bool"
                             }
                         ],
                         "depends_on": null,
@@ -5555,6 +5615,16 @@
                                 "name": "GDMA_ISR_IRAM_SAFE",
                                 "range": null,
                                 "title": "GDMA ISR IRAM-Safe",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "SOC_GDMA_SUPPORTED",
+                                "help": "Wether to enable the debug log message for GDMA driver.\nNote that, this option only controls the GDMA driver log, won't affect other drivers.",
+                                "id": "GDMA_ENABLE_DEBUG_LOG",
+                                "name": "GDMA_ENABLE_DEBUG_LOG",
+                                "range": null,
+                                "title": "Enable debug log",
                                 "type": "bool"
                             }
                         ],
@@ -5918,7 +5988,7 @@
                         "children": [
                             {
                                 "children": [],
-                                "depends_on": "<choice ESP_SYSTEM_PANIC>",
+                                "depends_on": "!ESP_SYSTEM_GDBSTUB_RUNTIME && <choice ESP_SYSTEM_PANIC>",
                                 "help": "Outputs the relevant registers over the serial port and halt the\nprocessor. Needs a manual reset to restart.",
                                 "id": "ESP_SYSTEM_PANIC_PRINT_HALT",
                                 "name": "ESP_SYSTEM_PANIC_PRINT_HALT",
@@ -5928,7 +5998,7 @@
                             },
                             {
                                 "children": [],
-                                "depends_on": "<choice ESP_SYSTEM_PANIC>",
+                                "depends_on": "!ESP_SYSTEM_GDBSTUB_RUNTIME && <choice ESP_SYSTEM_PANIC>",
                                 "help": "Outputs the relevant registers over the serial port and immediately\nreset the processor.",
                                 "id": "ESP_SYSTEM_PANIC_PRINT_REBOOT",
                                 "name": "ESP_SYSTEM_PANIC_PRINT_REBOOT",
@@ -5938,7 +6008,7 @@
                             },
                             {
                                 "children": [],
-                                "depends_on": "<choice ESP_SYSTEM_PANIC>",
+                                "depends_on": "!ESP_SYSTEM_GDBSTUB_RUNTIME && <choice ESP_SYSTEM_PANIC>",
                                 "help": "Just resets the processor without outputting anything",
                                 "id": "ESP_SYSTEM_PANIC_SILENT_REBOOT",
                                 "name": "ESP_SYSTEM_PANIC_SILENT_REBOOT",
@@ -5954,16 +6024,6 @@
                                 "name": "ESP_SYSTEM_PANIC_GDBSTUB",
                                 "range": null,
                                 "title": "GDBStub on panic",
-                                "type": "bool"
-                            },
-                            {
-                                "children": [],
-                                "depends_on": "!IDF_TARGET_ESP32C2 && <choice ESP_SYSTEM_PANIC>",
-                                "help": "Invoke gdbstub on the serial port, allowing for gdb to attach to it and to do a debug on runtime.",
-                                "id": "ESP_SYSTEM_GDBSTUB_RUNTIME",
-                                "name": "ESP_SYSTEM_GDBSTUB_RUNTIME",
-                                "range": null,
-                                "title": "GDBStub at runtime",
                                 "type": "bool"
                             }
                         ],
@@ -6746,6 +6806,16 @@
                         "name": "ESP_SYSTEM_BROWNOUT_INTR",
                         "range": null,
                         "title": null,
+                        "type": "bool"
+                    },
+                    {
+                        "children": [],
+                        "depends_on": "SOC_ASSIST_DEBUG_SUPPORTED",
+                        "help": "This config allows to trigger a panic interrupt when Stack Pointer register goes out of allocated stack\nmemory bounds.",
+                        "id": "ESP_SYSTEM_HW_STACK_GUARD",
+                        "name": "ESP_SYSTEM_HW_STACK_GUARD",
+                        "range": null,
+                        "title": "Hardware stack guard",
                         "type": "bool"
                     }
                 ],

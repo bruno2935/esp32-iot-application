@@ -1,0 +1,933 @@
+ew��� ��6���2��ӳ���ʹ�Š	�]�R�꥕�1U��ݴ'�E��S��e���e��
+�=���H���i��i�� �U��'�#���Eɶ���)}�W��a�	��.����,�.z������,��Eɶ'�A��������a0���ѥ'T���,��� �*�����y0�&��A�b�K��3�C!���tX��1���o��!��њ�q0��l���5�����d��Q��0��,K�y4�!�A��ũ������SH�+�:�a0��4�������#A�K���a0��6�:
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2317-g3247253671 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 22 2023 17:13:31[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (78) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (86) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (93) boot:  3 ota_0            OTA app          00 10 00010000 001f0000[0m
+[0;32mI (101) boot:  4 ota_1            OTA app          00 11 00200000 001f0000[0m
+[0;32mI (108) boot: End of partition table[0m
+[0;32mI (113) boot: No factory image, trying OTA 0[0m
+[0;32mI (118) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=78ad0h (494288) map[0m
+[0;32mI (305) esp_image: segment 1: paddr=00088af8 vaddr=3ffb0000 size=0388ch ( 14476) load[0m
+[0;32mI (311) esp_image: segment 2: paddr=0008c38c vaddr=40080000 size=03c8ch ( 15500) load[0m
+[0;32mI (317) esp_image: segment 3: paddr=00090020 vaddr=400d0020 size=a93ech (693228) map[0m
+[0;32mI (569) esp_image: segment 4: paddr=00139414 vaddr=40083c8c size=12204h ( 74244) load[0m
+[0;32mI (611) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (671) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (671) boot: Disabling RNG early entropy source...[0m
+[0;32mI (682) cpu_start: Multicore app[0m
+[0;32mI (682) cpu_start: Pro cpu up.[0m
+[0;32mI (682) cpu_start: Starting app cpu, entry point is 0x400811f8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (700) cpu_start: Pro cpu start user code[0m
+[0;32mI (700) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (700) cpu_start: Application information:[0m
+[0;32mI (705) cpu_start: Project name:     esp32-iot-application[0m
+[0;32mI (711) cpu_start: App version:      b3c1a90-dirty[0m
+[0;32mI (716) cpu_start: Compile time:     Aug 25 2023 09:53:59[0m
+[0;32mI (722) cpu_start: ELF file SHA256:  576487c0b...[0m
+[0;32mI (728) cpu_start: ESP-IDF:          v5.2-dev-2317-g3247253671[0m
+[0;32mI (734) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (739) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (744) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (749) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (756) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (762) heap_init: At 3FFB86C8 len 00027938 (158 KiB): DRAM[0m
+[0;32mI (768) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (774) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (781) heap_init: At 40095E90 len 0000A170 (40 KiB): IRAM[0m
+[0;32mI (788) spi_flash: detected chip: generic[0m
+[0;32mI (792) spi_flash: flash io: dio[0m
+[0;33mW (796) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (804) app_start: Starting scheduler on CPU0[0m
+[0;32mI (809) app_start: Starting scheduler on CPU1[0m
+[0;32mI (809) main_task: Started on CPU0[0m
+[0;32mI (819) main_task: Calling app_main()[0m
+[0;32mI (829) wifi_app: STARTING WIFI APPLICATION[0m
+[0;32mI (839) main_task: Returned from app_main()[0m
+ADC Vref calibration data is not burned into eFuse.
+Starting NTC103 task
+
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (849) wifi_init: rx ba win: 6[0m
+[0;32mI (849) wifi_init: tcpip mbox: 32[0m
+[0;32mI (849) wifi_init: udp mbox: 6[0m
+[0;32mI (859) wifi_init: tcp mbox: 6[0m
+[0;32mI (859) wifi_init: tcp tx win: 5744[0m
+[0;32mI (869) wifi_init: tcp rx win: 5744[0m
+[0;32mI (869) wifi_init: tcp mss: 1440[0m
+[0;32mI (869) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (879) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (2049) phy_init: phy_version 4771,450c73b,Aug 16 2023,11:03:10[0m
+[0;32mI (2129) wifi_app: WIFI_EVENT_STA_START[0m
+[0;32mI (2139) wifi_app: WIFI_APP_MSG_LOAD_SAVED_CREDENTIALS[0m
+[0;32mI (2139) nvs: app_nvs_load_sta_creds: Loading Wifi credentials from flash[0m
+[0;32mI (2139) wifi_app: WIFI_EVENT_AP_START[0m
+[0;32mI (2149) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.1.1[0m
+app_nvs_load_sta_creds: SSID: Ferreiro Password: 939454321
+[0;32mI (2159) wifi_app: Loaded station configuration[0m
+[0;32mI (2169) wifi_app: WIFI_APP_MSG_START_HTTP_SERVER[0m
+[0;32mI (2169) http_server: http_server_configure: Starting server on port: '80' with task priority: '4'[0m
+[0;32mI (3349) http_server: http_server_configure: Registering URI handlers[0m
+[0;32mI (3359) wifi_app: WIFI_EVENT_STA_CONNECTED[0m
+[0;32mI (4359) wifi_app: IP_EVENT_STA_GOT_IP[0m
+[0;32mI (4359) esp_netif_handlers: sta ip: 192.168.1.79, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (4359) wifi_app: WIFI_APP_MSG_STA_CONNECT_GOT_IP[0m
+[0;32mI (4359) main: Wifi application connected!![0m
+[0;32mI (4369) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (4369) sntp_time_sync: Initializing the SNTP service[0m
+[0;32mI (4379) http_server: HTTP_MSG_WIFI_CONNECT_SUCCESS[0m
+[0;32mI (4389) http_server: HTTP_MSG_TIME_SERVICE_INITIALIZED[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (5799) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (5799) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (5799) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (5819) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (5829) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (5899) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (5899) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (5909) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 2.
+
+[0m
+[0;31mE (5979) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (5979) coreMQTT: MQTT_ProcessLoop returned with status = MQTTRecvFailed.[0m
+[0;32mI (5979) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (5999) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (5999) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (11009) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (12359) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (12359) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (12369) coreMQTT: A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+[0m
+[0;32mI (12379) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (12389) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;32mI (12459) coreMQTT: Subscribed to the topic test_topic/esp32. with maximum QoS 1.
+
+[0m
+[0;32mI (12459) coreMQTT: Sending Publish to the MQTT topic test_topic/esp32.[0m
+[0;32mI (12469) coreMQTT: PUBLISH sent for topic test_topic/esp32 to broker with packet ID 4.
+
+[0m
+[0;31mE (12549) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (12549) coreMQTT: MQTT_ProcessLoop returned with status = MQTTRecvFailed.[0m
+[0;32mI (12559) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (12569) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (12579) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (17579) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (18959) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (18959) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (18959) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (18969) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (18979) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (18989) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (18989) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (18999) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (19019) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (19019) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=05, LoopDuration=15, Status=MQTTRecvFailed[0m
+[0;32mI (19029) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (19039) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (19049) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (24049) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (25419) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (25419) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (25419) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (25429) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (25439) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (25449) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (25449) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (25469) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (25479) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (25479) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=06, LoopDuration=15, Status=MQTTRecvFailed[0m
+[0;32mI (25489) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (25509) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (25509) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (30519) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;31mE (31829) coreMQTT: A single byte was not read from the transport: transportStatus=-1.[0m
+[0;31mE (31829) coreMQTT: CONNACK recv failed with status = MQTTRecvFailed.[0m
+[0;31mE (31839) coreMQTT: MQTT connection failed with status = MQTTRecvFailed.[0m
+[0;31mE (31849) coreMQTT: Connection with MQTT broker failed with status MQTTRecvFailed.[0m
+[0;33mW (31859) coreMQTT: Connection to the broker failed. Retrying connection after 406 ms backoff.[0m
+[0;32mI (32259) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (33629) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (33629) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (33629) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (33639) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (33649) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (33659) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (33659) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (33669) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (33689) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (33689) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=07, LoopDuration=16, Status=MQTTRecvFailed[0m
+[0;32mI (33699) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (33719) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (33719) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (38719) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (40109) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (40109) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (40119) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (40129) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (40129) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (40149) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (40149) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (40159) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (40179) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (40179) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=08, LoopDuration=16, Status=MQTTRecvFailed[0m
+[0;32mI (40189) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (40199) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (40209) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (45209) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (45689) wifi_app: WIFI_EVENT_AP_STACONNECTED[0m
+[0;32mI (45709) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.1.2[0m
+[0;32mI (46719) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (46719) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (46729) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (46729) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (46739) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (46759) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (46759) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (46769) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (46789) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (46789) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=09, LoopDuration=17, Status=MQTTRecvFailed[0m
+[0;32mI (46799) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (46809) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (46819) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (51819) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (53219) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (53219) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (53219) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (53229) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (53239) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (53249) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (53249) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (53269) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (53289) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (53289) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=0a, LoopDuration=18, Status=MQTTRecvFailed[0m
+[0;32mI (53299) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (53309) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (53319) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (58289) wifi_app: WIFI_EVENT_AP_STADISCONNECTED[0m
+[0;32mI (58319) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (59669) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (59669) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (59679) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (59689) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (59689) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (59709) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (59709) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (59719) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (59739) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (59739) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=0b, LoopDuration=20, Status=MQTTRecvFailed[0m
+[0;32mI (59749) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (59769) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (59769) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (64769) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (66189) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (66189) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (66189) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (66199) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (66209) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (66219) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (66219) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (66229) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (66249) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (66249) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=0c, LoopDuration=18, Status=MQTTRecvFailed[0m
+[0;32mI (66259) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (66279) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (66279) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (71289) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (72649) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (72659) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (72659) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (72669) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (72669) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (72689) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (72689) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (72699) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (72719) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (72719) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=0d, LoopDuration=18, Status=MQTTRecvFailed[0m
+[0;32mI (72729) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (72739) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (72749) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (77749) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (79119) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (79119) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (79119) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (79129) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (79139) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (79149) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (79149) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (79159) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (79189) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (79189) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=0e, LoopDuration=19, Status=MQTTRecvFailed[0m
+[0;32mI (79199) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (79209) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (79219) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (84219) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (85579) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (85579) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (85579) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (85589) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (85599) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (85609) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (85609) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (85619) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (85649) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (85649) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=0f, LoopDuration=18, Status=MQTTRecvFailed[0m
+[0;32mI (85659) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (85669) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (85669) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (90679) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (92029) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (92039) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (92039) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (92049) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (92049) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (92069) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (92069) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (92079) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (92099) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (92099) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=10, LoopDuration=18, Status=MQTTRecvFailed[0m
+[0;32mI (92109) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (92129) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (92129) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (97139) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (98499) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (98499) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (98499) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (98509) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (98519) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (98529) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (98529) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (98539) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (98559) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (98559) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=11, LoopDuration=17, Status=MQTTRecvFailed[0m
+[0;32mI (98569) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (98589) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (98589) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (103599) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (104939) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (104939) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (104949) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (104959) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (104959) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (104979) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (104979) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (104989) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (105009) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (105009) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=12, LoopDuration=17, Status=MQTTRecvFailed[0m
+[0;32mI (105019) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (105029) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (105039) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (110039) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (111399) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (111399) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (111409) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (111409) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (111419) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (111429) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (111439) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (111449) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (111469) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (111469) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=13, LoopDuration=16, Status=MQTTRecvFailed[0m
+[0;32mI (111479) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (111489) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (111499) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (116499) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (117939) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (117939) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (117939) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (117949) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (117959) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (117969) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (117969) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (117979) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (118009) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (118009) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=14, LoopDuration=19, Status=MQTTRecvFailed[0m
+[0;32mI (118019) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (118029) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (118039) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (123039) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (124399) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (124399) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (124399) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (124409) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (124419) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (124429) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (124429) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (124439) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (124459) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (124459) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=15, LoopDuration=16, Status=MQTTRecvFailed[0m
+[0;32mI (124469) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (124479) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (124489) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (129489) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (130889) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (130889) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (130889) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (130899) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (130909) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (130919) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (130919) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (130939) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (130959) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (130959) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=16, LoopDuration=19, Status=MQTTRecvFailed[0m
+[0;32mI (130969) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (130979) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (130989) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (135989) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (137369) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (137369) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (137379) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (137379) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (137389) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (137409) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (137409) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (137419) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (137439) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (137439) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=17, LoopDuration=24, Status=MQTTRecvFailed[0m
+[0;32mI (137449) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (137469) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (137469) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (142479) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (143849) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (143849) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (143849) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (143859) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (143869) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (143879) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (143879) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (143889) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (143919) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (143919) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=18, LoopDuration=24, Status=MQTTRecvFailed[0m
+[0;32mI (143929) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (143949) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (143949) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (148949) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (150309) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (150319) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (150319) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (150329) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (150339) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (150349) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (150349) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (150359) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (150379) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (150379) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=19, LoopDuration=18, Status=MQTTRecvFailed[0m
+[0;32mI (150389) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (150409) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (150409) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (155419) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (156789) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (156799) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (156799) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (156809) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (156819) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (156829) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (156829) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (156839) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;31mE (156869) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (156869) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=1a, LoopDuration=20, Status=MQTTRecvFailed[0m
+[0;32mI (156879) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (156889) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (156889) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (161899) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (163279) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (163279) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (163279) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (163289) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (163299) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (163309) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (163309) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (163319) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (163339) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (163339) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=1b, LoopDuration=19, Status=MQTTRecvFailed[0m
+[0;32mI (163349) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (163369) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (163369) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (168379) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (169749) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (169749) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (169749) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (169759) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (169769) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (169779) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (169779) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (169789) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (169819) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (169819) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=1c, LoopDuration=20, Status=MQTTRecvFailed[0m
+[0;32mI (169829) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (169839) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (169849) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (174849) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (176219) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (176219) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (176219) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (176229) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (176239) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (176249) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (176249) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (176259) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (176279) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (176279) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=1d, LoopDuration=18, Status=MQTTRecvFailed[0m
+[0;32mI (176289) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (176309) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (176309) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (181319) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (182689) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (182689) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (182689) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (182699) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (182709) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (182719) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (182719) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (182729) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (182749) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (182759) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=1e, LoopDuration=20, Status=MQTTRecvFailed[0m
+[0;32mI (182769) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (182779) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (182779) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (187789) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (189139) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (189139) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (189149) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (189159) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (189159) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (189179) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (189179) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (189189) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (189209) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (189209) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=1f, LoopDuration=15, Status=MQTTRecvFailed[0m
+[0;32mI (189219) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (189229) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (189239) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (194239) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (195629) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (195639) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (195639) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (195649) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (195659) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (195669) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (195669) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (195679) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (195699) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (195699) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=20, LoopDuration=15, Status=MQTTRecvFailed[0m
+[0;32mI (195709) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (195719) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (195729) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (200729) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (202139) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (202139) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (202139) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (202149) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (202159) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (202169) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (202169) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (202179) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (202199) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (202199) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=21, LoopDuration=18, Status=MQTTRecvFailed[0m
+[0;32mI (202209) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (202229) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (202229) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (207239) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (208609) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (208609) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (208619) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (208629) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (208629) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (208649) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (208649) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (208659) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (208679) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (208679) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=22, LoopDuration=16, Status=MQTTRecvFailed[0m
+[0;32mI (208689) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (208699) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (208709) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (213709) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+[0;32mI (215079) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (215079) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (215089) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (215099) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (215099) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (215119) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (215119) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (215129) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (215159) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (215159) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=23, LoopDuration=22, Status=MQTTRecvFailed[0m
+[0;32mI (215169) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (215179) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (215179) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (220189) coreMQTT: Establishing a TLS session to a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com:8883.[0m
+=== Reading NTC103 ===
+Temp -273.1
+[0;32mI (221549) coreMQTT: MQTT connection established with the broker.[0m
+[0;32mI (221549) coreMQTT: MQTT connection successfully established with broker.
+
+[0m
+[0;32mI (221559) coreMQTT: An MQTT session with broker is re-established. Resending unacked publishes.[0m
+[0;32mI (221569) coreMQTT: Sending duplicate PUBLISH with packet id 4.[0m
+[0;31mE (221569) coreMQTT: Collision when adding PacketID=4 at index=0.[0m
+[0;32mI (221589) coreMQTT: Sent duplicate PUBLISH successfully for packet id 4.
+
+[0m
+[0;32mI (221589) coreMQTT: Subscribing to the MQTT topic test_topic/esp32.[0m
+[0;32mI (221599) coreMQTT: SUBSCRIBE sent for topic test_topic/esp32 to broker.
+
+[0m
+[0;31mE (221619) coreMQTT: Call to receiveSingleIteration failed. Status=MQTTRecvFailed[0m
+[0;31mE (221619) coreMQTT: MQTT_ProcessLoop failed to receive ACK packet: Expected ACK Packet ID=24, LoopDuration=19, Status=MQTTRecvFailed[0m
+[0;32mI (221629) coreMQTT: Disconnecting the MQTT connection with a3v8wtvg6mnton-ats.iot.sa-east-1.amazonaws.com.[0m
+[0;32mI (221649) coreMQTT: Disconnected from the broker.[0m
+[0;32mI (221649) coreMQTT: Short delay before starting the next iteration....
+[0m
+=== Reading NTC103 ===
+Temp -273.1

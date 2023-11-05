@@ -1,0 +1,180 @@
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32 is out of date.  Run 'git
+  submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32c2/esp32c2-bt-lib is out of
+  date.  Run 'git submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32c3_family is out of date.
+  Run 'git submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/controller/lib_esp32h2/esp32h2-bt-lib is out of
+  date.  Run 'git submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/bt/host/nimble/nimble is out of date.  Run 'git
+  submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/esp_phy/lib is out of date.  Run 'git submodule
+  update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/esp_wifi/lib is out of date.  Run 'git submodule
+  update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/ieee802154/lib is out of date.  Run 'git submodule
+  update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/json/cJSON is out of date.  Run 'git submodule
+  update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/lwip/lwip is out of date.  Run 'git submodule
+  update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/mbedtls/mbedtls is out of date.  Run 'git
+  submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/mqtt/esp-mqtt is out of date.  Run 'git submodule
+  update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/openthread/lib is out of date.  Run 'git submodule
+  update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/openthread/openthread is out of date.  Run 'git
+  submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+CMake Warning at /home/bruno/esp/esp-idf/tools/cmake/git_submodules.cmake:52 (message):
+  Git submodule components/protobuf-c/protobuf-c is out of date.  Run 'git
+  submodule update --init --recursive' to fix.
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:77 (git_submodule_check)
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:219 (__build_get_idf_git_revision)
+  /home/bruno/esp/esp-idf/tools/cmake/idf.cmake:53 (__build_init)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:12 (include)
+  CMakeLists.txt:6 (include)
+
+
+Traceback (most recent call last):
+  File "/home/bruno/esp/esp-idf/tools/kconfig_new/confgen.py", line 25, in <module>
+    from future.utils import iteritems
+ModuleNotFoundError: No module named 'future'
+CMake Error at /home/bruno/esp/esp-idf/tools/cmake/kconfig.cmake:176 (message):
+  Failed to run confgen.py
+  (/home/bruno/.espressif/python_env/idf5.2_py3.10_env/bin/python;/home/bruno/esp/esp-idf/tools/kconfig_new/confgen.py;--list-separator=semicolon;--kconfig;/home/bruno/esp/esp-idf/Kconfig;--sdkconfig-rename;/home/bruno/esp/esp-idf/sdkconfig.rename;--config;/home/bruno/Documents/esp32-projects/esp32-iot-application/sdkconfig;--env-file;/home/bruno/Documents/esp32-projects/esp32-iot-application/build/config.env).
+  Error 1
+Call Stack (most recent call first):
+  /home/bruno/esp/esp-idf/tools/cmake/build.cmake:590 (__kconfig_generate_config)
+  /home/bruno/esp/esp-idf/tools/cmake/project.cmake:440 (idf_build_process)
+  CMakeLists.txt:7 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

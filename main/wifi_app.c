@@ -24,9 +24,13 @@
 #include "wifi_app.h"
 #include "http_server.h"
 #include "app_nvs.h"
+#include "lwip/ip_addr.h"
 
 // Task used for ESP serial console messages
 static const char TAG [] = "wifi_app";
+
+// Wifi application callback
+static wifi_connected_event_callback_t wifi_connected_event_cb;
 
 // Used for returning the WIfi configuration
 wifi_config_t *wifi_config = NULL;
@@ -121,7 +125,7 @@ static void wifi_app_event_handler(void *arg, esp_event_base_t event_base, int32
 		{
 			case IP_EVENT_STA_GOT_IP:
 				ESP_LOGI(TAG, "IP_EVENT_STA_GOT_IP");
-				
+
 				wifi_app_send_message(WIFI_APP_MSG_STA_CONNECT_GOT_IP);
 				break;
 		}
@@ -133,6 +137,7 @@ static void wifi_app_event_handler(void *arg, esp_event_base_t event_base, int32
 static void wifi_app_event_handler_init()
 {
 	// Event loop for the wifi driver
+	
 	ESP_ERROR_CHECK(esp_event_loop_create_default());
 	
 	// Event loop for the connection
@@ -295,12 +300,17 @@ static void wifi_app_task(void *pvParameters)
 					}else {
 						app_nvs_save_sta_creds();
 					}
-				
-
 					if(eventBits & WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER_BIT)
 					{
 						xEventGroupClearBits(wifi_app_event_group, WIFI_APP_MSG_CONNECTING_FROM_HTTP_SERVER_BIT);	
 					}
+
+					// Check for connection callback
+					if(wifi_connected_event_cb)
+					{
+						wifi_app_call_callback();
+					}
+
 					break;
 
 				case WIFI_APP_MSG_USER_REQUESTED_STA_DISCONECT:
@@ -374,6 +384,26 @@ wifi_config_t* wifi_app_get_wifi_config(void)
 	return wifi_config;
 }
 
+
+void wifi_app_set_callback(wifi_connected_event_callback_t cb)
+{
+	wifi_connected_event_cb = cb;
+}
+
+
+void wifi_app_call_callback()
+{
+	wifi_connected_event_cb();
+}
+
+
+int8_t wifi_app_get_rssi()
+{
+	wifi_ap_record_t wifi_data;
+	ESP_ERROR_CHECK(esp_wifi_sta_get_ap_info(&wifi_data));
+
+	return wifi_data.rssi;
+}
 
 void wifi_app_start(void)
 {

@@ -31,8 +31,7 @@ static void sntp_time_sync_init_sntp(void)
 	}
 	sntp_setservername(0, "pool.ntp.org"); 
 	// Initialize the servers
-	sntp_init();
-	
+	sntp_init();	
 	// Let the http_server know service is initialized
 	http_server_monitor_send_message(HTTP_MSG_TIME_SERVICE_INITIALIZED);
 

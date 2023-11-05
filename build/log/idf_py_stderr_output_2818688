@@ -1,0 +1,16 @@
+CMake Error at main/CMakeLists.txt:6 (target_add_binary_data):
+  target_add_binary_data Function invoked with incorrect arguments for
+  function named: target_add_binary_data
+
+
+CMake Error at main/CMakeLists.txt:7 (target_add_binary_data):
+  target_add_binary_data Function invoked with incorrect arguments for
+  function named: target_add_binary_data
+
+
+CMake Error at main/CMakeLists.txt:8 (target_add_binary_data):
+  target_add_binary_data Function invoked with incorrect arguments for
+  function named: target_add_binary_data
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
